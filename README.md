@@ -1,8 +1,8 @@
-ciw-pro-20-c-repo
+Hanan-Ensemble
 =================
 
 #
-The website for the 
+The website for the music band
 -----------------------
 ###Contributing
 
@@ -29,11 +29,11 @@ The website for the
 ###Our Team
 * [**Ali Mihandoost**](http://github.com/alimd) Teacher & Technical Manager
 * [**Mojtaba Amjadi**](https://github.com/moji-am) Project Manager / Developer
-* [**Ebrahim Tehranipour**](https://github.com/etp1711) Developer
+* [**Ebrahim Tehranipour**](https://github.com/etp1711) Data / Developer
 * [**Mehrad Kaviyan**](https://github.com/mkdesign) Developer
 
 
 ### All rights reserved ###
-The [](http://) code and website is released under a MIT License.
+The [Hanan-Ensemble](http://) code and website is released under a MIT License.
 
 Produced by 1schools students network (summer 2012)
