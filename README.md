@@ -1,8 +1,7 @@
-Hanan-Ensemble
-=================
+##Hanan-Ensemble website
 
-#
 The website for the music band
+Final project of CIW Programing
 -----------------------
 ###Contributing
 
