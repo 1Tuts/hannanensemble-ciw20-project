@@ -26,10 +26,10 @@ Final project of CIW Programing
 
 
 ###Our Team
-* [**Ali Mihandoost**](http://github.com/alimd) Teacher & Technical Manager
-* [**Mojtaba Amjadi**](https://github.com/moji-am) Project Manager / Developer
-* [**Ebrahim Tehranipour**](https://github.com/etp1711) Data Gather / Developer
+* [**Ali Mihandoost**](http://github.com/AliMD) Teacher & Technical Manager
+* [**Mojtaba Amjadi**](https://github.com/mojiAm) Project Manager / Developer
 * [**Mehrad Kaviyan**](https://github.com/mkdesign) Designer / Developer
+* [**Ebrahim Tehranipour**](https://github.com/etp1711) Data Gather / Developer
 
 
 ### All rights reserved ###
