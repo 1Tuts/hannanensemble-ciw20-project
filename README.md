@@ -6,11 +6,11 @@ The website for the music band
 -----------------------
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/ciw-pro-20-c-repo/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Hanan-Ensemble/issues)
 
 * Check our project's source with
 ```
-*   git clone https://github.com/1schools-projects/ciw-pro-20-c-repo.git
+*   git clone https://github.com/1schools-projects/Hanan-Ensemble.git
 ```
 
 
