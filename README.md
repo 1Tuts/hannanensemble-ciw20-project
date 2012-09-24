@@ -1,15 +1,15 @@
-##Hanan-Ensemble website
+##Hannan-Ensemble website
 
 The website for the music band
 Final project of CIW Programing
 -----------------------
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Hanan-Ensemble/issues)
+* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Hannan-Ensemble/issues)
 
 * Check our project's source with
 ```
-*   git clone https://github.com/1schools-projects/Hanan-Ensemble.git
+*   git clone https://github.com/1schools-projects/Hannan-Ensemble.git
 ```
 
 
