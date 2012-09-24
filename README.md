@@ -33,6 +33,6 @@ Final project of CIW Programing
 
 
 ### All rights reserved ###
-The [Hanan-Ensemble](http://) code and website is released under a MIT License.
+The [Hannan-Ensemble](http://www.hananensemble.ir) code and website is released under a MIT License.
 
 Produced by 1schools students network (Autumn 2012)
