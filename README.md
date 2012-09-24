@@ -1,15 +1,15 @@
-##Hannan-Ensemble website
+##Hannan ensemble website
 
 The website for the music band
 Final project of CIW Programing
 -----------------------
 ###Contributing
 
-* Check our projec's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Hannan-Ensemble/issues)
+* Check our project's website and report any bugs or ideas in [issues](https://github.com/1schools-projects/Hannan-ensemble/issues)
 
 * Check our project's source with
 ```
-*   git clone https://github.com/1schools-projects/Hannan-Ensemble.git
+*   git clone https://github.com/1schools-projects/Hannan-ensemble.git
 ```
 
 
@@ -33,6 +33,6 @@ Final project of CIW Programing
 
 
 ### All rights reserved ###
-The [Hannan-Ensemble](http://www.hananensemble.ir) code and website is released under a MIT License.
+The [Hannan ensemble](http://www.hananensemble.ir) code and website is released under a MIT License.
 
 Produced by 1schools students network (Autumn 2012)
