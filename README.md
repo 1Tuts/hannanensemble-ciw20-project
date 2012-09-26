@@ -9,9 +9,8 @@ Final project of CIW Programing
 
 * Check our project's source with
 ```
-*   git clone https://github.com/1schools-projects/Hannan-ensemble.git
+  git clone https://github.com/1schools-projects/Hannan-ensemble.git
 ```
-
 
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
@@ -23,13 +22,11 @@ Final project of CIW Programing
 * [MySQL](http://ali.md/wiki/mysql)
 
 
-
-
 ###Our Team
-* [**Ali Mihandoost**](http://github.com/AliMD) Teacher & Technical Manager
+* [**Ali Mihandoost**](http://github.com/AliMD) Teacher / Technical Manager
 * [**Mojtaba Amjadi**](https://github.com/mojiAm) Project Manager / Developer
 * [**Mehrad Kaviyan**](https://github.com/mkdesign) Designer / Developer
-* [**Ebrahim Tehranipour**](https://github.com/etp1711) Data Gather / Developer
+* [**Ebrahim Tehranipour**](https://github.com/etp1711) Data-Gather / Developer
 
 
 ### All rights reserved ###
