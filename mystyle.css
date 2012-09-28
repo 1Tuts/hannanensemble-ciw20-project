@@ -66,7 +66,21 @@ section.container section.slidebar{
 /* End SlideBar & Title */
 
 
+section.container section.boxess{
+	width:960px;
+	height:260px;
+	margin:0 auto;
+	margin-top:30px;
+	border:1px solid red;
+}
 
+section.container section.boxess .inside{
+	width:960px;
+	height:195px;
+	margin:0 auto;
+	margin-top:25px;	
+	border:1px solid red;
+}
 
 
 
