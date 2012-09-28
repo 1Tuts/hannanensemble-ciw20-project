@@ -91,7 +91,7 @@ section.container section.boxess .inside .forth{
 	border:0 none;
 	float:none;
 }
-
+/* Recent Work */
 section.container section.recentwork{
 	width:960px;
 	height:270px;
@@ -99,7 +99,7 @@ section.container section.recentwork{
 	margin-top:40px;	
 	border:1px solid red;		
 }
-
+/* Big Foot */
 section.container section.foot{
 	width:1347px;
 	height:360px;
@@ -110,15 +110,28 @@ section.container section.foot{
 
 section.container section.foot .inside{
 	width:960px;
-	height:320px;
+	height:317px;
 	margin:0 auto;
 	margin-top:40px;	
-	border:1px solid red;		
+	border:1px solid red;
+	padding:1px;		
 }
 
-
-
-
+section.container section.foot .inside .first, .second, .third{
+	width:237px;
+	height:280px;
+	outline:1px solid red;	
+	float:left;
+}
+section.container section.foot .inside .third{
+			
+}
+section.container section.foot .inside .forth{
+	width:237px;
+	height:280px;
+	outline:1px solid green;		
+	margin-left:712px;
+}
 
 
 
