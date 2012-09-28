@@ -18,12 +18,11 @@ section.container .grayline{
 	background-color:#CCC;
 	
 }
-#marwid { /* this id is for width and margin used in many lines */
-	width:960px;
-	margin:0 auto;	
-}
+
 /* Menu Bar */
 section.container section.menubar{
+	width:960px;
+	margin:0 auto;
 	height:110px;
 	border-bottom:1px solid #CCC;
 	border:1px solid red;
@@ -48,12 +47,16 @@ section.container section.menubar .menu{
 
 /*  Title & SlideBar  */
 section.container section.title{
+	width:960px;
+	margin:0 auto;
 	height:86px;
 	margin-top:30px;
 	border-bottom:1px solid #CCC;
 	border:1px solid red;
 }
 section.container section.slidebar{
+	width:960px;
+	margin:0 auto;
 	height:370px;
 	margin-top:30px;
 	border:1px solid red;
@@ -64,8 +67,8 @@ section.container section.slidebar{
 
 section.container section.boxess{
 	width:960px;
-	height:260px;
 	margin:0 auto;
+	height:260px;
 	margin-top:30px;
 	padding:1px;
 }
@@ -97,7 +100,13 @@ section.container section.recentwork{
 	border:1px solid red;		
 }
 
-
+section.container section.foot{
+	width:1347px;
+	height:360px;
+	margin:0 auto;
+	margin-top:42px;	
+	border:1px solid red;		
+}
 
 
 
