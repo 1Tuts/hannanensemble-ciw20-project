@@ -1,0 +1,45 @@
+
+body {
+	background-image:url(images/backpic.jpg);
+	background-repeat:no-repeat;
+	margin:0 auto;
+}
+
+section.container{
+	width:1347px;
+	height:1710px;
+	border:1px solid red;
+	margin:0 auto;
+									
+}
+section.container .grayline{
+	width:1347px;
+	height:4px;
+	background-color:#CCC;
+	
+}
+/* Menu Bar */
+section.container section.menubar{
+	width:960px;
+	height:110px;
+	margin:0 auto;
+	border:1px solid red;
+	border-bottom:1px solid #CCC;
+		
+		
+}
+section.container section.menubar .logo{
+	width:150px;
+	height:70px;
+	border:1px solid red;
+	margin-top:20px;
+	float:left;
+	
+}
+section.container section.menubar .menu{
+	width:410px;
+	height:70px;
+	border:1px solid red;
+	margin-left:550px;
+	margin-top:20px;	
+}
