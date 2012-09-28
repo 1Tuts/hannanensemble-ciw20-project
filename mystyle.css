@@ -108,6 +108,13 @@ section.container section.foot{
 	border:1px solid red;		
 }
 
+section.container section.foot .inside{
+	width:960px;
+	height:320px;
+	margin:0 auto;
+	margin-top:40px;	
+	border:1px solid red;		
+}
 
 
 
