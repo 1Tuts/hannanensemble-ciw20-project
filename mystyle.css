@@ -23,8 +23,8 @@ section.container section.menubar{
 	width:960px;
 	height:110px;
 	margin:0 auto;
-	border:1px solid red;
 	border-bottom:1px solid #CCC;
+	border:1px solid red;
 		
 		
 }
@@ -43,3 +43,40 @@ section.container section.menubar .menu{
 	margin-left:550px;
 	margin-top:20px;	
 }
+/* End Of Menu Bar */
+
+section.container section.title{
+	width:960px;
+	height:86px;
+	margin:0 auto;
+	margin-top:30px;
+	border-bottom:1px solid #CCC;
+	border:1px solid red;
+	
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
