@@ -71,7 +71,7 @@ section.container section.boxess{
 	height:260px;
 	margin:0 auto;
 	margin-top:30px;
-	border:1px solid red;
+	padding:1px;
 }
 
 section.container section.boxess .inside{
@@ -90,6 +90,7 @@ section.container section.boxess .inside #box{
 section.container section.boxess .inside .forth{
 	margin-left:719px;	
 	border:0 none;
+	float:none;
 }
 
 
