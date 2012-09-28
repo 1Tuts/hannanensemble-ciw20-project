@@ -18,6 +18,10 @@ section.container .grayline{
 	background-color:#CCC;
 	
 }
+#marwid { /* this id is for width and margin used in many lines */
+	width:960px;
+	margin:0 auto;	
+}
 /* Menu Bar */
 section.container section.menubar{
 	width:960px;
@@ -93,7 +97,13 @@ section.container section.boxess .inside .forth{
 	float:none;
 }
 
-
+section.container section.recentwork{
+	width:960px;
+	height:270px;
+	margin:0 auto;
+	margin-top:40px;	
+	border:1px solid red;		
+}
 
 
 
