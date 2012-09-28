@@ -81,7 +81,16 @@ section.container section.boxess .inside{
 	margin-top:25px;	
 	border:1px solid red;
 }
-
+section.container section.boxess .inside #box{
+	width:239px;
+	height:195px;
+	border-right:1px dashed #CCC;
+	float:left;		
+}
+section.container section.boxess .inside .forth{
+	margin-left:719px;	
+	border:0 none;
+}
 
 
 
