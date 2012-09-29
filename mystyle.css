@@ -53,7 +53,7 @@ section.middle{
 section.middle .contain{
 	margin:0 auto;
 	width:725px;
-	height:850px;
+	height:855px;
 	outline:1px solid red;
 }
 section.middle .contain .title{
@@ -97,22 +97,20 @@ section.middle .contain .boxess .forth{
 section.middle .contain .recentwork{
 	margin:0 auto;
 	width:725px ;
-	height:230px ;
+	height:225px ;
 	margin-top:25px;
-	outline:1px solid red;
+	outline:0px solid red;
 }
 section.middle .contain .recentwork .forth{
 	margin-left:540px;
-	height:195px;
 	outline:1px solid red;	
-	background-color:green;			
+	height:inherit;		
 }
 #boxtwo{
 	float:left;
 	width:180px;
-	height:195px;
 	outline:1px solid red;
-	background-color:red;			
+	height:inherit;				
 	
 	}
 
@@ -147,9 +145,25 @@ section.foot .contain .bigfooter {/* 4 boxess */
 
 section.foot .contain .footer {/* Copyright */
 	margin:0 auto;
-	width:725px;
+	width:724px; /* 1px for pading*/
 	height:45px;
-	outline:1px solid red;			
+	outline:1px solid red;
+	padding:1px;		
+}
+section.foot .contain .footer .copyright{
+	margin-top:12px;
+	margin-left:15px;
+	float:left;
+	width:200px; 
+	height:25px; 
+	outline:1px solid red;		
+}
+section.foot .contain .footer .facebook{
+	margin-left:450px;
+	margin-top:12px;
+	width:200px;
+	height:25px;
+	outline:1px solid red;		
 }
 section.foot .darkline {/*Darkline in bottom*/
 	left:0;
