@@ -87,3 +87,42 @@ section.middle .contain .recentwork{
 	border:1px solid red;
 }
 /* End Middle */ 
+
+
+/* Foot */ 
+section.foot {
+	left:0;
+	right:0;
+	height:300px;
+	border:1px solid red;	
+}
+section.foot .contain {
+	margin:0 auto;
+	width:725px;
+	height:280px;
+	margin-top:5px;
+	border:1px solid red;	
+}
+
+section.foot .contain .bigfooter {
+	
+}
+
+section.foot .contain .footer {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
