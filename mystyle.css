@@ -69,6 +69,8 @@ section.middle .contain .banner{
 	margin-top:25px;
 	outline:1px solid red;
 }
+
+/* box haye zier slide */
 section.middle .contain .boxess{
 	margin:0 auto;
 	width: 725px;
@@ -82,7 +84,6 @@ section.middle .contain .boxess .forth{
 	margin-left:540px;
 	height:195px;
 	outline:1px solid red;	
-		
 }
 #boxone{
 	float:left;
@@ -92,8 +93,7 @@ section.middle .contain .boxess .forth{
 	/*	border-right:1px dashed #CCC;	
 	baraye bordere beyne box ha  */
 }
-
-
+/* RECENT WORK */
 section.middle .contain .recentwork{
 	margin:0 auto;
 	width:725px ;
@@ -101,6 +101,22 @@ section.middle .contain .recentwork{
 	margin-top:25px;
 	outline:1px solid red;
 }
+section.middle .contain .recentwork .forth{
+	margin-left:540px;
+	height:195px;
+	outline:1px solid red;	
+	background-color:green;			
+}
+#boxtwo{
+	float:left;
+	width:180px;
+	height:195px;
+	outline:1px solid red;
+	background-color:red;			
+	
+	}
+
+
 /* End Middle */ 
 
 
