@@ -6,7 +6,7 @@ body {
 	margin:0 auto;
 	
 }
-/*  Head & Header  */
+/*--------------Head-------------*/
 section.head .grayline{
 	left:0;
 	right:0;
@@ -39,11 +39,11 @@ section.head .header .menubar{
 	margin-left:420px;
 	margin-top:15px;
 }
-/* End Head */
+/*--------------End Head--------------*/
 
 
 
-/* Middle */
+/*--------------Middle--------------*/
 section.middle{
 	left:0;
 	right:0;
@@ -80,7 +80,7 @@ section.middle .contain .boxess{
 	border-top::1px solid #CCC; /* baraye do khatte bala va paeene khakestari rang */
 	outline:1px solid red;
 }
-section.middle .contain .boxess .forth{
+section.middle .contain .boxess .forth{/* last box*/
 	margin-left:540px;
 	height:195px;
 	outline:1px solid red;	
@@ -93,6 +93,7 @@ section.middle .contain .boxess .forth{
 	/*	border-right:1px dashed #CCC;	
 	baraye bordere beyne box ha  */
 }
+
 /* RECENT WORK */
 section.middle .contain .recentwork{
 	margin:0 auto;
@@ -101,7 +102,7 @@ section.middle .contain .recentwork{
 	margin-top:25px;
 	outline:0px solid red;
 }
-section.middle .contain .recentwork .forth{
+section.middle .contain .recentwork .forth{/* last box*/
 	margin-left:540px;
 	outline:1px solid red;	
 	height:inherit;		
@@ -115,13 +116,13 @@ section.middle .contain .recentwork .forth{
 	}
 
 
-/* End Middle */ 
+/*--------------End Middle--------------*/ 
 
 
 
 
 
-/* Foot */ 
+/*--------------Foot--------------*/ 
 section.foot {
 	left:0;
 	right:0;
@@ -136,10 +137,21 @@ section.foot .contain {
 	outline:1px solid red;	
 }
 
-section.foot .contain .bigfooter {/* 4 boxess */
+section.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
 	width:725px;
 	height:230px;
+	outline:1px solid red;			
+}
+section.foot .contain .bigfooter .forth { /* last box*/
+	margin-left:540px;
+	height:inherit;
+	outline:1px solid red;			
+}
+#boxthree{
+	float:left;
+	width:180px;
+	height:inherit;
 	outline:1px solid red;			
 }
 
@@ -171,7 +183,7 @@ section.foot .darkline {/*Darkline in bottom*/
 	height:0px;
 	outline:2px solid #333;			
 }
-
+/*--------------End Foot--------------*/
 
 
 
