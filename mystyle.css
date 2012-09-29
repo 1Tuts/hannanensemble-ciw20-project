@@ -2,167 +2,24 @@
 body {
 	background-image:url(images/backpic.jpg);
 	background-repeat:no-repeat;
+	background-position:top center;
 	margin:0 auto;
+	
 }
 
 section.container{
-	width:1347px;
-	height:1710px;
+	width:950px;
+	height:1204px;
 	border:1px solid red;
 	margin:0 auto;
-									
-}
-section.container .grayline{
-	width:1347px;
-	height:4px;
-	background-color:#CCC;
-	
-}
-
-/* Menu Bar */
-section.container section.menubar{
-	width:960px;
-	margin:0 auto;
-	height:110px;
-	border-bottom:1px solid #CCC;
-	border:1px solid red;
-}
-section.container section.menubar .logo{
-	width:150px;
-	height:70px;
-	border:1px solid red;
-	margin-top:20px;
-	float:left;
-	
-}
-section.container section.menubar .menu{
-	width:410px;
-	height:70px;
-	border:1px solid red;
-	margin-left:550px;
-	margin-top:20px;	
-}
-/* End Of Menu Bar */
-
-
-/*  Title & SlideBar  */
-section.container section.title{
-	width:960px;
-	margin:0 auto;
-	height:86px;
-	margin-top:30px;
-	border-bottom:1px solid #CCC;
-	border:1px solid red;
-}
-section.container section.slidebar{
-	width:960px;
-	margin:0 auto;
-	height:370px;
-	margin-top:30px;
-	border:1px solid red;
-}
-
-/* End SlideBar & Title */
-
-
-section.container section.boxess{
-	width:960px;
-	margin:0 auto;
-	height:260px;
-	margin-top:30px;
 	padding:1px;
+										
 }
-
-section.container section.boxess .inside{
-	width:960px;
-	height:195px;
+section.container .subcontain{
 	margin:0 auto;
-	margin-top:25px;	
+	width:722px;
+	height:960px;
 	border:1px solid red;
+	
 }
-section.container section.boxess .inside #box{
-	width:239px;
-	height:195px;
-	border-right:1px dashed #CCC;
-	float:left;		
-}
-section.container section.boxess .inside .forth{
-	margin-left:719px;	
-	border:0 none;
-	float:none;
-}
-/* Recent Work */
-section.container section.recentwork{
-	width:960px;
-	height:270px;
-	margin:0 auto;
-	margin-top:40px;	
-	border:1px solid red;		
-}
-/* Big Foot */
-section.container section.foot{
-	width:1347px;
-	height:360px;
-	margin:0 auto;
-	margin-top:42px;	
-	border:1px solid red;		
-}
-
-section.container section.foot .inside{
-	width:960px;
-	height:317px;
-	margin:0 auto;
-	margin-top:40px;	
-	border:1px solid red;
-	padding:1px;		
-}
-
-section.container section.foot .inside .first, .second, .third{
-	width:237px;
-	height:280px;
-	outline:1px solid red;	
-	float:left;
-}
-section.container section.foot .inside .third{
-			
-}
-section.container section.foot .inside .forth{
-	width:237px;
-	height:280px;
-	outline:1px solid red;		
-	margin-left:712px;
-}
-section.container section.footer{
-	width:1347px;
-	height:58px;
-	border:1px solid black;
-	border-bottom:7px solid #red;	
-}
-
-section.container section.footer .inside{
-	width:960px;
-	height:56px;
-	border:1px solid green;
-	margin:0 auto;		
-}
-
-section.container section.footer .inside .copyright{
-	width:250px;
-	height:25px;
-	border:1px solid green;
-	float:left;	
-	margin-top:15px;
-	margin-left:20px;	
-}
-
-section.container section.footer .inside .facebook{
-	width:300px;
-	height:25px;
-	border:1px solid green;
-	margin-top:15px;
-	margin-left:640px;			
-}
-
-
-
 
