@@ -6,20 +6,38 @@ body {
 	margin:0 auto;
 	
 }
-
-section.container{
-	width:950px;
-	height:1204px;
-	border:1px solid red;
-	margin:0 auto;
-	padding:1px;
-										
+/*  Head & Header  */
+section.head .grayline{
+	left:0;
+	right:0;
+	height:0px;
+	border:2px solid #CCC;
 }
-section.container .subcontain{
-	margin:0 auto;
-	width:722px;
-	height:960px;
-	border:1px solid red;
-	
+section.head{
+	left:0;
+	right:0;
+	height:85px;
+	border:0px solid red;
+		
 }
-
+section.head .header{
+	margin:0 auto;
+	width:720px;
+	height:85px;
+	border-bottom:1px solid #CCC;
+	border:1px solid red;
+}
+section.head .header .logo{
+	width:100px;
+	height:55px;
+	border:1px solid red;
+	float:left;
+	margin-top:15px;
+}
+section.head .header .menubar{
+	width:295px;
+	height:55px;
+	border:1px solid red;
+	margin-left:420px;
+	margin-top:15px;
+}
