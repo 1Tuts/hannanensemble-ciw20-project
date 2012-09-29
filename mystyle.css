@@ -43,19 +43,29 @@ section.head .header .menubar{
 }
 /* End Head */
 
-/* Banner */
+/* Middle */
 
 section.middle{
 	left:0;
 	right:0;
 	border:1px solid red;
 	margin-top:20px;
-	height:870px;		
 }
 section.middle .contain{
 	margin:0 auto;
 	width:725px;
 	height:850px;
 	border:1px solid red;
-			
+}
+section.middle .contain .title{
+	
+}
+section.middle .contain .banner{
+	
+}
+section.middle .contain .boxess{
+	
+}
+section.middle .contain .recentwork{
+	
 }
