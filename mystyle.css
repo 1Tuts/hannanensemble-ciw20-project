@@ -17,8 +17,6 @@ section.head{
 	left:0;
 	right:0;
 	height:85px;
-	border:0px solid red;
-		
 }
 section.head .header{
 	margin:0 auto;
@@ -43,8 +41,9 @@ section.head .header .menubar{
 }
 /* End Head */
 
-/* Middle */
 
+
+/* Middle */
 section.middle{
 	left:0;
 	right:0;
@@ -55,20 +54,20 @@ section.middle .contain{
 	margin:0 auto;
 	width:725px;
 	height:850px;
-	border:1px solid red;
+	outline:1px solid red;
 }
 section.middle .contain .title{
 	margin:0 auto;
 	width:600px ;
 	height:70px ;
-	border:1px solid red;
+	outline:1px solid red;
 }
 section.middle .contain .banner{
 	margin:0 auto;
 	width:725px ;
-	height:285px ;
-	margin-top:15px;
-	border:1px solid red;
+	height:280px ;
+	margin-top:25px;
+	outline:1px solid red;
 }
 section.middle .contain .boxess{
 	margin:0 auto;
@@ -77,47 +76,71 @@ section.middle .contain .boxess{
 	margin-top:22px;
 	border-bottom::1px solid #CCC;
 	border-top::1px solid #CCC; /* baraye do khatte bala va paeene khakestari rang */
-	border:1px solid red;
+	outline:1px solid red;
 }
+section.middle .contain .boxess .forth{
+	margin-left:540px;
+	height:195px;
+	outline:1px solid red;	
+		
+}
+#boxone{
+	float:left;
+	width:180px;
+	height:195px;
+	outline:1px solid red;	
+	/*	border-right:1px dashed #CCC;	
+	baraye bordere beyne box ha  */
+}
+
+
 section.middle .contain .recentwork{
 	margin:0 auto;
 	width:725px ;
 	height:230px ;
 	margin-top:25px;
-	border:1px solid red;
+	outline:1px solid red;
 }
 /* End Middle */ 
+
+
+
 
 
 /* Foot */ 
 section.foot {
 	left:0;
 	right:0;
-	height:300px;
-	border:1px solid red;	
+	height:280px;
+	outline:1px solid red;	
 }
 section.foot .contain {
 	margin:0 auto;
 	width:725px;
 	height:280px;
 	margin-top:5px;
-	border:1px solid red;	
+	outline:1px solid red;	
 }
 
-section.foot .contain .bigfooter {
+section.foot .contain .bigfooter {/* 4 boxess */
 	margin:0 auto;
 	width:725px;
 	height:230px;
-	border:1px solid red;			
+	outline:1px solid red;			
 }
 
-section.foot .contain .footer {
+section.foot .contain .footer {/* Copyright */
 	margin:0 auto;
 	width:725px;
-	height:40px;
-	border:1px solid red;			
+	height:45px;
+	outline:1px solid red;			
 }
-
+section.foot .darkline {/*Darkline in bottom*/
+	left:0;
+	right:0;
+	height:0px;
+	outline:2px solid #333;			
+}
 
 
 
