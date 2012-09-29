@@ -105,11 +105,17 @@ section.foot .contain {
 }
 
 section.foot .contain .bigfooter {
-	
+	margin:0 auto;
+	width:725px;
+	height:230px;
+	border:1px solid red;			
 }
 
 section.foot .contain .footer {
-	
+	margin:0 auto;
+	width:725px;
+	height:40px;
+	border:1px solid red;			
 }
 
 
