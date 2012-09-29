@@ -22,7 +22,7 @@ section.head{
 }
 section.head .header{
 	margin:0 auto;
-	width:720px;
+	width:725px;
 	height:85px;
 	border-bottom:1px solid #CCC;
 	border:1px solid red;
@@ -66,19 +66,23 @@ section.middle .contain .title{
 section.middle .contain .banner{
 	margin:0 auto;
 	width:725px ;
-	height:280px ;
+	height:285px ;
 	margin-top:15px;
 	border:1px solid red;
 }
 section.middle .contain .boxess{
 	margin:0 auto;
 	width: 725px;
-	height: ;
+	height:195px; 
+	margin-top:22px;
+	border-bottom::1px solid #CCC;
+	border-top::1px solid #CCC; /* baraye do khatte bala va paeene khakestari rang */
 	border:1px solid red;
 }
 section.middle .contain .recentwork{
 	margin:0 auto;
-	width: ;
-	height: ;
+	width:725px ;
+	height:230px ;
+	margin-top:25px;
 	border:1px solid red;
 }
