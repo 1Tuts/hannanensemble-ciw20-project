@@ -59,19 +59,20 @@ section.middle .contain{
 }
 section.middle .contain .title{
 	margin:0 auto;
-	width: ;
-	height: ;
+	width:600px ;
+	height:70px ;
 	border:1px solid red;
 }
 section.middle .contain .banner{
 	margin:0 auto;
-	width: ;
-	height: ;
+	width:725px ;
+	height:280px ;
+	margin-top:15px;
 	border:1px solid red;
 }
 section.middle .contain .boxess{
 	margin:0 auto;
-	width: ;
+	width: 725px;
 	height: ;
 	border:1px solid red;
 }
