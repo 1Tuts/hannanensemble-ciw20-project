@@ -1,4 +1,5 @@
 
+
 body {
 	background-image:url(images/backpic.jpg);
 	background-repeat:no-repeat;
@@ -22,13 +23,14 @@ section.head .header{
 	margin:0 auto;
 	width:725px;
 	min-height:85px;
-	border-bottom:1px solid #CCC;
-	border:1px solid red;
+	/*border-bottom:1px solid #CCC;*/
+	outline:1px solid red;
+	padding:1px;
 }
 section.head .header .logo{
 	width:100px;
 	min-height:55px;
-	border:1px solid red;
+	outline:1px solid red;
 	float:left;
 	margin-top:15px;
 }
@@ -47,8 +49,8 @@ section.head .header .menubar{
 section.middle{
 	left:0;
 	right:0;
-	border:1px solid red;
-	margin-top:20px;
+	outline:px solid red;
+	margin-top:10px;
 }
 section.middle .contain{
 	margin:0 auto;
@@ -58,8 +60,8 @@ section.middle .contain{
 }
 section.middle .contain .title{
 	margin:0 auto;
-	width:600px ;
-	min-height:65px ;
+	width:725px ;
+	min-height:75px ;
 	outline:1px solid red;
 }
 section.middle .contain .banner{
@@ -134,7 +136,7 @@ section.foot .contain {
 	margin:0 auto;
 	width:725px;
 	min-height:280px;
-	margin-top:15px;
+	margin-top:25px;
 	outline:1px solid red;	
 }
 
@@ -189,8 +191,8 @@ section.foot .darkline {/*Darkline in bottom*/
 
 /*=================== CONTACT  PAGE ======================*/ 
 section.contct .contain{
-	min-height:540px;	
-	outline:1px solid red;
+	min-height:528px;	
+	outline:5px solid red;
 	width:725px;
 	margin:0 auto;
 }
@@ -244,7 +246,7 @@ section.contct .contain .rcontact .name, .email, .subject, .messege, .submit{
 /*=================== ABOUT US PAGE ======================*/ 
 
 section.about .contain{
-	min-height:722px;
+	min-height:710px;
 	outline:1px solid red;
 	width:725px;	
 	margin:0 auto;
@@ -280,7 +282,7 @@ section.about .contain .pics{
 	min-height:305px;
 	outline:1px solid red;
 	width:725px;
-	margin-top:30px;	
+	margin-top:20px;	
 	
 }
 section.about .contain .pics .first, .second, .third{
