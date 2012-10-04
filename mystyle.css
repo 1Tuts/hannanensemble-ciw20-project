@@ -138,7 +138,7 @@ section.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
-			
+	outline:1px solid red;		
 }
 section.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:715px;
@@ -242,11 +242,9 @@ section.about .contain{
 	min-height:710px;
 	width:950px;;	
 	margin:0 auto;
-	outline:1px solid red;
 }
 section.about .contain .text{
 	min-height:480px;
-	outline:5px solid red;
 	width:950px;	
 	border-bottom:1px solid #CCC;
 	/* baraye bordere khate paiine 
@@ -254,14 +252,11 @@ section.about .contain .text{
 }
 section.about .contain .text .headtxt{
 	min-height:90px;
-	outline:2px solid red;
 	width:950px;;	
-
 }
 section.about .contain .text .lefttxt, .midtxt, .righttxt{
 	float:left;
 	min-height:320px;
-	outline:2px solid red;
 	width:300px;
 	margin-top:20px;				
 }
@@ -274,24 +269,23 @@ section.about .contain .text .righttxt{
 }
 /* --Pics Part -- */
 section.about .contain .pics{
-	min-height:305px;
-	
+	min-height:450px;
+	outline:5px solid red;
 	width:950px;;
-	margin-top:20px;	
+	margin-top:35px;	
 	
 }
 section.about .contain .pics .first, .second, .third{
 	float:left;
-	width:222px;
+	width:290px;
 	min-height:inherit;
-	
-	margin-left:2px;		
+	margin-left:0px;		
 }
 section.about .contain .pics .second{
-	margin-left:28px;	
+	margin-left:40px;
 }
 
 section.about .contain .pics .third{
 	float:none;
-	margin-left:503px;	
+	margin-left:660px;
 }
