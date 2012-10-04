@@ -1,5 +1,5 @@
 section, div {
-	outline:0px solid red;
+	outline:1px solid red;
 }
 
 
@@ -132,32 +132,31 @@ section.foot .contain {
 	width:950px;
 	min-height:368px;
 	margin-top:18px;
-	outline:1px solid red;	
+		
 }
 
 section.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
-	outline:1px solid red;				
+			
 }
 section.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:715px;
 	min-height:inherit;
-	outline:1px solid red;				
+			
 }
 #boxthree{
 	float:left;
 	width:237px;
 	min-height:inherit;
-	outline:1px solid red;					
+			
 }
 
 section.foot .contain .footer {/* Copyright */
 	margin:0 auto;
 	width:950px; /* 1px for pading*/
 	min-height:65px;
-	outline:1px solid red;		
 	padding:1px;		
 }
 section.foot .contain .footer .copyright{
@@ -166,14 +165,14 @@ section.foot .contain .footer .copyright{
 	float:left;
 	width:260px; 
 	min-height:30px; 
-	outline:1px solid red;				
+				
 }
 section.foot .contain .footer .facebook{
 	margin-left:640px;
 	margin-top:20px;
 	width:295px;
 	min-height:30px;
-	outline:1px solid red;		
+			
 }
 section.foot .darkline {/*Darkline in bottom*/
 	left:0;
