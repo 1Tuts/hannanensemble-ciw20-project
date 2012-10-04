@@ -1,3 +1,6 @@
+section, div {
+	outline:0px solid red;
+}
 
 
 body {
@@ -5,6 +8,7 @@ body {
 	background-repeat:no-repeat;
 	background-position:top center;
 	margin:0 auto;
+	min-height:1900px;
 	
 }
 /*--------------Head-------------*/
@@ -18,28 +22,29 @@ section.head{
 	left:0;
 	right:0;
 	min-height:85px;
+	
 }
 section.head .header{
 	margin:0 auto;
-	width:725px;
-	min-height:85px;
+	width:950px;
+	min-height:110px;
 	/*border-bottom:1px solid #CCC;*/
-	outline:1px solid red;
 	padding:1px;
+	
 }
 section.head .header .logo{
-	width:100px;
-	min-height:55px;
-	outline:1px solid red;
+	width:130px;
+	min-height:65px;
 	float:left;
-	margin-top:15px;
+	margin-top:25px;
+	
 }
 section.head .header .menubar{
-	width:304px;
-	min-height:55px;
-	border:1px solid red;
-	margin-left:420px;
-	margin-top:15px;
+	width:390px;
+	min-height:65px;
+	margin-left:560px;
+	margin-top:25px;
+	
 }
 /*--------------End Head--------------*/
 
@@ -49,48 +54,47 @@ section.head .header .menubar{
 section.middle{
 	left:0;
 	right:0;
-	outline:px solid red;
-	margin-top:10px;
+	margin-top:35px;
 }
 section.middle .contain{
 	margin:0 auto;
-	width:725px;
-	min-height:840px;
-	outline:1px solid red;
+	width:950px;;
+	min-height:1100px;
+	outline:5px solid red;
 }
 section.middle .contain .title{
 	margin:0 auto;
-	width:725px ;
-	min-height:75px ;
+	width:950px; ;
+	min-height:80px ;
 	outline:1px solid red;
 }
 section.middle .contain .banner{
 	margin:0 auto;
-	width:725px ;
-	min-height:277px ;
-	margin-top:25px;
+	width:950px; ;
+	min-height:365px ;
+	margin-top:35px;
 	outline:1px solid red;
 }
 
 /* box haye zier slide */
 section.middle .contain .boxess{
 	margin:0 auto;
-	width: 725px;
-	min-height:195px; 
-	margin-top:22px;
+	width: 950px;;
+	min-height:260px; 
+	margin-top:30px;
 	border-bottom::1px solid #CCC;
 	border-top::1px solid #CCC; /* baraye do khatte bala va paeene khakestari rang */
 	outline:1px solid red;
 }
 section.middle .contain .boxess .forth{/* last box*/
-	margin-left:540px;
-	min-height:195px;
+	margin-left:715px;
+	min-height:230px;
 	outline:1px solid red;	
 }
 #boxone{
 	float:left;
-	width:180px;
-	min-height:195px;
+	width:237px;
+	min-height:230px;
 	outline:1px solid red;	
 	/*	border-right:1px dashed #CCC;	
 	baraye bordere beyne box ha  */
@@ -99,10 +103,10 @@ section.middle .contain .boxess .forth{/* last box*/
 /* RECENT WORK */
 section.middle .contain .recentwork{
 	margin:0 auto;
-	width:725px ;
+	width:950px; ;
 	min-height:220px ;
 	margin-top:25px;
-	outline:0px solid red;
+	outline:1px solid red;
 }
 section.middle .contain .recentwork .forth{/* last box*/
 	margin-left:540px;
@@ -129,40 +133,40 @@ section.foot {
 	left:0;
 	right:0;
 	min-height:280px;
-	outline:1px solid red;
+	
 		
 }
 section.foot .contain {
 	margin:0 auto;
-	width:725px;
+	width:950px;;
 	min-height:280px;
 	margin-top:25px;
-	outline:1px solid red;	
+		
 }
 
 section.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
-	width:725px;
+	width:950px;;
 	min-height:230px;
-	outline:1px solid red;			
+				
 }
 section.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:540px;
 	min-height:inherit;
-	outline:1px solid red;			
+				
 }
 #boxthree{
 	float:left;
 	width:180px;
 	min-height:inherit;
-	outline:1px solid red;			
+				
 }
 
 section.foot .contain .footer {/* Copyright */
 	margin:0 auto;
 	width:724px; /* 1px for pading*/
 	min-height:45px;
-	outline:1px solid red;
+	
 	padding:1px;		
 }
 section.foot .contain .footer .copyright{
@@ -171,14 +175,14 @@ section.foot .contain .footer .copyright{
 	float:left;
 	width:200px; 
 	min-height:25px; 
-	outline:1px solid red;		
+			
 }
 section.foot .contain .footer .facebook{
 	margin-left:480px;
 	margin-top:12px;
 	width:230px;
 	min-height:25px;
-	outline:1px solid red;		
+			
 }
 section.foot .darkline {/*Darkline in bottom*/
 	left:0;
@@ -193,13 +197,13 @@ section.foot .darkline {/*Darkline in bottom*/
 section.contct .contain{
 	min-height:528px;	
 	outline:5px solid red;
-	width:725px;
+	width:950px;;
 	margin:0 auto;
 }
 section.contct .contain .text{
 	min-height:65px;	
-	outline:1px solid red;
-	width:725px;
+	
+	width:950px;;
 	margin:0 auto;	
 	/*border-bottom:1px solid #CCC; baraye do khatte bala va paiin 
 	border-top:1px solid #CCC;*/
@@ -207,28 +211,28 @@ section.contct .contain .text{
 section.contct .contain .lcontact{
 	float:left;
 	min-height:440px;	
-	outline:1px solid red;
+	
 	width:350px;
 	margin-top:20px;		
 }
 section.contct .contain .rcontact{
 	margin-left:370px;
 	min-height:440px;	
-	outline:1px solid red;
+	
 	width:350px;
 	margin-top:20px;
 	padding:1px;		
 }
 section.contct .contain .rcontact .text{
 	width:350px;	
-	outline:1px solid red;
+	
 	min-height:25px;	
 }
 section.contct .contain .rcontact .name, .email, .subject, .messege, .submit{
 	width:280px;
 	margin-left:25px;	
 	margin-top:38px;
-	outline:1px solid red;
+	
 	min-height:25px;				
 }
 #txtboxdiv{
@@ -247,26 +251,26 @@ section.contct .contain .rcontact .name, .email, .subject, .messege, .submit{
 
 section.about .contain{
 	min-height:710px;
-	outline:1px solid red;
-	width:725px;	
+	
+	width:950px;;	
 	margin:0 auto;
 }
 section.about .contain .text{
 	min-height:360px;
-	outline:1px solid red;
-	width:725px;	
+	
+	width:950px;;	
 	/*	border-bottom:1px solid #CCC; baraye khatte paiini */
 }
 section.about .contain .text .headtxt{
 	min-height:65px;
-	outline:1px solid red;
-	width:725px;	
+	
+	width:950px;;	
 /*	border-bottom:1px solid #CCC; baraye khatte paiini */
 }
 section.about .contain .text .lefttxt, .midtxt, .righttxt{
 	float:left;
 	min-height:240px;
-	outline:1px solid red;
+	
 	width:230px;
 	margin-top:20px;				
 }
@@ -280,8 +284,8 @@ section.about .contain .text .righttxt{
 /* --Pics Part -- */
 section.about .contain .pics{
 	min-height:305px;
-	outline:1px solid red;
-	width:725px;
+	
+	width:950px;;
 	margin-top:20px;	
 	
 }
@@ -289,7 +293,7 @@ section.about .contain .pics .first, .second, .third{
 	float:left;
 	width:222px;
 	min-height:inherit;
-	outline:1px solid red;
+	
 	margin-left:2px;		
 }
 section.about .contain .pics .second{
