@@ -183,8 +183,7 @@ footer.foot .darkline {
 
 /*=================== CONTACT  PAGE ======================*/ 
 article.contact {
-	min-height : 700px;	
-	outline    : 5px solid red;
+	min-height : 700px;
 	width      : 950px;
 	margin     : 0 auto;
 }
