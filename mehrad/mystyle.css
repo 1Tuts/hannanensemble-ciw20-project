@@ -1,19 +1,22 @@
 section, div {
 	outline:1px solid red;
 }
+
+
 body {
-	background-image:url('images/backpic.jpg');
+	background-image:url(images/backpic.jpg);
 	background-repeat:no-repeat;
 	background-position:top center;
 	margin:0 auto;
 	min-height:1900px;
+	
 }
 /*--------------Head-------------*/
 section.head .grayline{
-	left      :0;
-	right     :0;
+	left:0;
+	right:0;
 	min-height:0px;
-	border    :2px solid #CCC;
+	border:2px solid #CCC;
 }
 section.head{
 	left:0;
