@@ -29,7 +29,7 @@ header.head .grayline {
 }
 
 header.head{
-	min-height   : 85px;
+	min-height : 85px;
 }
 
 header.head .header {
@@ -37,6 +37,7 @@ header.head .header {
 	width         : 950px;
 	padding-bottom: 25px;
 	padding-top   : 25px;
+	border-bottom : 2px solid #eee;
 }
 
 header.head .header .logo{
@@ -63,27 +64,29 @@ article.middle{
 }
 
 article.middle .title {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 80px;
-	padding    : 17px 0;
-	margin-bottom: 35px;
-	text-align: center;
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 80px;
+	padding      : 17px 0;
+	text-align   : center;
+	border-bottom : 1px solid #eee;
+	margin-bottom: 30px;
 }
 
 article.middle .banner {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 365px;
+	margin-bottom: 30px;
 }
 
 /* box haye zier slide */
 
 article.middle .boxess{
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 260px; 
-	margin-top : 30px;
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 260px;
+	margin-bottom: 40px;
 }
 
 /* last box*/
@@ -105,7 +108,7 @@ article.middle .recentwork {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 256px;
-	margin-top : 40px;
+	margin-bottom : 50px;
 }
 
 article.middle .recentwork .forth{/* last box*/
