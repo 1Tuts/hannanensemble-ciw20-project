@@ -47,7 +47,7 @@ header.head .header .logo{
 	
 }
 
-header.head .header .menubar {
+header.head .header nav {
 	width       : 390px;
 	min-height  : 65px;
 	margin-left : 560px;

@@ -30,33 +30,31 @@ header.head .grayline {
 
 header.head{
 	min-height : 85px;
+	margin-bottom : 25px;
 }
 
 header.head .header {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 110px;
-	padding    : 1px;
+	margin      : 0 auto;
+	width       : 950px;
+	padding-bottom: 25px;
+	padding-top : 25px;
 }
 
 header.head .header .logo{
 	width      : 130px;
 	min-height : 65px;
-	float      : left;
-	margin-top : 25px;
-	
+	float      : left;	
 }
 
 header.head .header .menubar {
 	width       : 390px;
 	min-height  : 65px;
 	margin-left : 560px;
-	margin-top  : 25px;
 }
 
 /*--------------Middle--------------*/
 article.middle {
-	margin-top : 35px;
+	
 }
 
 article.middle .contain{
