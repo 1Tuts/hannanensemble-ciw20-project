@@ -16,7 +16,6 @@
     	<div class="grayline">
         </div>	
         <section class="header">
-        	<div class="logo"></div>
             <nav>
                 <menu>
                     <li><a href="#">home<span>|</span></a></li>
@@ -27,12 +26,29 @@
                     <li class="clear"></li>
                 </menu>
             </nav>
+        	<div class="logo"></div>
             <div class="clear"></div>
         </section>
     </header>
     <article class="middle">
         	<div class="title"></div>
-            <div class="banner"></div>
+            <div class="banner">
+                    <?php
+
+                        $images_path = './images/slide';
+                        $images      = scandir($images_path);
+
+                        foreach ($images as $img) {
+
+                            $img_type = strtolower( end( explode( '.' , $img ) ) );
+
+                            if($img_type == 'jpg' || $img_type == 'png'){
+
+                                echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+                            }
+                        }
+                    ?>
+            </div>
             <div class="boxess">
             	<div class="first" id="boxone"></div>
                 <div class="second" id="boxone"></div>

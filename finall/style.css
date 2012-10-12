@@ -33,23 +33,22 @@ header.head{
 }
 
 header.head .header {
-	margin        : 0 auto;
-	width         : 950px;
-	padding-bottom: 25px;
-	padding-top   : 25px;
-	border-bottom : 2px solid #eee;
+	margin         : 0 auto;
+	width          : 950px;
+	padding-bottom : 25px;
+	padding-top    : 25px;
+	border-bottom  : 2px solid #eee;
 }
 
 header.head .header .logo{
-	width      : 130px;
-	min-height : 65px;
-	float      : left;	
+	width        : 130px;
+	min-height   : 65px;
+	margin-right : 810px;
 }
 
-header.head .header .menubar {
-	width       : 390px;
+header.head .header nav {
 	min-height  : 65px;
-	margin-left : 560px;
+	float: right;
 }
 
 /*--------------Middle--------------*/
