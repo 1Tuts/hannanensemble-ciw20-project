@@ -6,7 +6,7 @@ $(function(){
 		if(scrolled < 60){
 
 			$('header.head').removeClass('action');
-			$('header.head').css({
+			$('header.action').css({
 				opacity:0
 			});
 
@@ -15,10 +15,11 @@ $(function(){
 			$('header.head').addClass('action');
 
 			$('header.action').animate({
-				opacity:1
-			},500);
-			
 
-		};
+				opacity:1
+
+			},500);
+		}
 	});
+	//slider
 });

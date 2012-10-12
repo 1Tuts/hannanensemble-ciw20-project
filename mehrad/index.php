@@ -9,6 +9,7 @@
 <script type="text/javascript" src="jquery.min.js"></script>
 <script type="text/javascript" src="zepto.min.js"></script>
 <script type="text/javascript" src="scripts.js"></script>
+<script type="text/javascript" src="slide.js"></script>
 </head>
 
 <body>
@@ -33,21 +34,21 @@
     <article class="middle">
         	<div class="title"></div>
             <div class="banner">
-                    <?php
+                <?php
 
-                        $images_path = './images/slide';
-                        $images      = scandir($images_path);
+                    $images_path = './images/slide';
+                    $images      = scandir($images_path);
 
-                        foreach ($images as $img) {
+                    foreach ($images as $img) {
 
-                            $img_type = strtolower( end( explode( '.' , $img ) ) );
+                        $img_type = strtolower( end( explode( '.' , $img ) ) );
 
-                            if($img_type == 'jpg' || $img_type == 'png'){
+                        if($img_type == 'jpg' || $img_type == 'png'){
 
-                                echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
-                            }
+                            echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
                         }
-                    ?>
+                    }
+                ?>
             </div>
             <div class="boxess">
             	<div class="first" id="boxone"></div>
