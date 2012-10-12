@@ -3,12 +3,12 @@ $(function(){
 	$(window).scroll(function(){
 		var scrolled = $(window).scrollTop();
 		//console.log(scrolled);
-		if(scrolled < 59){
+		if(scrolled < 60){
 
 			$('header.head').removeClass('action');
-			$('header.action').animate({
+			$('header.head').css({
 				opacity:0
-			},500)
+			});
 
 		}else{
 
@@ -16,10 +16,8 @@ $(function(){
 
 			$('header.action').animate({
 				opacity:1
-			},500)
-			$('header.action .header .logo').css({
-				display: 'none'
-			});
+			},500);
+			
 
 		};
 	});

@@ -1,5 +1,5 @@
 section, div {
-	outline : 1px solid red;
+	outline : 0px solid red;
 }
 
 .clear{
@@ -37,14 +37,14 @@ header.head .header {
 	width         : 950px;
 	padding-bottom: 25px;
 	padding-top   : 25px;
-	border-bottom : 2px solid #eee;
 }
 
 header.head .header .logo{
-	width      : 130px;
-	min-height : 65px;
+	width      : 140px;
+	min-height : 45px;
 	float      : left;	
 	background-image: url('images/logo.png');
+	display: block;
 }
 
 header.head .header nav {
@@ -67,49 +67,49 @@ header.action .header {
 }
 
 header.action .header .logo {
-	opacity: 0;
+	display : none;
 }
 
 header.head .header nav menu {
-	list-style: none;
+	list-style : none;
 }
 
 header.head .header nav menu li {
-	float: left;
+	float : left;
 }
 
 header.head .header nav menu li a {
-	display: block;
-	padding: 17px 0 17px 15px;	
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #666;
-	font-size: 13px;
-	font-weight: 400;
+	display         : block;
+	padding         : 17px 0 17px 15px;	
+	text-decoration : none;
+	text-transform  : uppercase;
+	color           : #666;
+	font-size       : 13px;
+	font-weight     : 400;
 }
 
 header.head .header nav menu li a span {
-	color: #aaa;
-	padding-left: 15px;
-	font-size: 11px;
-	font-weight: 200;
+	color        : #aaa;
+	padding-left : 15px;
+	font-size    : 11px;
+	font-weight  : 200;
 }
 
 header.head .header nav menu li a:hover {
-	background-color: #444;
-	color: white;
+	background-color : #444;
+	color            : white;
 }
 header.head .header nav menu li a:hover span {
-	color: #444;
+	color : #444;
 }
 
 header.head .header nav menu li a.active {
-	background-color:  #F96E5B;
+	background-color :  #F96E5B;
 }
 
 /*--------------Middle--------------*/
 article.middle {
-
+	border-top : 2px solid #eee;
 }
 
 article.middle{
