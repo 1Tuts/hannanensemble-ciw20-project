@@ -60,10 +60,12 @@ header.action {
 	margin   : 0 !important;
 	position : fixed;
 	background-color : #f8f8f8;
+	box-shadow: 0 0 10px #444;
 }
 
 header.action .header {
 	padding : 0 !important;
+
 }
 
 header.action .header .logo {
