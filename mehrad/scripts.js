@@ -1,6 +1,6 @@
 $(function(){
 //-------------------------------- action menu ----------------
-	window.onscroll=function(){
+window.onscroll=function(){
 		var scrolled = $(window).scrollTop();
 		//console.log(scrolled);
 		if(scrolled < 60){
@@ -20,6 +20,8 @@ $(function(){
 
 			},500);
 		}
-	};
-	//slider
+	};	
 });
+
+
+
