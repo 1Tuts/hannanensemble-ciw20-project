@@ -45,8 +45,6 @@ header.head .header .logo{
 	min-height : 65px;
 	float      : left;	
 	background-image: url('images/logo.png');
-	transition: all 500ms;
-	opacity: 1;
 }
 
 header.head .header nav {
@@ -54,14 +52,14 @@ header.head .header nav {
 }
 
 header.action {
-	position        : fixed;
-	top             : 0;
-	left            : 0;
-	right           : 0;
-	background-color: #f8f8f8;
-	padding         : 0 !important;
-	margin         : 0 !important;
-	opacity: 0;
+	opacity  : 0;
+	top      : 0;
+	left     : 0;
+	right    : 0;
+	padding  : 0 !important;
+	margin   : 0 !important;
+	position : fixed;
+	background-color : #f8f8f8;
 }
 
 header.action .header {
