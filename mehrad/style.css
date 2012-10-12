@@ -14,11 +14,12 @@ section, div {
 }
 
 body {
-	background-image    : url('images/backpic.jpg');
+	/*background-image    : url('images/backpic.jpg');*/
 	background-repeat   : no-repeat;
 	background-position : top center;
 	margin              : 0 auto;
 	min-height          : 1900px;
+	position: relative;
 }
 
 /*--------------Head-------------*/
@@ -29,67 +30,125 @@ header.head .grayline {
 }
 
 header.head{
-	min-height : 85px;
 }
 
 header.head .header {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 110px;
-	padding    : 1px;
+	margin        : 0 auto;
+	width         : 950px;
+	padding-bottom: 25px;
+	padding-top   : 25px;
+	border-bottom : 2px solid #eee;
 }
 
 header.head .header .logo{
 	width      : 130px;
 	min-height : 65px;
-	float      : left;
-	margin-top : 25px;
-	
+	float      : left;	
+	background-image: url('images/logo.png');
+	transition: all 500ms;
+	opacity: 1;
 }
 
 header.head .header nav {
-	width       : 390px;
-	min-height  : 65px;
-	margin-left : 560px;
-	margin-top  : 25px;
+	margin-left : 510px;
+}
+
+header.action {
+	position        : fixed;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	background-color: #f8f8f8;
+	padding         : 0 !important;
+	margin         : 0 !important;
+	opacity: 0;
+}
+
+header.action .header {
+	padding : 0 !important;
+}
+
+header.action .header .logo {
+	opacity: 0;
+}
+
+header.head .header nav menu {
+	list-style: none;
+}
+
+header.head .header nav menu li {
+	float: left;
+}
+
+header.head .header nav menu li a {
+	display: block;
+	padding: 17px 0 17px 15px;	
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #666;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+header.head .header nav menu li a span {
+	color: #aaa;
+	padding-left: 15px;
+	font-size: 11px;
+	font-weight: 200;
+}
+
+header.head .header nav menu li a:hover {
+	background-color: #444;
+	color: white;
+}
+header.head .header nav menu li a:hover span {
+	color: #444;
+}
+
+header.head .header nav menu li a.active {
+	background-color:  #F96E5B;
 }
 
 /*--------------Middle--------------*/
 article.middle {
-	margin-top : 35px;
+
 }
 
-article.middle .contain{
+article.middle{
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 1100px;
 }
 
-article.middle .contain .title {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 80px;
+article.middle .title {
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 80px;
+	padding      : 17px 0;
+	text-align   : center;
+	border-bottom : 1px solid #eee;
+	margin-bottom: 30px;
 }
 
-article.middle .contain .banner {
+article.middle .banner {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 365px;
-	margin-top : 35px;
+	margin-bottom: 30px;
 }
 
 /* box haye zier slide */
 
-article.middle .contain .boxess{
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 260px; 
-	margin-top : 30px;
+article.middle .boxess{
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 260px;
+	margin-bottom: 40px;
 }
 
 /* last box*/
 
-article.middle .contain .boxess .forth {
+article.middle .boxess .forth {
 	margin-left : 715px;
 	min-height  : 230px;
 }
@@ -102,14 +161,14 @@ article.middle .contain .boxess .forth {
 
 /* RECENT WORK */
 
-article.middle .contain .recentwork {
+article.middle .recentwork {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 256px;
-	margin-top : 40px;
+	margin-bottom : 50px;
 }
 
-article.middle .contain .recentwork .forth{/* last box*/
+article.middle .recentwork .forth{/* last box*/
 	margin-left : 715px;
 	min-height  : inherit;		
 }
@@ -125,19 +184,19 @@ article.middle .contain .recentwork .forth{/* last box*/
 footer.foot {
 }
 
-footer.foot .contain {
+footer.foot {
 	margin     : 0 auto;
 	width      : 950px;
 	margin-top : 20px;
 }
 
-footer.foot .contain .bigfooter {/* div 4 box */
+footer.foot .bigfooter {/* div 4 box */
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 300px;
 }
 
-footer.foot .contain .bigfooter .forth { /* last box*/
+footer.foot .bigfooter .forth { /* last box*/
 	margin-left : 715px;
 	min-height  : inherit;	
 }
@@ -150,14 +209,14 @@ footer.foot .contain .bigfooter .forth { /* last box*/
 
 /* Copyright */
 
-footer.foot .contain .footer {
+footer.foot .footer {
 	margin     : 0 auto;
 	width      : 949px; /* 1px for pading*/
 	min-height : 65px;
 	padding    : 1px;
 }
 
-footer.foot .contain .footer .copyright{
+footer.foot .footer .copyright{
 	margin-top  : 20px;
 	margin-left : 25px;
 	float       : left;
@@ -165,7 +224,7 @@ footer.foot .contain .footer .copyright{
 	min-height  : 30px; 
 }
 
-footer.foot .contain .footer .facebook {
+footer.foot .footer .facebook {
 	margin-left : 640px;
 	margin-top  : 20px;
 	width       : 295px;
@@ -180,20 +239,19 @@ footer.foot .darkline {
 }
 
 /*=================== CONTACT  PAGE ======================*/ 
-article.contact .contain {
-	min-height : 700px;	
-	outline    : 5px solid red;
+article.contact {
+	min-height : 700px;
 	width      : 950px;
 	margin     : 0 auto;
 }
 
-article.contact .contain .text {
+article.contact .text {
 	min-height : 70px;	
 	width      : 950px;
 	margin     : 0 auto;
 }
 
-article.contact .contain .lcontact {
+article.contact .lcontact {
 	float      : left;
 	min-height : 600px;	
 	outline    : 1px solid red;
@@ -201,7 +259,7 @@ article.contact .contain .lcontact {
 	margin-top : 20px;		
 }
 
-article.contact .contain .rcontact {
+article.contact .rcontact {
 	margin-left : 490px;
 	min-height  : 600px;	
 	outline     : 1px solid red;
@@ -210,12 +268,12 @@ article.contact .contain .rcontact {
 	padding     : 1px;		
 }
 
-article.contact .contain .rcontact .text {
+article.contact .rcontact .text {
 	width      : 450px;
 	min-height : 50px;	
 }
 
-article.contact .contain .rcontact .name, article.contact .contain .rcontact .email, article.contact .contain .rcontact .subject, article.contact .contain .rcontact .messege, article.contact .contain .rcontact .submit {
+article.contact .rcontact .name, article.contact .rcontact .email, article.contact .rcontact .subject, article.contact .rcontact .messege, article.contact .rcontact .submit {
 	width       : 370px;
 	margin-left : 25px;	
 	margin-top  : 47px;
@@ -239,58 +297,58 @@ article.contact .contain .rcontact .name, article.contact .contain .rcontact .em
 
 /*=================== ABOUT US PAGE ======================*/ 
 
-article.about .contain {
+article.about {
 	width  : 950px;
 	margin : 0 auto;
 }
 
-article.about .contain .text {
+article.about .text {
 	min-height    : 480px;
 	width         : 950px;
 	border-bottom : 1px solid #CCC;
 }
 
-article.about .contain .text .headtxt{
+article.about .text .headtxt{
 	min-height : 90px;
 	width      : 950px;	
 }
 
-article.about .contain .text .lefttxt, article.about .contain .text .midtxt, article.about .contain .text .righttxt{
+article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
 	float      : left;
 	min-height : 320px;
 	width      : 300px;
 	margin-top : 20px;				
 }
 
-article.about .contain .text .midtxt {
+article.about .text .midtxt {
 	margin-left : 20px;
 }
 
-article.about .contain .text .righttxt{
+article.about .text .righttxt{
 	float       : none;
 	margin-left : 650px;		
 }
 
 /* --Pics Part -- */
 
-article.about .contain .pics {
+article.about .pics {
 	min-height : 440px;
 	width      : 950px;
 	margin-top : 35px;
 }
 
-article.about .contain .pics .first, article.about .contain .pics .second, article.about .contain .pics .third {
+article.about .pics .first, article.about .pics .second, article.about .pics .third {
 	float       : left;
 	width       : 290px;
 	min-height  : inherit;
 	margin-left : 0px;		
 }
 
-article.about .contain .pics .second {
+article.about .pics .second {
 	margin-left : 40px;
 }
 
-article.about .contain .pics .third {
+article.about .pics .third {
 	float       : none;
 	margin-left : 660px;
 }
