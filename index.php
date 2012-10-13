@@ -1,11 +1,11 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<link type="text/css" rel="stylesheet" href="reset.css" />
-<link type="text/css" rel="stylesheet" href="1styles.css" />
-<link type="text/css" rel="stylesheet" href="mystyle.css" />
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link type="text/css" rel="stylesheet" href="reset.css" />
+    <link type="text/css" rel="stylesheet" href="1styles.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 <body>
