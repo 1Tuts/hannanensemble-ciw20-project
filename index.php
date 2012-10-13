@@ -12,10 +12,11 @@
 <!--/////////// Header Part /////////////-->
 	<header class="head">
     	<div class="grayline"></div>	
-        <section class="header">
-        	<div class="logo"></div>
-            <nav class="menubar"></nav>
+        <section class="header container">
+        	<nav class="menubar w10 right last"></nav>
+            <div class="logo w4"></div>
             <div class="clear"></div>
+            <div class="hline"></div>
         </section>
     </header>    
 <!--/////////// Middle Part /////////////-->

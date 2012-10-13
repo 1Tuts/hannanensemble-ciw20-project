@@ -1,53 +1,46 @@
 *,nav,header,footer,section,div {
-	outline:1px dashed red;
+	outline: 1px dashed red;
 }
 
 body {
-	background-image:url('images/backpic.jpg');
-	background-repeat:no-repeat;
-	background-position:top center;
-	margin:0 auto;
-	min-height:1640px;
+	background-image   : url('images/backpic.jpg');
+	background-repeat  : no-repeat;
+	background-position: top center;
+	margin    : 0 auto;
+	min-height: 1640px;
 }
 
 /*--------------Header part-------------*/
-header.head .grayline{
-	left      :0;
-	right     :0;
-	min-height:0px;
-	border-top:7px solid whiteSmoke;
+header.head{
+	left : 0;
+	right: 0;
+	min-height: 85px;
 }
 
-header.head{
-	left:0;
-	right:0;
-	min-height:85px;
-	
+header.head .grayline{
+	left : 0;
+	right: 0;
+	border-top: 7px solid whiteSmoke;
 }
 
 header.head .header{
-	margin:0 auto;
-	width:950px;
-	min-height:110px;
-	/*border-bottom:1px solid #CCC;*/
-	padding:1px;
-	
+	min-height: 110px;
+	padding   : 1px;
 }
 
 header.head .header .logo{
-	width:130px;
-	min-height:65px;
-	float:left;
-	margin-top:25px;
-	
+	min-height: 65px;
+	margin-top: 25px;
 }
 
 header.head .header .menubar{
-	width:390px;
-	min-height:65px;
-	margin-left:560px;
-	margin-top:25px;
-	
+	min-height : 65px;
+	margin-top : 25px;
+}
+
+header.head .header .hline{
+	min-height   : 15px;
+	border-bottom: 2px solid whiteSmoke;
 }
 
 /*--------------Middle part--------------*/
