@@ -2,29 +2,23 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>Untitled Document</title>
+    <title>Hannan ensemble</title>
     <link type="text/css" rel="stylesheet" href="reset.css" />
     <link type="text/css" rel="stylesheet" href="1styles.css" />
     <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<!---------------- Head Part ----------------->
-	<section class="head">
-    	<div class="grayline">
-        </div>	
+<!--/////////// Header Part /////////////-->
+	<header class="head">
+    	<div class="grayline"></div>	
         <section class="header">
         	<div class="logo"></div>
-            <div class="menubar"></div>
+            <nav class="menubar"></nav>
             <div class="clear"></div>
         </section>
-    </section>
-    <!------------ End Of Head -------------->
-    
-    
-    
-    
-    <!---------- Middle part ---------->
+    </header>    
+<!--/////////// Middle Part /////////////-->
     <section class="middle">
     	<section class="contain">
         	<div class="title"></div>
@@ -47,14 +41,8 @@
             </div>
         </section>
     </section>
-    <!----------- End of Middle ------------->
-    
-    
-    
-    
-    
-    <!----------- Foot Part ---------->
-    <section class="foot">
+<!--/////////// Footer Part /////////////-->
+    <footer class="foot">
     	<section class="contain">
         	<div class="bigfooter">
             	<div class="first" id="boxthree"></div>
@@ -73,10 +61,6 @@
             
         </section>
         <div class="darkline"></div>
-    </section>
-    <!------------- End Of Foot ------------>
-    
-    
-    
+    </footer>
 </body>
 </html>
