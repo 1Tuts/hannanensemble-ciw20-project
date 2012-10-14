@@ -21,14 +21,14 @@
     </header>    
 <!--/////////// Middle Part /////////////-->
     <section class="middle">
-    	<section class="contain">
+    	<section class="container">
         	<div class="title"></div>
             <div class="banner"></div>
             <div class="boxess">
-            	<div class="first" id="boxone"></div>
-                <div class="second" id="boxone"></div>
-                <div class="third" id="boxone"></div>
-                <div class="forth"></div>
+            	<div class="first w6 left"></div>
+                <div class="second w6 left"></div>
+                <div class="third w6 left"></div>
+                <div class="forth ml18 last"></div>
                 <div class="clear"></div>
             </div>
             

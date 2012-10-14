@@ -47,62 +47,41 @@ header.head .header .hline{
 section.middle{
 	left : 0;
 	right: 0;
-	margin-top   : 30px;
+	margin-top: 30px;
 }
 
-section.middle .contain{
-	margin:0 auto;
-	width :950px;
+section.middle .container{
 	min-height: 1100px;
-	
 }
 
-section.middle .contain .title{
-	margin: 0 auto;
-	width : 950px; ;
+section.middle .container .title{
 	min-height   : 80px ;
 	border-bottom: 1px solid whiteSmoke;
 }
 
-section.middle .contain .banner{
-	margin:0 auto;
-	width:950px; ;
-	min-height:365px ;
-	margin-top:35px;
-	
+section.middle .container .banner{
+	min-height: 365px;
+	margin-top: 35px;
 }
 
-/* box haye zier slide */
-section.middle .contain .boxess{
-	margin:0 auto;
-	width: 950px;;
-	min-height:260px; 
-	margin-top:30px;
-	
+section.middle .container .boxess{
+	min-height: 260px; 
+	margin-top: 30px;
 }
 
-section.middle .contain .boxess .forth{/* last box*/
-	margin-left:715px;
-	min-height:230px;
-	
-}
-
-#boxone{
-	float:left;
-	width:237px;
-	min-height:230px;
-	
+section.middle .container .boxess .first,.second,.third,.forth{
+	min-height : 230px;
 }
 
 /* RECENT WORK */
-section.middle .contain .recentwork{
+section.middle .container .recentwork{
 	margin:0 auto;
 	width:950px; ;
 	min-height:216px ;
 	margin-top:40px;
 }
 
-section.middle .contain .recentwork .forth{/* last box*/
+section.middle .container .recentwork .forth{/* last box*/
 	margin-left:715px;
 	min-height:inherit;		
 }
@@ -116,42 +95,42 @@ section.middle .contain .recentwork .forth{/* last box*/
 }
 
 /*--------------Footer part--------------*/ 
-footer.foot {
+footer.foot{
 	left:0;
 	right:0;
 }
 
-footer.foot .contain {
+footer.foot .contain{
 	margin:0 auto;
 	width:950px;
 	margin-top:20px;
 }
 
-footer.foot .contain .bigfooter {/* div 4 box */
+/* div 4 box */
+footer.foot .contain .bigfooter{
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
 }
 
-footer.foot .contain .bigfooter .forth { /* last box*/
+/* last box*/
+footer.foot .contain .bigfooter .forth { 
 	margin-left:715px;
 	min-height:inherit;
-		
 }
 
 #boxthree{
 	float:left;
 	width:237px;
 	min-height:inherit;
-	
 }
 
-footer.foot .contain .footer {/* Copyright */
+/* Copyright */
+footer.foot .contain .footer {
 	margin:0 auto;
 	width:949px; /* 1px for pading*/
 	min-height:65px;
 	padding:1px;
-	
 }
 
 footer.foot .contain .footer .copyright{
@@ -160,7 +139,6 @@ footer.foot .contain .footer .copyright{
 	float:left;
 	width:260px; 
 	min-height:30px; 
-	
 }
 
 footer.foot .contain .footer .facebook{
@@ -168,10 +146,10 @@ footer.foot .contain .footer .facebook{
 	margin-top:20px;
 	width:295px;
 	min-height:30px;
-		
 }
 
-footer.foot .darkline {/*Darkline in bottom*/
+/*Darkline in bottom*/
+footer.foot .darkline {
 	left:0;
 	right:0;
 	min-height:0px;
