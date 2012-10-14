@@ -60,7 +60,7 @@ header.action {
 	margin   : 0 !important;
 	position : fixed;
 	background-color : #f8f8f8;
-	box-shadow: 0 0 10px #444;
+	box-shadow: 0 0 20px #666;
 }
 
 header.action .header {

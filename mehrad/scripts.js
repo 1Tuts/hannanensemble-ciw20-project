@@ -3,14 +3,11 @@ $(function(){
 window.onscroll=function(){
 		var scrolled = $(window).scrollTop();
 		//console.log(scrolled);
-		if(scrolled < 31){
+		if(scrolled < 30){
 			$('header.head').removeClass('action');
 
 		}else{
 			
-			$('header.action').css({
-				opacity:0
-			});
 			$('header.head').addClass('action');
 
 			$('header.action').animate({
