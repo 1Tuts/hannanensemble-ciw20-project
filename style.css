@@ -45,23 +45,23 @@ header.head .header .hline{
 
 /*--------------Middle part--------------*/
 section.middle{
-	left:0;
-	right:0;
-	margin-top:35px;
+	left : 0;
+	right: 0;
+	margin-top   : 30px;
 }
 
 section.middle .contain{
 	margin:0 auto;
-	width:950px;;
-	min-height:1100px;
+	width :950px;
+	min-height: 1100px;
 	
 }
 
 section.middle .contain .title{
-	margin:0 auto;
-	width:950px; ;
-	min-height:80px ;
-	
+	margin: 0 auto;
+	width : 950px; ;
+	min-height   : 80px ;
+	border-bottom: 1px solid whiteSmoke;
 }
 
 section.middle .contain .banner{
