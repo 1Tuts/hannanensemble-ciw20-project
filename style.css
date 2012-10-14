@@ -1,185 +1,160 @@
-section, div {
-	outline:1px solid red;
+*,nav,header,footer,section,div {
+	outline: 1px dashed red;
 }
+
 body {
-	background-image:url('images/backpic.jpg');
-	background-repeat:no-repeat;
-	background-position:top center;
-	margin:0 auto;
-	min-height:1900px;
+	background-image   : url('images/backpic.jpg');
+	background-repeat  : no-repeat;
+	background-position: top center;
+	margin    : 0 auto;
+	min-height: 1640px;
 }
-/*--------------Head-------------*/
-section.head .grayline{
-	left      :0;
-	right     :0;
-	min-height:0px;
-	border    :2px solid #CCC;
-}
-section.head{
-	left:0;
-	right:0;
-	min-height:85px;
-	
-}
-section.head .header{
-	margin:0 auto;
-	width:950px;
-	min-height:110px;
-	/*border-bottom:1px solid #CCC;*/
-	padding:1px;
-	
-}
-section.head .header .logo{
-	width:130px;
-	min-height:65px;
-	float:left;
-	margin-top:25px;
-	
-}
-section.head .header .menubar{
-	width:390px;
-	min-height:65px;
-	margin-left:560px;
-	margin-top:25px;
-	
-}
-/*--------------End Head--------------*/
 
+/*--------------Header part-------------*/
+header.head{
+	left : 0;
+	right: 0;
+	min-height: 85px;
+}
 
+header.head .grayline{
+	left : 0;
+	right: 0;
+	border-top: 7px solid whiteSmoke;
+}
 
-/*--------------Middle--------------*/
+header.head .header{
+	min-height: 110px;
+	padding   : 1px;
+}
+
+header.head .header .logo{
+	min-height: 65px;
+	margin-top: 25px;
+}
+
+header.head .header .menubar{
+	min-height : 65px;
+	margin-top : 25px;
+}
+
+header.head .header .hline{
+	min-height   : 15px;
+	border-bottom: 2px solid whiteSmoke;
+}
+
+/*--------------Middle part--------------*/
 section.middle{
-	left:0;
-	right:0;
-	margin-top:35px;
-}
-section.middle .contain{
-	margin:0 auto;
-	width:950px;;
-	min-height:1100px;
-	
-}
-section.middle .contain .title{
-	margin:0 auto;
-	width:950px; ;
-	min-height:80px ;
-	
-}
-section.middle .contain .banner{
-	margin:0 auto;
-	width:950px; ;
-	min-height:365px ;
-	margin-top:35px;
-	
+	left : 0;
+	right: 0;
+	margin-top: 30px;
 }
 
-/* box haye zier slide */
-section.middle .contain .boxess{
-	margin:0 auto;
-	width: 950px;;
-	min-height:260px; 
-	margin-top:30px;
-	
+section.middle .container{
+	min-height: 1100px;
 }
-section.middle .contain .boxess .forth{/* last box*/
-	margin-left:715px;
-	min-height:230px;
-	
+
+section.middle .container .title{
+	min-height   : 80px ;
+	border-bottom: 1px solid whiteSmoke;
 }
-#boxone{
-	float:left;
-	width:237px;
-	min-height:230px;
-	
+
+section.middle .container .banner{
+	min-height: 365px;
+	margin-top: 35px;
+}
+
+section.middle .container .boxess{
+	min-height: 260px; 
+	margin-top: 30px;
+}
+
+section.middle .container .boxess .first,.second,.third,.forth{
+	min-height : 230px;
 }
 
 /* RECENT WORK */
-section.middle .contain .recentwork{
+section.middle .container .recentwork{
 	margin:0 auto;
 	width:950px; ;
 	min-height:216px ;
 	margin-top:40px;
-	}
-section.middle .contain .recentwork .forth{/* last box*/
+}
+
+section.middle .container .recentwork .forth{/* last box*/
 	margin-left:715px;
 	min-height:inherit;		
 }
+
 #boxtwo{
 	float:left;
 	width:236px;
 	min-height:inherit;
 	border-right:2px solid #FFF;				
 	
-	}
+}
 
-
-/*--------------End Middle--------------*/ 
-
-
-
-
-
-/*--------------Foot--------------*/ 
-section.foot {
+/*--------------Footer part--------------*/ 
+footer.foot{
 	left:0;
 	right:0;
 }
-section.foot .contain {
+
+footer.foot .contain{
 	margin:0 auto;
 	width:950px;
 	margin-top:20px;
-	
 }
 
-section.foot .contain .bigfooter {/* div 4 box */
+/* div 4 box */
+footer.foot .contain .bigfooter{
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
-	
 }
-section.foot .contain .bigfooter .forth { /* last box*/
+
+/* last box*/
+footer.foot .contain .bigfooter .forth { 
 	margin-left:715px;
 	min-height:inherit;
-		
 }
+
 #boxthree{
 	float:left;
 	width:237px;
 	min-height:inherit;
-	
 }
 
-section.foot .contain .footer {/* Copyright */
+/* Copyright */
+footer.foot .contain .footer {
 	margin:0 auto;
 	width:949px; /* 1px for pading*/
 	min-height:65px;
 	padding:1px;
-	
 }
-section.foot .contain .footer .copyright{
+
+footer.foot .contain .footer .copyright{
 	margin-top:20px;
 	margin-left:25px;
 	float:left;
 	width:260px; 
 	min-height:30px; 
-	
 }
 
-section.foot .contain .footer .facebook{
+footer.foot .contain .footer .facebook{
 	margin-left:640px;
 	margin-top:20px;
 	width:295px;
 	min-height:30px;
-		
 }
-section.foot .darkline {/*Darkline in bottom*/
+
+/*Darkline in bottom*/
+footer.foot .darkline {
 	left:0;
 	right:0;
 	min-height:0px;
 	outline:2px solid #333;			
 }
-/*--------------End Foot--------------*/
-
 
 /*=================== CONTACT  PAGE ======================*/ 
 section.contct .contain{
@@ -189,6 +164,7 @@ section.contct .contain{
 	margin:0 auto;
 	
 }
+
 section.contct .contain .text{
 	min-height:70px;	
 	width:950px;;
@@ -196,6 +172,7 @@ section.contct .contain .text{
 	/*border-bottom:1px solid #CCC; baraye do khatte bala va paiin 
 	border-top:1px solid #CCC;*/
 }
+
 section.contct .contain .lcontact{
 	float:left;
 	min-height:600px;	
@@ -203,6 +180,7 @@ section.contct .contain .lcontact{
 	width:460px;
 	margin-top:20px;		
 }
+
 section.contct .contain .rcontact{
 	margin-left:490px;
 	min-height:600px;	
@@ -211,10 +189,12 @@ section.contct .contain .rcontact{
 	margin-top:20px;
 	padding:1px;		
 }
+
 section.contct .contain .rcontact .text{
 	width:450px;	
 	min-height:50px;	
 }
+
 section.contct .contain .rcontact .name, .email, .subject, .messege, .submit{
 	width:370px;
 	margin-left:25px;	
@@ -222,24 +202,28 @@ section.contct .contain .rcontact .name, .email, .subject, .messege, .submit{
 	outline:1px solid red;
 	min-height:30px;				
 }
+
 #txtboxdiv{
 	margin-top:34px;
 }
+
 #msgdiv{
 	margin-top:20px;
 	width:415px;	
 	min-height:160px;				
 }
+
 #subdiv{
 	margin-top:24px;
 		
 }
-/*=================== ABOUT US PAGE ======================*/ 
 
+/*=================== ABOUT US PAGE ======================*/ 
 section.about .contain{
 	width:950px;;	
 	margin:0 auto;
 }
+
 section.about .contain .text{
 	
 	min-height:480px;
@@ -248,23 +232,28 @@ section.about .contain .text{
 	/* baraye bordere khate paiine 
 	lotfan gir nadahid doostan */
 }
+
 section.about .contain .text .headtxt{
 	min-height:90px;
 	width:950px;;	
 }
+
 section.about .contain .text .lefttxt, .midtxt, .righttxt{
 	float:left;
 	min-height:320px;
 	width:300px;
 	margin-top:20px;				
 }
+
 section.about .contain .text .midtxt{
 	margin-left:20px;
 }
+
 section.about .contain .text .righttxt{
 	float:none;
 	margin-left:650px;		
 }
+
 /* --Pics Part -- */
 section.about .contain .pics{
 	min-height:440px;
@@ -272,12 +261,14 @@ section.about .contain .pics{
 	margin-top:35px;	
 	
 }
+
 section.about .contain .pics .first, .second, .third{
 	float:left;
 	width:290px;
 	min-height:inherit;
 	margin-left:0px;		
 }
+
 section.about .contain .pics .second{
 	margin-left:40px;
 }

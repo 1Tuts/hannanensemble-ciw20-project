@@ -1,39 +1,34 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<link type="text/css" rel="stylesheet" href="reset.css" />
-<link type="text/css" rel="stylesheet" href="1styles.css" />
-<link type="text/css" rel="stylesheet" href="mystyle.css" />
+    <meta charset="UTF-8">
+    <title>Hannan ensemble</title>
+    <link type="text/css" rel="stylesheet" href="reset.css" />
+    <link type="text/css" rel="stylesheet" href="1styles.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<!---------------- Head Part ----------------->
-	<section class="head">
-    	<div class="grayline">
-        </div>	
-        <section class="header">
-        	<div class="logo"></div>
-            <div class="menubar"></div>
+<!--/////////// Header Part /////////////-->
+	<header class="head">
+    	<div class="grayline"></div>	
+        <section class="header container">
+        	<nav class="menubar w10 right last"></nav>
+            <div class="logo w4"></div>
             <div class="clear"></div>
+            <div class="hline"></div>
         </section>
-    </section>
-    <!------------ End Of Head -------------->
-    
-    
-    
-    
-    <!---------- Middle part ---------->
+    </header>    
+<!--/////////// Middle Part /////////////-->
     <section class="middle">
-    	<section class="contain">
+    	<section class="container">
         	<div class="title"></div>
             <div class="banner"></div>
             <div class="boxess">
-            	<div class="first" id="boxone"></div>
-                <div class="second" id="boxone"></div>
-                <div class="third" id="boxone"></div>
-                <div class="forth"></div>
+            	<div class="first w6 left"></div>
+                <div class="second w6 left"></div>
+                <div class="third w6 left"></div>
+                <div class="forth ml18 last"></div>
                 <div class="clear"></div>
             </div>
             
@@ -47,14 +42,8 @@
             </div>
         </section>
     </section>
-    <!----------- End of Middle ------------->
-    
-    
-    
-    
-    
-    <!----------- Foot Part ---------->
-    <section class="foot">
+<!--/////////// Footer Part /////////////-->
+    <footer class="foot">
     	<section class="contain">
         	<div class="bigfooter">
             	<div class="first" id="boxthree"></div>
@@ -73,10 +62,6 @@
             
         </section>
         <div class="darkline"></div>
-    </section>
-    <!------------- End Of Foot ------------>
-    
-    
-    
+    </footer>
 </body>
 </html>
