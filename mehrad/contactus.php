@@ -11,7 +11,8 @@
 </head>
 <style>
 body{
-	/*background-image:url('images/contactUs.jpg');*/
+	background-image:url('images/bg-1.png');
+	background-repeat: repeat;
 }
 </style>
 
@@ -45,7 +46,9 @@ body{
 		</section>
 	</header>
 	<article class="middle">
-		<div class="title"></div>
+		<div class="title">
+			برای آشنایی بیشتر با ما تماس بگیرید
+		</div>
 		<div class="contact-ways">
 			<div class="send-message">
 				<h4>ارسال پیام</h4>

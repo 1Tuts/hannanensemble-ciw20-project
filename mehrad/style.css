@@ -59,7 +59,7 @@ nav.action {
 	padding         : 0 !important;
 	margin          : 0 !important;
 	position        : fixed;
-	background-color: #f8f8f8;
+	background-color: rgba(240,240,240,.9);
 	box-shadow      : 0 0 20px #666;
 	width: 100%;
 }
@@ -121,9 +121,10 @@ article.middle{
 article.middle .title {
 	margin       : 0 auto;
 	width        : 950px;
-	min-height   : 80px;
-	padding      : 17px 0;
-	text-align   : center;
+	font-size: 25px;
+	color: #aaa;
+	font-weight: 300;
+	padding      : 37px 0;
 	border-bottom : 1px solid #eee;
 	margin-bottom: 30px;
 }
@@ -309,6 +310,7 @@ div.send-message form#contact textarea:focus::-webkit-input-placeholder{
 
 div.contact-info {
 	margin-right: 490px;
+	color: #707070;
 }
 
 div.contact-info h4 {
@@ -328,11 +330,13 @@ div.contact-info p {
 }
 
 div.contact-info span {
-	padding-right: 50px;
+	min-height: 80px;
+	padding-right: 45px;
 	line-height: 25px;
 	background-position: center right;
 	background-repeat: no-repeat;
 	display: block;
+	border : 2px dashed #ddd;
 }
 
 div.contact-info span.address {
@@ -343,7 +347,7 @@ div.contact-info span.address {
 
 div.contact-info span.tell {
 	background-image: url('images/address-icon2.png');
-	margin-right: 225px;
+	margin-right: 230px;
 }
 /*=================== ABOUT US PAGE ======================*/ 
 
