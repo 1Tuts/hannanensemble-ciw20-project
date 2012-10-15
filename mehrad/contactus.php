@@ -11,7 +11,7 @@
 </head>
 <style>
 body{
-	background-image:url('images/contactUs.jpg');
+	/*background-image:url('images/contactUs.jpg');*/
 }
 </style>
 
@@ -63,10 +63,10 @@ body{
 					برای تماس با سرپرست، تنظیم اجرا، همکاری، حمایت و یا هرگونه نظر و انتقاد از راه های زیر استفاده کنید و یا از طریق فرم مقابل برای ما ایمیل بفرستید.
 
 				</p>
-				<span>
-					آدرس : کارخانه پپسی
+				<span class="address">
+					آدرس : کارخانه پپسی سعادت ۲۲ آزادی ۹۵ پلاک ۱۹
 				</span>
-				<span>
+				<span class="tell">
 					email:etp1212@gmail.com<br />
 					تلفن: ۰۹۱۵۵۵۵۵۵۵۵۵
 				</span>
