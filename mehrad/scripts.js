@@ -38,7 +38,7 @@ window.onscroll=function(){
 
 					opacity : 1
 
-				},500)
+				},400)
 
 			$('nav.normal').css({
 
