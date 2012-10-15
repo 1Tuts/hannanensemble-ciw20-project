@@ -13,74 +13,84 @@
 
 <body>
 	<header class="head">
-    	<div class="grayline">
-        </div>	
-        <section class="header">
-            <nav>
-                <menu>
-                    <li><a href="#">home<span>|</span></a></li>
-                    <li><a href="#">about<span>|</span></a></li>
-                    <li><a href="#">members<span>|</span></a></li>
-                    <li><a href="#">news<span>|</span></a></li>
-                    <li><a href="#">contact<span>|</span></a></li>
-                    <li class="clear"></li>
-                </menu>
-            </nav>
-        	<div class="logo"></div>
-            <div class="clear"></div>
-        </section>
-    </header>
-    <article class="middle">
-        	<div class="title"></div>
-            <div class="banner">
-                <?php
+		<div class="grayline">
+		</div>  
+		<section class="header">
+			<nav class="normal">
+				<menu>
+					<li><a href="#">صفحه اصلی<span>|</span></a></li>
+					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="#">اعضا<span>|</span></a></li>
+					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span>|</span></a></li>
+					<li class="clear"></li>
+				</menu>
+			</nav>
+			<nav class="action">
+				<menu>
+					<li><a href="#">صفحه اصلی<span>|</span></a></li>
+					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="#">اعضا<span>|</span></a></li>
+					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span>|</span></a></li>
+					<li class="clear"></li>
+				</menu>
+			</nav>
+			<div class="logo"></div>
+			<div class="clear"></div>
+		</section>
+	</header>
+	<article class="middle">
+			<div class="title"></div>
+			<div class="banner">
+				<?php
 
-                    $images_path = './images/slide';
-                    $images      = scandir($images_path);
+					$images_path = './images/slide';
+					$images      = scandir($images_path);
 
-                    foreach ($images as $img) {
+					foreach ($images as $img) {
 
-                        $img_type = strtolower( end( explode( '.' , $img ) ) );
+						$img_type = strtolower( end( explode( '.' , $img ) ) );
 
-                        if($img_type == 'jpg' || $img_type == 'png'){
+						if($img_type == 'jpg' || $img_type == 'png'){
 
-                            echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
-                        }
-                    }
-                ?>
-            </div>
-            <div class="boxess">
-            	<div class="first" id="boxone"></div>
-                <div class="second" id="boxone"></div>
-                <div class="third" id="boxone"></div>
-                <div class="forth"></div>
-                <div class="clear"></div>
-            </div>
-            <div class="recentwork">
-            	<div class="first" id="boxtwo"></div>
-                <div class="second" id="boxtwo"></div>
-                <div class="third" id="boxtwo"></div>
-                <div class="forth"></div>
-                <div class="clear"></div>
-            </div>
-    </article>
-    <footer class="foot">
-    	<section class="contain">
-        	<div class="bigfooter">
-            	<div class="first" id="boxthree"></div>
-                <div class="second" id="boxthree"></div>
-                <div class="third" id="boxthree"></div>
-                <div class="forth"></div>
-                <div class="clear"></div>
-            </div>
-            <div class="footer">
-            	<div class="copyright"></div>
-                <div class="facebook"></div>
-                <div class="clear"></div>
-            </div>
-            
-        </section>
-        <div class="darkline"></div>
-    </footer>
+							echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+						}
+					}
+				?>
+			</div>
+			<div class="boxess">
+				<div class="first" id="boxone"></div>
+				<div class="second" id="boxone"></div>
+				<div class="third" id="boxone"></div>
+				<div class="forth"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="recentwork">
+				<div class="first" id="boxtwo"></div>
+				<div class="second" id="boxtwo"></div>
+				<div class="third" id="boxtwo"></div>
+				<div class="forth"></div>
+				<div class="clear"></div>
+			</div>
+	</article>
+	<footer class="foot">
+		<section class="contain">
+			<div class="bigfooter">
+				<div class="first" id="boxthree"></div>
+				<div class="second" id="boxthree"></div>
+				<div class="third" id="boxthree"></div>
+				<div class="forth"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="footer">
+				<div class="copyright"></div>
+				<div class="facebook"></div>
+				<div class="clear"></div>
+			</div>
+			
+		</section>
+		<div class="darkline"></div>
+	</footer>
 </body>
 </html>

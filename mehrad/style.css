@@ -48,28 +48,25 @@ header.head .header .logo{
 }
 
 header.head .header nav {
-	float: right;
+	float : right;
+}
+/***************************  ACTION MENU  **************************/
+nav.action {
+	opacity         : 0;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	padding         : 0 !important;
+	margin          : 0 !important;
+	position        : fixed;
+	background-color: #f8f8f8;
+	box-shadow      : 0 0 20px #666;
+	width: 100%;
 }
 
-header.action {
-	opacity  : 0;
-	top      : 0;
-	left     : 0;
-	right    : 0;
-	padding  : 0 !important;
-	margin   : 0 !important;
-	position : fixed;
-	background-color : #f8f8f8;
-	box-shadow: 0 0 20px #666;
-}
-
-header.action .header {
-	padding : 0 !important;
-
-}
-
-header.action .header .logo {
-	display : none;
+nav.action menu{
+	width: 950px;
+	margin: 0 auto;
 }
 
 header.head .header nav menu {
@@ -77,12 +74,12 @@ header.head .header nav menu {
 }
 
 header.head .header nav menu li {
-	float : left;
+	float : right;
 }
 
 header.head .header nav menu li a {
 	display         : block;
-	padding         : 17px 0 17px 15px;	
+	padding         : 17px 15px 17px 0;	
 	text-decoration : none;
 	text-transform  : uppercase;
 	color           : #666;
@@ -92,7 +89,7 @@ header.head .header nav menu li a {
 
 header.head .header nav menu li a span {
 	color        : #aaa;
-	padding-left : 15px;
+	padding-right: 15px;
 	font-size    : 11px;
 	font-weight  : 200;
 }

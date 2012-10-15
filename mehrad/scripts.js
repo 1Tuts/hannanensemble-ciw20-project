@@ -4,17 +4,46 @@ window.onscroll=function(){
 		var scrolled = $(window).scrollTop();
 		//console.log(scrolled);
 		if(scrolled < 30){
-			$('header.head').removeClass('action');
 
-		}else{
-			
-			$('header.head').addClass('action');
+			$('nav.action').animate({
 
-			$('header.action').animate({
+				opacity : 0
 
-				opacity:1
+			},350,null,function(){
+
+				$('nav.action').css({
+
+					display : 'none'
+
+				});
+			});
+
+			setTimeout(function(){
+
+				$('nav.normal').animate({
+
+					opacity : 1
+
+				},400);
 
 			},500);
+
+		}else{
+
+			$('nav.action').css({
+
+				display : 'block'
+
+			}).animate({
+
+					opacity : 1
+
+				},500)
+
+			$('nav.normal').css({
+
+				opacity:0
+			});
 		}
 	};	
 });
