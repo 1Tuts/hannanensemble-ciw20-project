@@ -85,6 +85,7 @@ header.head .header nav menu li a {
 	color           : #666;
 	font-size       : 13px;
 	font-weight     : 400;
+	-webkit-transition: all 200ms;
 }
 
 header.head .header nav menu li a span {

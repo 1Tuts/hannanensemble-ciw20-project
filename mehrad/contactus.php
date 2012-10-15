@@ -11,7 +11,7 @@
 </head>
 <style>
 body{
-	background-image:url('images/bg-1.png');
+	background-image:url('images/bg-9.png');
 	background-repeat: repeat;
 }
 </style>
