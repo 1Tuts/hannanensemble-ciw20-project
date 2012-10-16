@@ -147,6 +147,26 @@ section.contain .middle .banner {
 	min-height : 365px;
 	margin-bottom: 30px;
 }
+/************************* SLIDER ******************************/
+div.middle .banner {
+	position : relative;
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 365px;
+	margin-bottom: 30px;
+	z-index: 0;
+}
+
+div.middle .banner > div {
+	position : absolute;
+	height   : 365px;
+	width    : 950px;
+	top      : 0;
+	left     : 0;
+	z-index  : -2;
+	background-position : center center;
+	background-repeat   : no-repeat;
+}
 
 /* box haye zier slide */
 

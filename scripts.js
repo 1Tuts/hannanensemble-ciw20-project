@@ -15,22 +15,23 @@ window.onscroll=function(){
 		//console.log(scrolled);
 		if(scrolled < 31){
 
-			$('header.action').animate({
+			$('nav.action').animate({
 
 				opacity : 0
 
 			},350,null,function(){
 
-				$('header.action').css({
+				$('nav.action').css({
 
-					display : 'none'
+					display : 'none',
+					width : 0
 
 				});
 			});
 
 			setTimeout(function(){
 
-				$('header.normal').animate({
+				$('nav.normal').animate({
 
 					opacity : 1
 
@@ -40,16 +41,23 @@ window.onscroll=function(){
 
 		}else{
 
-			$('header.normal').css({
+			$('nav.normal').css({
 
 				opacity:0
 			});
 
-			$('header.action').animate({
+			$('nav.action').animate({
 					display : 'block'
 
 				},0,'linear',function(){
-					$(this).animate({ 'opacity' : 1 },170);
+
+					$(this).animate({
+
+					 'opacity' : 1,
+
+					 'width' : 100+'%' 
+
+					},170);
 				});
 
 		}

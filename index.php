@@ -49,7 +49,27 @@
 	<section class="contain">
 		<div class="middle">
 			<div class="title"></div>
-			<div class="banner"></div>
+			<div class="banner">
+                <?php
+
+                    $images_path = './images/slide';
+                    $images      = scandir($images_path);
+
+                    foreach ($images as $img) {
+
+                        $img_exp = explode('.' , $img);
+
+                        $img_exp_end = end($img_exp );
+
+                        $img_type = strtolower($img_exp_end );
+
+                        if($img_type == 'jpg' || $img_type == 'png'){
+
+                            echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+                        }
+                    }
+                ?>         
+            </div>
 			<div class="boxess">
 				<div class="first" id="boxone"></div>
 				<div class="second" id="boxone"></div>
