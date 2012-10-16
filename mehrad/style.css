@@ -22,6 +22,7 @@ body {
 }
 
 /***********************  HEADER  ***************************/
+
 header.normal {
 
 }
@@ -58,6 +59,7 @@ header.action {
 	background-color : rgba(240,240,240,.9);
 	box-shadow       : 0 0 20px #666;
 	width            : 100%;
+	z-index: 30;
 }
 
 header.action section.header {
@@ -111,7 +113,6 @@ nav menu li a:hover span {
 nav menu li a.active {
 	background-color :  #F96E5B;
 }
-
 
 /*--------------Middle--------------*/
 

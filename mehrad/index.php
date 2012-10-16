@@ -31,7 +31,6 @@
 			</section>
 		</header>
 		<header class="action">
-			<div class="grayline"></div>	
 			<section class="header">
 				<nav>
 					<menu>
