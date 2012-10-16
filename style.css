@@ -12,14 +12,10 @@ body {
 
 /*--------------Header part-------------*/
 header.head{
-	left : 0;
-	right: 0;
 	min-height: 85px;
 }
 
 header.head .grayline{
-	left : 0;
-	right: 0;
 	border-top: 7px solid whiteSmoke;
 }
 
@@ -45,8 +41,6 @@ header.head .header .hline{
 
 /*--------------Middle part--------------*/
 section.middle{
-	left : 0;
-	right: 0;
 	margin-top: 30px;
 }
 
@@ -69,37 +63,24 @@ section.middle .container .boxess{
 	margin-top: 30px;
 }
 
-section.middle .container .boxess .first,.second,.third,.forth{
+section.middle .container .boxess .first,
+section.middle .container .boxess .second,
+section.middle .container .boxess .third,
+section.middle .container .boxess .forth{
 	min-height : 230px;
 }
 
 /* RECENT WORK */
 section.middle .container .recentwork{
-	margin:0 auto;
-	width:950px; ;
-	min-height:216px ;
-	margin-top:40px;
+	padding-top: 40px;
 }
-
-section.middle .container .recentwork .forth{/* last box*/
-	margin-left:715px;
-	min-height:inherit;		
+section.middle .container .recentwork .first,
+section.middle .container .recentwork .second,
+section.middle .container .recentwork .third,
+section.middle .container .recentwork .forth{
+	min-height:250px;
 }
-
-#boxtwo{
-	float:left;
-	width:236px;
-	min-height:inherit;
-	border-right:2px solid #FFF;				
-	
-}
-
 /*--------------Footer part--------------*/ 
-footer.foot{
-	left:0;
-	right:0;
-}
-
 footer.foot .contain{
 	margin:0 auto;
 	width:950px;
@@ -108,52 +89,35 @@ footer.foot .contain{
 
 /* div 4 box */
 footer.foot .contain .bigfooter{
-	margin:0 auto;
-	width:950px;;
-	min-height:300px;
+	min-height:275px;
+	padding-top: 25px;
 }
 
-/* last box*/
-footer.foot .contain .bigfooter .forth { 
-	margin-left:715px;
-	min-height:inherit;
-}
-
-#boxthree{
-	float:left;
-	width:237px;
-	min-height:inherit;
+footer.foot .contain .bigfooter .first,
+footer.foot .contain .bigfooter .second,
+footer.foot .contain .bigfooter .third,
+footer.foot .contain .bigfooter .forth{
+	min-height: 270px;
 }
 
 /* Copyright */
 footer.foot .contain .footer {
-	margin:0 auto;
-	width:949px; /* 1px for pading*/
-	min-height:65px;
-	padding:1px;
+	min-height:45px;
+	padding-top:25px;
 }
 
-footer.foot .contain .footer .copyright{
-	margin-top:20px;
-	margin-left:25px;
-	float:left;
-	width:260px; 
+footer.foot .contain .footer .copyright{ 
 	min-height:30px; 
 }
 
 footer.foot .contain .footer .facebook{
-	margin-left:640px;
-	margin-top:20px;
-	width:295px;
 	min-height:30px;
 }
 
 /*Darkline in bottom*/
 footer.foot .darkline {
-	left:0;
-	right:0;
 	min-height:0px;
-	outline:2px solid #333;			
+	border-bottom:7px solid #333;			
 }
 
 /*=================== CONTACT  PAGE ======================*/ 
@@ -229,13 +193,11 @@ section.about .contain .text{
 	min-height:480px;
 	width:950px;	
 	border-bottom:1px solid #CCC;
-	/* baraye bordere khate paiine 
-	lotfan gir nadahid doostan */
 }
 
 section.about .contain .text .headtxt{
 	min-height:90px;
-	width:950px;;	
+	width:950px;
 }
 
 section.about .contain .text .lefttxt, .midtxt, .righttxt{
@@ -262,7 +224,9 @@ section.about .contain .pics{
 	
 }
 
-section.about .contain .pics .first, .second, .third{
+section.about .contain .pics .first,
+section.about .contain .pics .second,
+section.about .contain .pics .third{
 	float:left;
 	width:290px;
 	min-height:inherit;
