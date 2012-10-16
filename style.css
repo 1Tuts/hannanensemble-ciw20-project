@@ -1,6 +1,7 @@
-/*section, div {*/
+/*section, div {
 	outline : 1px solid red;
 }
+*/
 
 .clear{
 	clear      : both;
@@ -47,10 +48,65 @@ header.head .header .logo{
 }
 
 header.head .header nav {
-	min-height  : 65px;
-	float: right;
+	float : right;
+}
+/***************************  ACTION MENU  **************************/
+nav.action {
+	opacity         : 0;
+	top             : 0;
+	left            : 0;
+	right           : 0;
+	padding         : 0 !important;
+	margin          : 0 !important;
+	position        : fixed;
+	background-color: rgba(240,240,240,.9);
+	box-shadow      : 0 0 20px #666;
+	width: 100%;
+	margin-right: -50%;
 }
 
+nav.action menu{
+	width: 950px;
+	margin: 0 auto;
+}
+
+header.head .header nav menu {
+	list-style : none;
+}
+
+header.head .header nav menu li {
+	float : right;
+}
+
+header.head .header nav menu li a {
+	display         : block;
+	padding         : 17px 15px 17px 0;	
+	text-decoration : none;
+	text-transform  : uppercase;
+	color           : #666;
+	font-size       : 13px;
+	font-weight     : 400;
+	-webkit-transition: all 200ms;
+}
+
+header.head .header nav menu li a span {
+	color        : #aaa;
+	padding-right: 15px;
+	font-size    : 11px;
+	font-weight  : 200;
+}
+
+header.head .header nav menu li a:hover {
+	background-color : #444;
+	color            : white;
+}
+header.head .header nav menu li a:hover span {
+	color : #444;
+}
+
+header.head .header nav menu li a.active {
+	background-color :  #F96E5B;
+}
 /*--------------Middle--------------*/
 section.contain{
 

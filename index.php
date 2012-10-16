@@ -6,13 +6,35 @@
     <link type="text/css" rel="stylesheet" href="reset.css" />
     <link type="text/css" rel="stylesheet" href="1styles.css" />
     <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="zepto.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="slide.js"></script>
 </head>
 
 <body>
 	<header class="head">
     	<div class="grayline"></div>	
         <section class="header">
-            <nav></nav>
+            <nav class="normal">
+                <menu>
+                    <li><a href="#">صفحه اصلی<span>|</span></a></li>
+                    <li><a href="#">درباره گروه<span>|</span></a></li>
+                    <li><a href="#">اعضا<span>|</span></a></li>
+                    <li><a href="#">اخبار<span>|</span></a></li>
+                    <li><a href="#">تماس با ما<span>|</span></a></li>
+                    <li class="clear"></li>
+                </menu>
+            </nav>
+            <nav class="action">
+                <menu>
+                    <li><a href="#">صفحه اصلی<span>|</span></a></li>
+                    <li><a href="#">درباره گروه<span>|</span></a></li>
+                    <li><a href="#">اعضا<span>|</span></a></li>
+                    <li><a href="#">اخبار<span>|</span></a></li>
+                    <li><a href="#">تماس با ما<span>|</span></a></li>
+                    <li class="clear"></li>
+                </menu>
+            </nav>
         	<div class="logo"></div>
             <div class="clear"></div>
         </section>
