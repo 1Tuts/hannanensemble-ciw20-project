@@ -159,7 +159,29 @@ article.middle .banner > div {
 	background-position : center center;
 	background-repeat   : no-repeat;
 }
+article.middle .banner > section {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 86%;
+	left: 0;
+}
 
+article.middle .banner > section div {
+	float: left;
+}
+div#preimg {
+	width: 48px;
+	height: 48px;
+	background-image: url('images/sprite.png');
+	background-color: #444;
+}
+div#nextimg {
+	width: 48px;
+	height: 48px;
+	background-color: #444;
+}
 /* box haye zier slide */
 
 article.middle .boxess{

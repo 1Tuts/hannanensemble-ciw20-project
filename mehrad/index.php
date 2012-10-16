@@ -56,7 +56,7 @@
 
 							$img_exp_end = end($img_exp );
 
-							$img_type = strtolower($img_exp_end );
+							$img_type = strtolower($img_exp_end);
 
 							if($img_type == 'jpg' || $img_type == 'png'){
 
@@ -64,6 +64,10 @@
 							}
 						}
 					?>
+					<section>
+						<div id="preimg"></div>
+						<div id="nextimg" onclick="nextPic();"></div>
+					</section>
 				</div>
 				<div class="boxess">
 					<div class="first" id="boxone"></div>
