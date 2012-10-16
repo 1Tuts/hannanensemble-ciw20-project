@@ -12,9 +12,9 @@
 </head>
 
 <body>
-	<header class="head">
+	<header class="normal">
 		<div class="grayline"></div>	
-		<section class="normal">
+		<section class="header">
 			<nav>
 				<menu>
 					<li><a href="#">صفحه اصلی<span>|</span></a></li>
@@ -28,7 +28,10 @@
 			<div class="logo"></div>
 			<div class="clear"></div>
 		</section>
-		<section class="action">
+	</header>
+	<header class="action">
+		<div class="grayline"></div>	
+		<section class="header">
 			<nav>
 				<menu>
 					<li><a href="#">صفحه اصلی<span>|</span></a></li>

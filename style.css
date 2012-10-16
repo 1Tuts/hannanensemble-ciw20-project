@@ -29,11 +29,11 @@ body {
 	border-top : 7px solid whiteSmoke;
 }
 
-header.head{
-	min-height : 85px;
+header.normal {
+
 }
 
-header.head .normal {
+section.header {
 	margin         : 0 auto;
 	width          : 950px;
 	padding-bottom : 25px;
@@ -41,18 +41,20 @@ header.head .normal {
 	border-bottom  : 2px solid #eee;
 }
 
-header.head section.normal .logo{
-	width        : 130px;
-	min-height   : 65px;
+header.normal section.header .logo {
+	width        : 145px;
+	min-height   : 45px;
 	margin-right : 810px;
-	background-image: url('images/logo.png');
+	background-image : url('images/logo.png');
 }
 
-header.head section.normal nav {
+section.header nav {
 	float : right;
 }
+
 /***************************  ACTION MENU  **************************/
-header.head section.action {
+
+header.action {
 	opacity          : 0;
 	top              : 0;
 	left             : 0;
@@ -65,32 +67,28 @@ header.head section.action {
 	width            : 100%;
 }
 
-section.action nav {
-	float: right;
+header.action section.header {
+	padding: 0;
 }
 
-section.action nav  menu{
-	width  : 950px;
-	margin : 0 auto;
-
-}
-
-section.action .logo {
-	width        : 130px;
-	min-height   : 65px;
+header.action .logo {
+	width        : 113px;
+	min-height   : 35px;
 	margin-right : 810px;
-	background-image: url('images/logo-min.png');
+	background-image : url('images/logo-min.png');
 }
+
 /**********************   NORMAL MENU   ***********************/
-header.head nav menu {
+
+nav menu {
 	list-style : none;
 }
 
-header.head nav menu li {
+nav menu li {
 	float : right;
 }
 
-header.head nav menu li a {
+nav menu li a {
 	display         : block;
 	padding         : 17px 15px 17px 0;	
 	text-decoration : none;
@@ -98,29 +96,32 @@ header.head nav menu li a {
 	color           : #666;
 	font-size       : 13px;
 	font-weight     : 400;
-	-webkit-transition: all 200ms;
+	-webkit-transition : all 200ms;
 }
 
-header.head nav menu li a span {
-	color        : #aaa;
-	padding-right: 15px;
-	font-size    : 11px;
-	font-weight  : 200;
+nav menu li a span {
+	color         : #aaa;
+	padding-right : 15px;
+	font-size     : 11px;
+	font-weight   : 200;
 }
 
-header.head nav menu li a:hover {
+nav menu li a:hover {
 	background-color : #444;
 	color            : white;
 }
-header.head nav menu li a:hover span {
+
+nav menu li a:hover span {
 	color : #444;
 }
 
-header.head nav menu li a.active {
+nav menu li a.active {
 	background-color :  #F96E5B;
 }
+
 /*--------------Middle--------------*/
-section.contain{
+
+section.contain {
 
 }
 
