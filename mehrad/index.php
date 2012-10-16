@@ -12,10 +12,10 @@
 </head>
 
 <body>
-	<div class="header-container">
+	<div class="grayline"></div> 
+	<div class="content-container">
 		<header class="head">
-			<div class="grayline">
-			</div>  
+			 
 			<section class="header">
 				<nav class="normal">
 					<menu>
@@ -41,8 +41,7 @@
 				<div class="clear"></div>
 			</section>
 		</header>
-	</div>
-	<div class="content-container">
+	
 		<article class="middle">
 				<div class="title"></div>
 				<div class="banner">
@@ -52,11 +51,12 @@
 						$images      = scandir($images_path);
 
 						foreach ($images as $img) {
-							$img_exp = explode( '.' , $img );
 
-							$img_exp_end = end( $img_exp );
+							$img_exp = explode('.' , $img);
 
-							$img_type = strtolower( $img_exp_end );
+							$img_exp_end = end($img_exp );
+
+							$img_type = strtolower($img_exp_end );
 
 							if($img_type == 'jpg' || $img_type == 'png'){
 

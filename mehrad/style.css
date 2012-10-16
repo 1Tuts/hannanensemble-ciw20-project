@@ -1,3 +1,4 @@
+
 section, div {
 	outline : 0px solid red;
 }
@@ -18,7 +19,6 @@ body {
 	background-repeat   : no-repeat;
 	background-position : top center;
 	margin              : 0 auto;
-	position            : relative;
 }
 
 /***********************  HEADER  ***************************/
@@ -145,6 +145,7 @@ article.middle .banner {
 	width      : 950px;
 	min-height : 365px;
 	margin-bottom: 30px;
+	z-index: 0;
 }
 
 article.middle .banner > div {
