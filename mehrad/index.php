@@ -52,8 +52,11 @@
 						$images      = scandir($images_path);
 
 						foreach ($images as $img) {
+							$img_exp = explode( '.' , $img );
 
-							$img_type = strtolower( end( explode( '.' , $img ) ) );
+							$img_exp_end = end( $img_exp );
+
+							$img_type = strtolower( $img_exp_end );
 
 							if($img_type == 'jpg' || $img_type == 'png'){
 
