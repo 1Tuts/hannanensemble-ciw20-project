@@ -55,7 +55,47 @@ window.onscroll=function(){
 				opacity:0
 			});
 		}
-	};	
+	};
+	$('form#contact').submit(function(){
+		var feild, err=false;
+
+		target = $('#name');
+
+		if (validateText( target.val(), 3 )) {
+
+			target.removeClass('err').addClass('ok');
+
+		}else{
+
+			target.removeClass('ok').addClass('err');
+			err= true;
+		}
+
+		target = $('#email');
+
+		if (validateEmail(target.val())) { 
+
+			target.removeClass('err').addClass('ok');
+		}else {
+
+			target.removeClass('ok').addClass('err');
+			err=true;
+		}
+
+		target = $('#message');
+
+		if (validateText( target.val(), 7 )) {
+
+			target.removeClass('err').addClass('ok');
+
+		}else {
+
+			target.removeClass('ok').addClass("err");
+			err=true;
+		}
+
+		return !err;
+	});
 });
 
 

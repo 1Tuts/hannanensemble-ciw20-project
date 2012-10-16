@@ -264,6 +264,13 @@ footer.foot .darkline {
 }
 
 /*=================== CONTACT  PAGE ======================*/ 
+.ok {
+	outline: 1px solid #4f4
+}
+
+.err {
+	outline: 1px solid #f44;
+}
 
 article.middle div.send-message {
 	float : right;
