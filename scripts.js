@@ -15,13 +15,13 @@ window.onscroll=function(){
 		//console.log(scrolled);
 		if(scrolled < 31){
 
-			$('nav.action').animate({
+			$('header.action').animate({
 
 				opacity : 0
 
 			},350,null,function(){
 
-				$('nav.action').css({
+				$('header.action').css({
 
 					display : 'none',
 					width : 0
@@ -31,7 +31,7 @@ window.onscroll=function(){
 
 			setTimeout(function(){
 
-				$('nav.normal').animate({
+				$('header.normal').animate({
 
 					opacity : 1
 
@@ -41,12 +41,12 @@ window.onscroll=function(){
 
 		}else{
 
-			$('nav.normal').css({
+			$('header.normal').css({
 
 				opacity:0
 			});
 
-			$('nav.action').animate({
+			$('header.action').animate({
 					display : 'block'
 
 				},0,'linear',function(){
