@@ -50,7 +50,14 @@ window.onscroll=function(){
 					display : 'block'
 
 				},0,'linear',function(){
-					$(this).animate({ 'opacity' : 1,'width' : 100 + '%' },170);
+
+					$(this).animate({
+
+					 'opacity' : 1,
+
+					 'width' : 100+'%' 
+
+					},170);
 				});
 
 		}
