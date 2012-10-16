@@ -345,9 +345,7 @@ footer.foot .contain .bigfooter .rss:hover{
 #boxthree h3{
 	margin-top:37px;
 	margin-right:25px;
-	color:#FFF;				
 }
-
 footer.foot .contain .footer {/* Copyright */
 	margin:0 auto;
 	width:949px; /* 1px for pading*/
@@ -364,22 +362,12 @@ footer.foot .contain .footer .copyright{
 	min-height:30px; 
 	outline: 1px solid red;
 }
-footer.foot .contain .footer .copyright h6{
-	color:#868686;	
-	font-size:14px;
-	text-align:right;	
-}
 footer.foot .contain .footer .designteam{
 	margin-left:640px;
 	margin-top:20px;
 	width:295px;
 	min-height:30px;
 	outline: 1px solid red;	
-}
-footer.foot .contain .footer .designteam h6{
-	color:#868686;	
-	font-size:14px;
-	text-align:right;	
 }
 footer.foot .darkline {/*Darkline in bottom*/
 	left:0;
