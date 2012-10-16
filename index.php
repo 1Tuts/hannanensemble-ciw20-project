@@ -34,10 +34,10 @@
             
             <!-- RECENT WORK -->
             <div class="recentwork">
-            	<div class="first" id="boxtwo"></div>
-                <div class="second" id="boxtwo"></div>
-                <div class="third" id="boxtwo"></div>
-                <div class="forth"></div>
+            	<div class="first w6 left"></div>
+                <div class="second w6 left"></div>
+                <div class="third w6 left"></div>
+                <div class="forth ml18 last"></div>
                 <div class="clear"></div>
             </div>
         </section>

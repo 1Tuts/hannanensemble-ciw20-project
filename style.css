@@ -78,26 +78,14 @@ section.middle .container .boxess .forth{
 
 /* RECENT WORK */
 section.middle .container .recentwork{
-	margin:0 auto;
-	width:950px; ;
-	min-height:216px ;
-	margin-top:40px;
+	padding-top: 40px;
 }
-
-/* last box */
+section.middle .container .recentwork .first,
+section.middle .container .recentwork .second,
+section.middle .container .recentwork .third,
 section.middle .container .recentwork .forth{
-	margin-left:715px;
-	min-height:inherit;		
+	min-height:250px;
 }
-
-#boxtwo{
-	float:left;
-	width:236px;
-	min-height:inherit;
-	border-right:2px solid #FFF;				
-	
-}
-
 /*--------------Footer part--------------*/ 
 footer.foot{
 	left:0;
@@ -233,13 +221,11 @@ section.about .contain .text{
 	min-height:480px;
 	width:950px;	
 	border-bottom:1px solid #CCC;
-	/* baraye bordere khate paiine 
-	lotfan gir nadahid doostan */
 }
 
 section.about .contain .text .headtxt{
 	min-height:90px;
-	width:950px;;	
+	width:950px;
 }
 
 section.about .contain .text .lefttxt, .midtxt, .righttxt{
