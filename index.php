@@ -6,12 +6,12 @@
 	<link type="text/css" rel="stylesheet" href="reset.css" />
 	<link type="text/css" rel="stylesheet" href="1styles.css" />
 	<link type="text/css" rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="zepto.js"></script>
-	<script type="text/javascript" src="scripts.js"></script>
-	<script type="text/javascript" src="slide.js"></script>
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/slide.js"></script>
 
     <!--[if lt IE 9]>
-        <script src="html5shiv.js"></script>
+        <script src="js/html5shiv.js"></script>
     <![endif]-->
 </head>
 
