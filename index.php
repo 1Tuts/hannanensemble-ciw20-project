@@ -115,7 +115,7 @@
 					<p class="rights">Copyright © 2012 HananEnsemble.</p>
 				</div>
 				<div class="designteam">
-					<p>Follow Designing Team DibaDev In <span>Github</span></p>
+					<p class="Design">Follow Designing Team "DibaDev" On <span><a>Twitter, <a/></span> <span><a>Facebook,</a></span> <span><a>Github </a></span></p>
 				</div>
 				<div class="clear"></div>
 			</div>

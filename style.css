@@ -363,15 +363,15 @@ footer.foot .contain .footer .copyright{
 	direction: ltr;
 	line-height: 30px;
 }
-footer.foot .contain .footer .copyright .rights{
+footer.foot .contain .footer .copyright .rights, .designteam .Design{
 	font-size: 12px;
 }
 footer.foot .contain .footer .designteam{
-	margin-left:640px;
+	margin-left:600px;
 	margin-top:20px;
-	width:295px;
-	
+	width:350px;
 	line-height: 30px;
+	outline: 1px solid red;
 }
 footer.foot .darkline {/*Darkline in bottom*/
 	left:0;
