@@ -64,6 +64,7 @@ nav.action {
 	box-shadow      : 0 0 20px #666;
 	width: 100%;
 	margin-right: -50%;
+	z-index: 30;
 }
 
 nav.action menu{
