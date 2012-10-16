@@ -359,15 +359,19 @@ footer.foot .contain .footer .copyright{
 	margin-left:25px;
 	float:left;
 	width:260px; 
-	min-height:30px; 
-	outline: 1px solid red;
+	text-align: left;
+	direction: ltr;
+	line-height: 30px;
+}
+footer.foot .contain .footer .copyright .rights{
+	font-size: 12px;
 }
 footer.foot .contain .footer .designteam{
 	margin-left:640px;
 	margin-top:20px;
 	width:295px;
-	min-height:30px;
-	outline: 1px solid red;	
+	
+	line-height: 30px;
 }
 footer.foot .darkline {/*Darkline in bottom*/
 	left:0;

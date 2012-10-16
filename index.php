@@ -112,9 +112,11 @@
 			</div>
 			<div class="footer">
 				<div class="copyright">
-					<p>تمامی حقوق این وبسایت متعلق به گروه تنبورنوازان میباشد.</p>
+					<p class="rights">Copyright © 2012 HananEnsemble.</p>
 				</div>
-				<div class="designteam"></div>
+				<div class="designteam">
+					<p>Follow Designing Team DibaDev In <span>Github</span></p>
+				</div>
 				<div class="clear"></div>
 			</div>
 			
