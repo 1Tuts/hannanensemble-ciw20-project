@@ -22,10 +22,12 @@ body {
 	position            : relative;
 }
 
-/*--------------Head-------------*/
+/***********************  HEADER  ***************************/
 
+.header-container{
+
+}
 header.head .grayline {
-	min-height : 0px;
 	border     : 2px solid #CCC;
 }
 
@@ -108,6 +110,12 @@ header.head .header nav menu li a.active {
 }
 
 /*--------------Middle--------------*/
+
+.content-container {
+	background-image:url('images/bg-9.png');
+	background-repeat: repeat;
+}
+
 article.middle {
 	border-top : 2px solid #eee;
 }
@@ -194,6 +202,10 @@ article.middle .recentwork .forth{/* last box*/
 }
 
 /*--------------Foot--------------*/ 
+.footer-container {
+	background-image: url('images/bg-dark.jpg');
+	background-repeat: repeat;
+}
 footer.foot {
 }
 
