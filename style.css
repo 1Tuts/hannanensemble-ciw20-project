@@ -225,7 +225,7 @@ section.contain .middle .recentwork .forth{/* last box*/
 footer.foot {
 	left:0;
 	right:0;
-	/*background-color:#444444;*/
+	background-color:#444444;
 }
 footer.foot .contain {
 	margin:0 auto;
@@ -343,7 +343,7 @@ footer.foot .contain .footer {/* Copyright */
 	width:949px; /* 1px for pading*/
 	min-height:65px;
 	padding:1px;
-	/*background-color:#333333;*/
+	background-color:#333333;
 	
 }
 footer.foot .contain .footer .copyright{
