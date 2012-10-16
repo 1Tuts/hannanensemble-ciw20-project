@@ -14,10 +14,9 @@
 <body>
 	<div class="grayline"></div> 
 	<div class="content-container">
-		<header class="head">
-			 
+		<header class="normal">
 			<section class="header">
-				<nav class="normal">
+				<nav>
 					<menu>
 						<li><a href="#">صفحه اصلی<span>|</span></a></li>
 						<li><a href="#">درباره گروه<span>|</span></a></li>
@@ -27,7 +26,14 @@
 						<li class="clear"></li>
 					</menu>
 				</nav>
-				<nav class="action">
+				<div class="logo"></div>
+				<div class="clear"></div>
+			</section>
+		</header>
+		<header class="action">
+			<div class="grayline"></div>	
+			<section class="header">
+				<nav>
 					<menu>
 						<li><a href="#">صفحه اصلی<span>|</span></a></li>
 						<li><a href="#">درباره گروه<span>|</span></a></li>
@@ -66,7 +72,7 @@
 					?>
 					<section>
 						<div id="preimg"></div>
-						<div id="nextimg" onclick="nextPic();"></div>
+						<div id="nextimg" onclick="nextPic()"></div>
 					</section>
 				</div>
 				<div class="boxess">
