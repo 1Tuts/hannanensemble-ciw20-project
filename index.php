@@ -95,7 +95,7 @@
 			<div class="bigfooter">
 				<div class="first" id="boxthree">
 					<h3>درباره ما</h3>
-					   <p><a href="contactus.html">شما عزیزان میتوانید با ارسال فرم تماس با ما در ارتباظ باشید</a></p><br />
+					   <p><a href="contactus.html">شما هنردوستان میتوانید با ارسال فرم در صفحه تماس با ما با تنبورنوازان در ارتباط باشید.</a></p><br />
 					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
 					   <br /><br />
 					   <ul>
@@ -111,8 +111,10 @@
 				<div class="clear"></div>
 			</div>
 			<div class="footer">
-				<div class="copyright"></div>
-				<div class="facebook"></div>
+				<div class="copyright">
+					<p>تمامی حقوق این وبسایت متعلق به گروه تنبورنوازان میباشد.</p>
+				</div>
+				<div class="designteam"></div>
 				<div class="clear"></div>
 			</div>
 			

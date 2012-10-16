@@ -352,20 +352,21 @@ footer.foot .contain .footer .copyright{
 	float:left;
 	width:260px; 
 	min-height:30px; 
+	outline: 1px solid red;
 }
 footer.foot .contain .footer .copyright h6{
 	color:#868686;	
 	font-size:14px;
 	text-align:right;	
 }
-footer.foot .contain .footer .facebook{
+footer.foot .contain .footer .designteam{
 	margin-left:640px;
 	margin-top:20px;
 	width:295px;
 	min-height:30px;
-		
+	outline: 1px solid red;	
 }
-footer.foot .contain .footer .facebook h6{
+footer.foot .contain .footer .designteam h6{
 	color:#868686;	
 	font-size:14px;
 	text-align:right;	
