@@ -9,6 +9,10 @@
 	<script type="text/javascript" src="zepto.js"></script>
 	<script type="text/javascript" src="scripts.js"></script>
 	<script type="text/javascript" src="slide.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
