@@ -14,10 +14,9 @@
 </style>
 
 <body>
-	<div class="header-container">
+	<div class="grayline"></div>  
+	<div class="content-container">
 		<header class="head">
-			<div class="grayline">
-			</div>  
 			<section class="header">
 				<nav class="normal">
 					<menu>
@@ -43,8 +42,6 @@
 				<div class="clear"></div>
 			</section>
 		</header>
-	</div>
-	<div class="content-container">
 		<article class="middle">
 			<div class="title">
 				برای آشنایی بیشتر با ما تماس بگیرید

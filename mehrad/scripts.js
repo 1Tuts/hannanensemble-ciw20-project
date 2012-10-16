@@ -13,7 +13,7 @@ $(function(){
 window.onscroll=function(){
 		var scrolled = $(window).scrollTop();
 		//console.log(scrolled);
-		if(scrolled < 30){
+		if(scrolled < 31){
 
 			$('nav.action').animate({
 
@@ -23,7 +23,8 @@ window.onscroll=function(){
 
 				$('nav.action').css({
 
-					display : 'none'
+					display : 'none',
+					width : 0
 
 				});
 			});
@@ -40,22 +41,21 @@ window.onscroll=function(){
 
 		}else{
 
-			$('nav.action').css({
-
-				display : 'block'
-
-			}).animate({
-
-					opacity : 1
-
-				},400)
-
 			$('nav.normal').css({
 
 				opacity:0
 			});
+
+			$('nav.action').animate({
+					display : 'block'
+
+				},0,'linear',function(){
+					$(this).animate({ 'opacity' : 1,'width' : 100 + '%' },170);
+				});
+
 		}
 	};
+	//==========================  MAIL VALIDATION ==========================
 	$('form#contact').submit(function(){
 		var feild, err=false;
 
