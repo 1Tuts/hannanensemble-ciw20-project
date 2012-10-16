@@ -46,20 +46,19 @@
     <footer class="foot">
     	<section class="contain">
         	<div class="bigfooter">
-            	<div class="first" id="boxthree"></div>
-                <div class="second" id="boxthree"></div>
-                <div class="third" id="boxthree"></div>
-                <div class="forth"></div>
+            	<div class="first w6 left"></div>
+                <div class="second w6 left"></div>
+                <div class="third w6 left"></div>
+                <div class="forth ml18 last"></div>
                 <div class="clear"></div>
             </div>
             
             <!-- Copyright Part -->
             <div class="footer">
-            	<div class="copyright"></div>
-                <div class="facebook"></div>
+            	<div class="copyright left w8"></div>
+                <div class="facebook ml15 last"></div>
                 <div class="clear"></div>
             </div>
-            
         </section>
         <div class="darkline"></div>
     </footer>
