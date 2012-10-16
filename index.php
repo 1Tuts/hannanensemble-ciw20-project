@@ -25,7 +25,7 @@
 					<li><a href="#">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="#">تماس با ما<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
@@ -42,7 +42,7 @@
 					<li><a href="#">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="#">تماس با ما<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
