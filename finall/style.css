@@ -1,4 +1,4 @@
-section, div {
+/*section, div {*/
 	outline : 1px solid red;
 }
 
@@ -14,18 +14,18 @@ section, div {
 }
 
 body {
-	background-image    : url('images/backpic.jpg');
+	/*background-image    : url('images/backpic.jpg');*/
 	background-repeat   : no-repeat;
 	background-position : top center;
 	margin              : 0 auto;
-	min-height          : 1900px;
+	min-height          : 1600px;
 }
 
 /*--------------Head-------------*/
 
 header.head .grayline {
 	min-height : 0px;
-	border     : 2px solid #CCC;
+	border-top : 7px solid whiteSmoke;
 }
 
 header.head{
@@ -52,27 +52,27 @@ header.head .header nav {
 }
 
 /*--------------Middle--------------*/
-article.middle {
+section.contain{
 
 }
 
-article.middle{
+section.contain .middle{
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 1100px;
 }
 
-article.middle .title {
+section.contain .middle .title {
 	margin       : 0 auto;
 	width        : 950px;
 	min-height   : 80px;
 	padding      : 17px 0;
 	text-align   : center;
-	border-bottom : 1px solid #eee;
+	border-bottom: 1px solid #eee;
 	margin-bottom: 30px;
 }
 
-article.middle .banner {
+section.contain .middle .banner {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 365px;
@@ -81,36 +81,45 @@ article.middle .banner {
 
 /* box haye zier slide */
 
-article.middle .boxess{
+section.contain .middle .boxess{
 	margin       : 0 auto;
 	width        : 950px;
-	min-height   : 260px;
+	min-height   : 210px;
+	border-top   : 1px solid #eee;
+	border-bottom: 2px solid #eee;
 	margin-bottom: 40px;
+	padding-top: 35px;
+}
+
+section.contain .middle .boxess .first,
+section.contain .middle .boxess .second,
+section.contain .middle .boxess .third{
+	border-right: 1px dashed #eee
 }
 
 /* last box*/
 
-article.middle .boxess .forth {
+section.contain .middle .boxess .forth {
 	margin-left : 715px;
-	min-height  : 230px;
+	min-height  : 180px;
 }
 
 #boxone {
 	float      : left;
 	width      : 237px;
-	min-height : 230px;
+	min-height : 180px;
 }
 
 /* RECENT WORK */
 
-article.middle .recentwork {
+section.contain .middle .recentwork {
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 256px;
 	margin-bottom : 50px;
 }
 
-article.middle .recentwork .forth{/* last box*/
+section.contain .middle .recentwork .forth{/* last box*/
 	margin-left : 715px;
 	min-height  : inherit;		
 }
@@ -123,22 +132,23 @@ article.middle .recentwork .forth{/* last box*/
 }
 
 /*--------------Foot--------------*/ 
-footer.foot {
+footer.contain{
+	background-color: #444;
 }
 
-footer.foot {
+footer.contain .foot{
 	margin     : 0 auto;
 	width      : 950px;
 	margin-top : 20px;
 }
 
-footer.foot .bigfooter {/* div 4 box */
+footer.contain .foot .bigfooter {/* div 4 box */
 	margin     : 0 auto;
 	width      : 950px;
 	min-height : 300px;
 }
 
-footer.foot .bigfooter .forth { /* last box*/
+footer.contain .foot .bigfooter .forth { /* last box*/
 	margin-left : 715px;
 	min-height  : inherit;	
 }
@@ -151,14 +161,15 @@ footer.foot .bigfooter .forth { /* last box*/
 
 /* Copyright */
 
-footer.foot .footer {
+footer.contain .foot .footer {
 	margin     : 0 auto;
 	width      : 949px; /* 1px for pading*/
 	min-height : 65px;
 	padding    : 1px;
+	background-color: #333;
 }
 
-footer.foot .footer .copyright{
+footer.contain .foot .footer .copyright{
 	margin-top  : 20px;
 	margin-left : 25px;
 	float       : left;
@@ -166,7 +177,7 @@ footer.foot .footer .copyright{
 	min-height  : 30px; 
 }
 
-footer.foot .footer .facebook {
+footer.contain .foot .footer .facebook {
 	margin-left : 640px;
 	margin-top  : 20px;
 	width       : 295px;
@@ -175,9 +186,9 @@ footer.foot .footer .facebook {
 
 /*Darkline in bottom*/
 
-footer.foot .darkline {
-	min-height : 0px;
-	border     : 2px solid #333;			
+.darkline {
+	min-height   : 0px;
+	border-bottom: 7px solid #333;			
 }
 
 /*=================== CONTACT  PAGE ======================*/ 
