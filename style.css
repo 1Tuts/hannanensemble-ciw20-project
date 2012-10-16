@@ -69,7 +69,10 @@ section.middle .container .boxess{
 	margin-top: 30px;
 }
 
-section.middle .container .boxess .first,.second,.third,.forth{
+section.middle .container .boxess .first,
+section.middle .container .boxess .second,
+section.middle .container .boxess .third,
+section.middle .container .boxess .forth{
 	min-height : 230px;
 }
 
@@ -81,7 +84,8 @@ section.middle .container .recentwork{
 	margin-top:40px;
 }
 
-section.middle .container .recentwork .forth{/* last box*/
+/* last box */
+section.middle .container .recentwork .forth{
 	margin-left:715px;
 	min-height:inherit;		
 }
@@ -262,7 +266,9 @@ section.about .contain .pics{
 	
 }
 
-section.about .contain .pics .first, .second, .third{
+section.about .contain .pics .first,
+section.about .contain .pics .second,
+section.about .contain .pics .third{
 	float:left;
 	width:290px;
 	min-height:inherit;
