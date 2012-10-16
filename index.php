@@ -112,7 +112,7 @@
 			</div>
 			<div class="footer">
 				<div class="copyright">
-					<p class="rights">Copyright © 2012 HananEnsemble.</p>
+					<p class="rights">Copyright © 2012 By HananEnsemble.</p>
 				</div>
 				<div class="designteam">
 					<p class="Design">Follow Designing Team "DibaDev" On <span><a>Twitter, <a/></span> <span><a>Facebook,</a></span> <span><a href="https://github.com/DibaDev">Github </a></span></p>

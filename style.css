@@ -340,35 +340,30 @@ footer.foot .contain .footer {/* Copyright */
 	min-height:65px;
 	padding:1px;
 	background-color:#333333;
-	
+	text-align: left;
+	direction: ltr;
 }
 footer.foot .contain .footer .copyright{
 	margin-top:20px;
 	margin-left:25px;
 	float:left;
 	width:260px; 
-	text-align: left;
-	direction: ltr;
 	line-height: 30px;
 }
 footer.foot .contain .footer .copyright .rights, .designteam .Design{
 	font-size: 12px;
 }
 footer.foot .contain .footer .designteam{
-	margin-left:600px;
+	margin-left:580px;
 	margin-top:20px;
-	width:350px;
+	width:370px;
 	line-height: 30px;
-	outline: 1px solid red;
-}
-footer.foot .contain .footer .designteam a{
-
 }
 footer.foot .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
 	min-height:0px;
-	outline:2px solid #333333;			
+	outline:5px solid #333333;			
 
 /*=================== CONTACT  PAGE ======================*/ 
 article.contact {
