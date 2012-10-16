@@ -247,14 +247,11 @@ footer.foot .contain {
 	margin:0 auto;
 	width:950px;
 	margin-top:20px;
-	
 }
-
 footer.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
-	
 }
 footer.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:715px;
@@ -293,7 +290,7 @@ footer.foot .contain .bigfooter ul li a{
 	padding:18px 16px;
 	display:block;
 }
-/* For transition Facebook and ... Icons */
+/* Transition Part */
 #trans{
 	-webkit-transition:all 400ms;	
 	-moz-transition:all 400ms;
