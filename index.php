@@ -10,9 +10,9 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/slide.js"></script>
 
-    <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-    <![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
 </head>
 
 <body>
@@ -54,26 +54,26 @@
 		<div class="middle">
 			<div class="title"></div>
 			<div class="banner">
-                <?php
+				<?php
 
-                    $images_path = './images/slide';
-                    $images      = scandir($images_path);
+					$images_path = './images/slide';
+					$images      = scandir($images_path);
 
-                    foreach ($images as $img) {
+					foreach ($images as $img) {
 
-                        $img_exp = explode('.' , $img);
+						$img_exp = explode('.' , $img);
 
-                        $img_exp_end = end($img_exp );
+						$img_exp_end = end($img_exp );
 
-                        $img_type = strtolower($img_exp_end );
+						$img_type = strtolower($img_exp_end );
 
-                        if($img_type == 'jpg' || $img_type == 'png'){
+						if($img_type == 'jpg' || $img_type == 'png'){
 
-                            echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
-                        }
-                    }
-                ?>         
-            </div>
+							echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
+						}
+					}
+				?>         
+			</div>
 			<div class="boxess">
 				<div class="first" id="boxone"></div>
 				<div class="second" id="boxone"></div>
@@ -90,21 +90,34 @@
 			</div>
 		</div>
 	</section>
-	<footer class="contain">
-		<section class="foot">
-				<div class="bigfooter">
-					<div class="first" id="boxthree"></div>
-					<div class="second" id="boxthree"></div>
-					<div class="third" id="boxthree"></div>
-					<div class="forth"></div>
-					<div class="clear"></div>
+	<footer class="foot">
+		<section class="contain">
+			<div class="bigfooter">
+				<div class="first" id="boxthree">
+					<h3>درباره ما</h3>
+					   <p><a href="contactus.html">شما عزیزان میتوانید با ارسال فرم تماس با ما در ارتباظ باشید</a></p><br />
+					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
+					   <br /><br />
+					   <ul>
+						   <li class="fb" id="trans"><a target="_blank"></a></li>
+						   <li class="twitter" id="trans"><a target="_blank"></a></li>
+						   <li class="flickr" id="trans"><a target="_blank"></a></li>
+						   <li class="rss" id="trans"><a target="_blank"></a></li>
+					   </ul>
 				</div>
-				<div class="footer">
-					<div class="copyright"></div>
-					<div class="facebook"></div>
-					<div class="clear"></div>
-				</div>           
+				<div class="second" id="boxthree"></div>
+				<div class="third" id="boxthree"></div>
+				<div class="forth"></div>
+				<div class="clear"></div>
+			</div>
+			<div class="footer">
+				<div class="copyright"></div>
+				<div class="facebook"></div>
+				<div class="clear"></div>
+			</div>
+			
 		</section>
+		<div class="darkline"></div>
 	</footer>
 	<div class="darkline"></div>
 </body>

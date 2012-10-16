@@ -222,64 +222,159 @@ section.contain .middle .recentwork .forth{/* last box*/
 }
 
 /*--------------Foot--------------*/ 
-footer.contain{
-	background-color: #444;
+footer.foot {
+	left:0;
+	right:0;
+	/*background-color:#444444;*/
+}
+footer.foot .contain {
+	margin:0 auto;
+	width:950px;
+	margin-top:20px;
+	
 }
 
-footer.contain .foot{
-	margin     : 0 auto;
-	width      : 950px;
-	margin-top : 20px;
+footer.foot .contain .bigfooter {/* div 4 box */
+	margin:0 auto;
+	width:950px;;
+	min-height:300px;
+	
+}
+footer.foot .contain .bigfooter .forth { /* last box*/
+	margin-left:715px;
+	min-height:inherit;
+	text-align:right;	
+	padding:1px;
+}
+footer.foot .contain .bigfooter .forth h3 {
+	margin-top:37px;
+	margin-right:25px;
+	color:#FFF;		
+}
+footer.foot .contain .bigfooter .forth input, button {
+	margin-top:20px;
+	margin-right:25px;
+	color:#FFF;		
+}
+footer.foot .contain .bigfooter p{
+	margin-top:23px;
+	margin-right:25px;
+	color:#CCC;
+	font-size:14px;			
+}
+footer.foot .contain .bigfooter p:hover{
+	color:#f96e5b;
+	cursor:pointer;
+}
+footer.foot .contain .bigfooter p a{
+	 text-decoration:none;
+	 color:inherit;	
+	 	
+}
+footer.foot .contain .bigfooter ul{
+	list-style-type:none;
+	margin-left:5px;
+}
+footer.foot .contain .bigfooter ul li{
+	float:left;
+	background-color:#333333;
+	border-right:3px solid #444444;
+	min-height:40px;
+	width:40px;
+}
+footer.foot .contain .bigfooter ul li:hover{
+	background-position:0 -40px;	
+}
+footer.foot .contain .bigfooter ul li a{
+	padding:18px 16px;
+	display:block;
+	color:inherit;
+	text-decoration:none;
+	cursor:pointer;
+}
+/* For transition Facebook and ... Icons */
+#trans{
+	-webkit-transition:all 400ms;	
+	-moz-transition:all 400ms;
+	-ms-transition:all 400ms;
+	-o-transition:all 400ms;
+}
+footer.foot .contain .bigfooter .fb{
+	background-image:url(images/facebook.png);		
+}
+footer.foot .contain .bigfooter .fb:hover{
+	background-color:#3B5998;
+}
+footer.foot .contain .bigfooter .twitter{
+	background-image:url(images/twitter.png);
+}
+footer.foot .contain .bigfooter .twitter:hover{
+	background-color:#48C4D2;
+}
+footer.foot .contain .bigfooter .flickr{
+	background-image:url(images/flickr.png);	
+}
+footer.foot .contain .bigfooter .flickr:hover{
+	background-color:#F1628B;
+}
+footer.foot .contain .bigfooter .rss{
+	background-image:url(images/rss.png);	
+}
+footer.foot .contain .bigfooter .rss:hover{
+	background-color:#FE9900;
+}
+/* End Transition Icons */
+
+#boxthree{
+	float:left;
+	width:237px;
+	min-height:inherit;
+	text-align:right;
+	
+}
+#boxthree h3{
+	margin-top:37px;
+	margin-right:25px;
+	color:#FFF;				
 }
 
-footer.contain .foot .bigfooter {/* div 4 box */
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 300px;
+footer.foot .contain .footer {/* Copyright */
+	margin:0 auto;
+	width:949px; /* 1px for pading*/
+	min-height:65px;
+	padding:1px;
+	/*background-color:#333333;*/
+	
 }
-
-footer.contain .foot .bigfooter .forth { /* last box*/
-	margin-left : 715px;
-	min-height  : inherit;	
+footer.foot .contain .footer .copyright{
+	margin-top:20px;
+	margin-left:25px;
+	float:left;
+	width:260px; 
+	min-height:30px; 
 }
-
-#boxthree {
-	float      : left;
-	width      : 237px;
-	min-height : inherit;
+footer.foot .contain .footer .copyright h6{
+	color:#868686;	
+	font-size:14px;
+	text-align:right;	
 }
-
-/* Copyright */
-
-footer.contain .foot .footer {
-	margin     : 0 auto;
-	width      : 949px; /* 1px for pading*/
-	min-height : 65px;
-	padding    : 1px;
-	background-color: #333;
+footer.foot .contain .footer .facebook{
+	margin-left:640px;
+	margin-top:20px;
+	width:295px;
+	min-height:30px;
+		
 }
-
-footer.contain .foot .footer .copyright{
-	margin-top  : 20px;
-	margin-left : 25px;
-	float       : left;
-	width       : 260px; 
-	min-height  : 30px; 
+footer.foot .contain .footer .facebook h6{
+	color:#868686;	
+	font-size:14px;
+	text-align:right;	
 }
-
-footer.contain .foot .footer .facebook {
-	margin-left : 640px;
-	margin-top  : 20px;
-	width       : 295px;
-	min-height  : 30px;
-}
-
-/*Darkline in bottom*/
-
-.darkline {
-	min-height   : 0px;
-	border-bottom: 7px solid #333;			
-}
+footer.foot .darkline {/*Darkline in bottom*/
+	left:0;
+	right:0;
+	min-height:0px;
+	outline:2px solid #333333;			
 
 /*=================== CONTACT  PAGE ======================*/ 
 article.contact {
