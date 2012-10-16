@@ -9,7 +9,7 @@ span{color:inherit}
 option{padding-left:.4em}
 select{padding:1px}
 * html body *{overflow:visible}
-body{font-size:100.01%;background:#fff;color:#000;text-align:left;line-height:1}
+body{font-size:100.01%;background:#fff;color:#000;text-align:right;direction:rtl;line-height:1}
 div{outline:0 none}
 ol,ul,menu{list-style:none}
 blockquote,q{quotes:none}
