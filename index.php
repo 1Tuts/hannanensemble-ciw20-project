@@ -105,9 +105,15 @@
 						   <li class="rss" id="trans"><a target="_blank"></a></li>
 					   </ul>
 				</div>
-				<div class="second"></div>
-				<div class="third"></div>
-				<div class="forth"></div>
+				<div class="second">
+					<h3>آخرین پست ها</h3>
+				</div>
+				<div class="third">
+					<h3>آخرین اخبار</h3>
+				</div>
+				<div class="forth">
+					<h3>عضویت در خبرنامه</h3>
+				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="footer">
