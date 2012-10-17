@@ -259,6 +259,10 @@ footer.foot .contain .bigfooter .first, .second, .third{
 	min-height:inherit;
 	text-align:right;	
 }
+footer.foot .contain .bigfooter .first, .second, .third h3{
+	margin-top:37px;
+	margin-right:25px;
+}
 footer.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:715px;
 	min-height:inherit;
@@ -329,17 +333,6 @@ footer.foot .contain .bigfooter .rss:hover{
 }
 /* End Transition Icons */
 
-#boxthree{
-	float:left;
-	width:237px;
-	min-height:inherit;
-	text-align:right;
-	
-}
-#boxthree h3{
-	margin-top:37px;
-	margin-right:25px;
-}
 footer.foot .contain .footer {/* Copyright */
 	margin:0 auto;
 	width:949px; /* 1px for pading*/
