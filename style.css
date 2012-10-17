@@ -1,7 +1,7 @@
-/*section, div {
+/*section, div {*/
 	outline : 1px solid red;
 }
-*/
+
 
 .clear{
 	clear      : both;
@@ -44,7 +44,7 @@ section.header {
 header.normal section.header .logo {
 	width        : 145px;
 	min-height   : 45px;
-	margin-right : 810px;
+	margin-right : 804px;
 	background-image : url('images/logo.png');
 }
 
@@ -227,67 +227,84 @@ footer.foot {
 	right:0;
 	background-color:#444444;
 }
+
 footer.foot p{
 	color: #999999;
 	font-size:14px;
 }
+
 footer.foot a{
 	color: #cccccc;
 	cursor: pointer;
 	text-decoration: none;
 }
+
 footer.foot a:hover{
 	color: #f96e5b;
 }
+
 footer.foot h3{
 	color: #FFF;
 
 }
+
 footer.foot .contain {
 	margin:0 auto;
 	width:950px;
 	margin-top:20px;
 }
+
 footer.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
 	width:950px;;
 	min-height:300px;
 }
-footer.foot .contain .bigfooter .first, .second, .third{
+
+footer.foot .contain .bigfooter .first,
+footer.foot .contain .bigfooter .second,
+footer.foot .contain .bigfooter .third{
 	float:left;
 	width:237px;
 	min-height:290px;
 	text-align:right;
-	outline: 1px solid red;	
 }
-footer.foot .contain .bigfooter .first h3, .second h3, .third h3{
+
+footer.foot .contain .bigfooter .first h3,
+footer.foot .contain .bigfooter .second h3,
+footer.foot .contain .bigfooter .third h3{
 	margin-top:37px;
 	margin-right:25px;
 }
+
 footer.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:713px;
 	min-height:288px;
 	text-align:right;	
 	padding:1px;
-	outline: 1px solid red;
 }
+
 footer.foot .contain .bigfooter .forth h3 {
 	margin-top:37px;
 	margin-right:25px;
 }
-footer.foot .contain .bigfooter .forth input, button {
+
+footer.foot .contain .bigfooter .forth input,
+footer.foot .contain .bigfooter .forth button {
 	margin-top:20px;
 	margin-right:25px;
 	color:#FFF;		
 }
+
 footer.foot .contain .bigfooter p{
 	margin-top:23px;
 	margin-right:25px;
 }
+
 footer.foot .contain .bigfooter ul{
 	list-style-type:none;
 	margin-left:5px;
 }
+
 footer.foot .contain .bigfooter ul li{
 	float:left;
 	background-color:#333333;
@@ -295,13 +312,16 @@ footer.foot .contain .bigfooter ul li{
 	min-height:40px;
 	width:40px;
 }
+
 footer.foot .contain .bigfooter ul li:hover{
 	background-position:0 -40px;	
 }
+
 footer.foot .contain .bigfooter ul li a{
 	padding:18px 16px;
 	display:block;
 }
+
 /* Transition Part */
 #trans{
 	-webkit-transition:all 400ms;	
@@ -309,27 +329,35 @@ footer.foot .contain .bigfooter ul li a{
 	-ms-transition:all 400ms;
 	-o-transition:all 400ms;
 }
+
 footer.foot .contain .bigfooter .fb{
 	background-image:url(images/facebook.png);		
 }
+
 footer.foot .contain .bigfooter .fb:hover{
 	background-color:#3B5998;
 }
+
 footer.foot .contain .bigfooter .twitter{
 	background-image:url(images/twitter.png);
 }
+
 footer.foot .contain .bigfooter .twitter:hover{
 	background-color:#48C4D2;
 }
+
 footer.foot .contain .bigfooter .flickr{
 	background-image:url(images/flickr.png);	
 }
+
 footer.foot .contain .bigfooter .flickr:hover{
 	background-color:#F1628B;
 }
+
 footer.foot .contain .bigfooter .rss{
 	background-image:url(images/rss.png);	
 }
+
 footer.foot .contain .bigfooter .rss:hover{
 	background-color:#FE9900;
 }
@@ -360,11 +388,12 @@ footer.foot .contain .footer .designteam{
 	width:370px;
 	line-height: 30px;
 }
+
 footer.foot .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
 	min-height:0px;
-	outline:5px solid #333333;			
+	outline:7px solid #333333;			
 
 /*=================== CONTACT  PAGE ======================*/ 
 article.contact {
