@@ -93,7 +93,7 @@
 	<footer class="foot">
 		<section class="contain">
 			<div class="bigfooter">
-				<div class="first" id="boxthree">
+				<div class="first">
 					<h3>درباره ما</h3>
 					   <p><a href="contactus.html">شما هنردوستان میتوانید با ارسال فرم در صفحه تماس با ما با تنبورنوازان در ارتباط باشید.</a></p><br />
 					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
@@ -105,8 +105,8 @@
 						   <li class="rss" id="trans"><a target="_blank"></a></li>
 					   </ul>
 				</div>
-				<div class="second" id="boxthree"></div>
-				<div class="third" id="boxthree"></div>
+				<div class="second"></div>
+				<div class="third"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>

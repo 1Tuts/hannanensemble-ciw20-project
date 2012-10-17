@@ -256,18 +256,20 @@ footer.foot .contain .bigfooter {/* div 4 box */
 footer.foot .contain .bigfooter .first, .second, .third{
 	float:left;
 	width:237px;
-	min-height:inherit;
-	text-align:right;	
+	min-height:290px;
+	text-align:right;
+	outline: 1px solid red;	
 }
-footer.foot .contain .bigfooter .first, .second, .third h3{
+footer.foot .contain .bigfooter .first h3, .second h3, .third h3{
 	margin-top:37px;
 	margin-right:25px;
 }
 footer.foot .contain .bigfooter .forth { /* last box*/
-	margin-left:715px;
-	min-height:inherit;
+	margin-left:713px;
+	min-height:288px;
 	text-align:right;	
 	padding:1px;
+	outline: 1px solid red;
 }
 footer.foot .contain .bigfooter .forth h3 {
 	margin-top:37px;
