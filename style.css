@@ -253,6 +253,12 @@ footer.foot .contain .bigfooter {/* div 4 box */
 	width:950px;;
 	min-height:300px;
 }
+footer.foot .contain .bigfooter .first, .second, .third{
+	float:left;
+	width:237px;
+	min-height:inherit;
+	text-align:right;	
+}
 footer.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:715px;
 	min-height:inherit;
