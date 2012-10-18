@@ -184,7 +184,11 @@ section.contain .middle .boxess{
 section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
-	border-right: 1px dashed #eee
+	border-right: 1px dashed #eee;
+	outline: 1px solid red;
+	float      : left;
+	width      : 237px;
+	min-height : 180px;
 }
 
 /* last box*/
@@ -195,9 +199,7 @@ section.contain .middle .boxess .forth {
 }
 
 #boxone {
-	float      : left;
-	width      : 237px;
-	min-height : 180px;
+	
 }
 
 /* RECENT WORK */
