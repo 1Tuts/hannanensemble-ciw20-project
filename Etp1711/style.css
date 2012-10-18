@@ -196,6 +196,11 @@ section.contain .middle .boxess .forth {
 	margin-left : 715px;
 	min-height  : 180px;
 }
+
+#boxone {
+	
+}
+
 /* RECENT WORK */
 
 section.contain .middle .recentwork {
@@ -203,20 +208,20 @@ section.contain .middle .recentwork {
 	width      : 950px;
 	min-height : 256px;
 	margin-bottom : 50px;
-}
 
-section.contain .middle .recentwork .forth{/* last box*/
-	margin-left : 715px;
-	min-height  : inherit;		
 }
-
-#boxtwo {
+section.contain .middle .recentwork .first,
+section.contain .middle .recentwork .second,
+section.contain .middle .recentwork .third{
 	float        : left;
 	width        : 236px;
 	min-height   : inherit;
 	border-right : 2px solid #FFF;
 }
-
+section.contain .middle .recentwork .forth{/* last box*/
+	margin-left : 715px;
+	min-height  : inherit;	
+}
 /*--------------Foot--------------*/ 
 footer.foot {
 	left:0;

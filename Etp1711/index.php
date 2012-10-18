@@ -79,9 +79,9 @@
 				<div class="clear"></div>
 			</div>
 			<div class="recentwork">
-				<div class="first" id="boxtwo"></div>
-				<div class="second" id="boxtwo"></div>
-				<div class="third" id="boxtwo"></div>
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>
