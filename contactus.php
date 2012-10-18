@@ -8,9 +8,8 @@
 	<link type="text/css" rel="stylesheet" href="style.css" />
 	<script type="text/javascript" src="js/zepto.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/slide.js"></script>
 	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
+			<script src="js/html5shiv.js"></script>
 	<![endif]-->
 </head>
 
@@ -51,44 +50,37 @@
 	</header>
 	<section class="contain">
 		<div class="middle">
-			<div class="title"></div>
-			<div class="banner">
-				<?php
-
-					$images_path = './images/slide';
-					$images      = scandir($images_path);
-
-					foreach ($images as $img) {
-
-						$img_exp = explode('.' , $img);
-
-						$img_exp_end = end($img_exp );
-
-						$img_type = strtolower($img_exp_end );
-
-						if($img_type == 'jpg' || $img_type == 'png'){
-
-							echo "<div style=\"background-image : url('$images_path/$img');\"></div>";
-						}
-					}
-				?>         
+			<div class="title">
+				برای آشنایی بیشتر با ما تماس بگیرید
 			</div>
-			<div class="boxess">
-				<div class="first" id="boxone"></div>
-				<div class="second" id="boxone"></div>
-				<div class="third" id="boxone"></div>
-				<div class="forth"></div>
-				<div class="clear"></div>
-			</div>
-			<div class="recentwork">
-				<div class="first" id="boxtwo"></div>
-				<div class="second" id="boxtwo"></div>
-				<div class="third" id="boxtwo"></div>
-				<div class="forth"></div>
-				<div class="clear"></div>
+			<div class="contact-ways">
+				<div class="send-message">
+					<h4>ارسال پیام</h4>
+					<form action="mail.php" id="contact" method="post">
+						<input type="text" class="text" name="name" id="name" placeholder="نام" />
+						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+						<textarea name="message" id="message" cols="65" rows="16" placeholder="پیام"></textarea>
+						<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
+					</form>
+				</div>
+				<div class="contact-info">
+					<h4>اطلاعات تماس</h4>
+					<div class="map"></div>
+					<p>
+						برای تماس با سرپرست، تنظیم اجرا، همکاری، حمایت و یا هرگونه نظر و انتقاد از راه های زیر استفاده کنید و یا از طریق فرم مقابل برای ما ایمیل بفرستید.
+					</p>
+					<span class="address">
+						آدرس : کارخانه پپسی سعادت ۲۲ آزادی ۹۵ پلاک ۱۹
+					</span>
+					<span class="tell">
+						email:etp1212@gmail.com<br />
+						تلفن: ۰۹۱۵۵۵۵۵۵۵۵۵
+					</span>
+				</div>
 			</div>
 		</div>
 	</section>
+	</div>
 	<footer class="foot">
 		<section class="contain">
 			<div class="bigfooter">
@@ -124,7 +116,6 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			
 		</section>
 		<div class="darkline"></div>
 	</footer>
