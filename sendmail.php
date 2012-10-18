@@ -47,3 +47,5 @@
 		echo "<h1 class='err'>Access Restricted!!!</h1>";
 	}
 	?>
+</body>
+</html>
