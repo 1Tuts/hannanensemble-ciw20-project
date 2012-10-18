@@ -130,11 +130,12 @@ section.contain .middle{
 section.contain .middle .title {
 	margin       : 0 auto;
 	width        : 950px;
-	min-height   : 80px;
-	padding      : 17px 0;
-	text-align   : center;
+	padding      : 27px 0;
+	text-align   : right;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 30px;
+	font-family: Tahoma;
+	font-size: 20px;
 }
 
 section.contain .middle .banner {
