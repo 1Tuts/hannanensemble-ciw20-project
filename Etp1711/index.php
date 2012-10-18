@@ -22,8 +22,7 @@
 				<menu>
 					<li><a href="#">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="#">گالری تصاویر<span>|</span></a></li>
 					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
@@ -39,8 +38,7 @@
 				<menu>
 					<li><a href="#">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="#">گالری تصاویر<span>|</span></a></li>
 					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
@@ -74,16 +72,16 @@
 				?>         
 			</div>
 			<div class="boxess">
-				<div class="first" id="boxone"></div>
-				<div class="second" id="boxone"></div>
-				<div class="third" id="boxone"></div>
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>
 			<div class="recentwork">
-				<div class="first" id="boxtwo"></div>
-				<div class="second" id="boxtwo"></div>
-				<div class="third" id="boxtwo"></div>
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>
@@ -112,6 +110,9 @@
 				</div>
 				<div class="forth">
 					<h3>عضویت در خبرنامه</h3>
+					<p>لطفا ایمیل خود را وارد کنید</p>
+					<input type="input">
+					<input class="button" type="submit" value="ارسال">
 				</div>
 				<div class="clear"></div>
 			</div>

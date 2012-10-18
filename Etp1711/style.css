@@ -184,7 +184,10 @@ section.contain .middle .boxess{
 section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
-	border-right: 1px dashed #eee
+	border-right: 1px dashed #eee;
+	float      : left;
+	width      : 237px;
+	min-height : 180px;
 }
 
 /* last box*/
@@ -195,9 +198,7 @@ section.contain .middle .boxess .forth {
 }
 
 #boxone {
-	float      : left;
-	width      : 237px;
-	min-height : 180px;
+	
 }
 
 /* RECENT WORK */
@@ -207,20 +208,20 @@ section.contain .middle .recentwork {
 	width      : 950px;
 	min-height : 256px;
 	margin-bottom : 50px;
-}
 
-section.contain .middle .recentwork .forth{/* last box*/
-	margin-left : 715px;
-	min-height  : inherit;		
 }
-
-#boxtwo {
+section.contain .middle .recentwork .first,
+section.contain .middle .recentwork .second,
+section.contain .middle .recentwork .third{
 	float        : left;
 	width        : 236px;
 	min-height   : inherit;
 	border-right : 2px solid #FFF;
 }
-
+section.contain .middle .recentwork .forth{/* last box*/
+	margin-left : 715px;
+	min-height  : inherit;	
+}
 /*--------------Foot--------------*/ 
 footer.foot {
 	left:0;
@@ -293,6 +294,21 @@ footer.foot .contain .bigfooter .forth button {
 	margin-top:20px;
 	margin-right:25px;
 	color:#FFF;		
+}
+footer.foot .contain .bigfooter .forth .button {
+	background-color: #F96E5B;	
+	color: #FFF;
+	border: 0 none;
+	width: 130px;
+	height: 25px;
+	border-radius: 10px;
+	-webkit-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-moz-transition:all 250ms;
+	-o-transition:all 250ms;
+}
+footer.foot .contain .bigfooter .forth .button:hover {
+	background-color: #000;	
 }
 
 footer.foot .contain .bigfooter p{
