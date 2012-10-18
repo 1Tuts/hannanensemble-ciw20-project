@@ -294,6 +294,21 @@ footer.foot .contain .bigfooter .forth button {
 	margin-right:25px;
 	color:#FFF;		
 }
+footer.foot .contain .bigfooter .forth .button {
+	background-color: #F96E5B;	
+	color: #FFF;
+	border: 0 none;
+	width: 130px;
+	height: 25px;
+	border-radius: 10px;
+	-webkit-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-moz-transition:all 250ms;
+	-o-transition:all 250ms;
+}
+footer.foot .contain .bigfooter .forth .button:hover {
+	background-color: #000;	
+}
 
 footer.foot .contain .bigfooter p{
 	margin-top:23px;

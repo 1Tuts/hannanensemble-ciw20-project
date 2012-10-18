@@ -112,6 +112,9 @@
 				</div>
 				<div class="forth">
 					<h3>عضویت در خبرنامه</h3>
+					<p>لطفا ایمیل خود را وارد کنید</p>
+					<input type="input">
+					<input class="button" type="submit" value="ارسال">
 				</div>
 				<div class="clear"></div>
 			</div>
