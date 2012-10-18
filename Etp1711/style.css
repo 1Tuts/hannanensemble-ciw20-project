@@ -185,7 +185,6 @@ section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
 	border-right: 1px dashed #eee;
-	outline: 1px solid red;
 	float      : left;
 	width      : 237px;
 	min-height : 180px;
@@ -197,11 +196,6 @@ section.contain .middle .boxess .forth {
 	margin-left : 715px;
 	min-height  : 180px;
 }
-
-#boxone {
-	
-}
-
 /* RECENT WORK */
 
 section.contain .middle .recentwork {
