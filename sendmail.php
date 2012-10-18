@@ -21,7 +21,7 @@
 
 	error_reporting(E_ALL ^ E_NOTICE);
 
-	$admin   = 'info@zahmati.com';
+	$admin   = 'yourmail@gmail.com';
 
 	$name    = $_POST['name'];
 	$mail    = $_POST['email'];
