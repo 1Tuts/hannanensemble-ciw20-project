@@ -116,7 +116,7 @@ nav menu li a.active {
 	background-color :  #F96E5B;
 }
 
-/*--------------Middle--------------*/
+/*------------------------------ Middle -------------------------------*/
 
 section.contain {
 
@@ -197,27 +197,89 @@ section.contain .middle .boxess .forth {
 }
 
 /* RECENT WORK */
-
 section.contain .middle .recentwork {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 256px;
-	margin-bottom : 50px;
+	margin: 			0 auto;
+	width: 				950px;
+	min-height: 		256px;
+	margin-bottom:		50px;
 }
+section.contain .middle .recentwork .first,
+section.contain .middle .recentwork .second,
+section.contain .middle .recentwork .third{
+	float: 				left;
+	width:				236px;
+	min-height: 		210px;
+	border-right:		2px solid #FFF;
+	position:			relative;
+	
+}
+section.contain .middle .recentwork .first .back,
+section.contain .middle .recentwork .second .back,
+section.contain .middle .recentwork .third .back{
+	width:				236px;
+	min-height: 		224px;
+	position: 		  	absolute;
+	top: 				0;
+	bottom: 			0;
+	display: 			none;
 
+}
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third .back:hover{
+	background-color: 	#F96E5B;	
+	z-index:			120;
+}
+section.contain .middle .recentwork .first:hover .back,
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second:hover .back,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third:hover .back,
+section.contain .middle .recentwork .third .back:hover{
+	display:         	block;
+	background-color:   #F96E5B;	
+	z-index:            120;
+	cursor:             pointer;
+}
 section.contain .middle .recentwork .forth{/* last box*/
-	margin-left : 715px;
-	min-height  : inherit;		
+	margin-left: 		715px;
+	min-height: 		210px;	
+	position: 			relative;
+}
+section.contain .middle .recentwork .forth .back{
+	width: 				236px;
+	min-height: 		224px;
+	position: 			absolute;
+	top: 				0;
+	bottom: 			0;
+	display: 			none;
+}
+section.contain .middle .recentwork .forth:hover .back
+,section.contain .middle .recentwork .forth .back:hover{
+	display:          	block;
+	background-color: 	#F96E5B;	
+	z-index:          	120;
+	cursor:           	pointer;
+}
+section.contain .middle .recentwork h4{
+	margin-top: 	  	15px;
+	margin-right:	 	10px;
+	color:           	#FFF;
+	font-weight:      	bolder;
+}
+section.contain .middle .recentwork h6{
+	margin-top: 	  	35px;
+	margin-right:	 	10px;
+	color:           	#FFF;
+	font-size: 			14px;
+	line-height: 		25px;
+}
+section.contain .middle .recentwork p{
+	margin-top: 	 	10px;
+	margin-right: 	 	17px;
 }
 
-#boxtwo {
-	float        : left;
-	width        : 236px;
-	min-height   : inherit;
-	border-right : 2px solid #FFF;
-}
-
-/*--------------Foot--------------*/ 
+/*------------------------------ Footer -------------------------------*/ 
 footer.foot {
 	left:0;
 	right:0;
@@ -289,6 +351,21 @@ footer.foot .contain .bigfooter .forth button {
 	margin-top:20px;
 	margin-right:25px;
 	color:#FFF;		
+}
+footer.foot .contain .bigfooter .forth .button {
+	background-color: #F96E5B;	
+	color: #FFF;
+	border: 0 none;
+	width: 130px;
+	height: 25px;
+	border-radius: 10px;
+	-webkit-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-moz-transition:all 250ms;
+	-o-transition:all 250ms;
+}
+footer.foot .contain .bigfooter .forth .button:hover {
+	background-color: #000;	
 }
 
 footer.foot .contain .bigfooter p{
@@ -391,7 +468,8 @@ footer.foot .darkline {/*Darkline in bottom*/
 	min-height:0px;
 	outline:7px solid #333333;			
 }
-/*=================== CONTACT  PAGE ======================*/ 
+
+/*------------------------------ Contact Page -------------------------------*/
 .ok {
 	outline: 1px solid #9f9;
 }
@@ -499,9 +577,17 @@ div.contact-info span.tell {
 	background-image: url('images/address-icon2.png');
 	margin-right: 230px;
 }
+<<<<<<< HEAD
 /*=================== ABOUT US PAGE ======================*/ 
 section.about div{
 	outline: 1px solid red;
+=======
+
+/*------------------------------ About Page -------------------------------*/ 
+article.about {
+	width  : 950px;
+	margin : 0 auto;
+>>>>>>> origin/master
 }
 section.about {
 	width: 			950px;
@@ -570,7 +656,14 @@ section.about .pics .second {
 	margin-left : 	40px;
 }
 
+<<<<<<< HEAD
 section.about .pics .third {
 	float       : 	none;
 	margin-left : 	660px;
 }
+=======
+article.about .pics .third {
+	float       : none;
+	margin-left : 660px;
+}
+>>>>>>> origin/master
