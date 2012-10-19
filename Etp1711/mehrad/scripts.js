@@ -23,7 +23,8 @@ window.onscroll=function(){
 
 				$('header.action').css({
 
-					display : 'none'
+					display : 'none',
+					width : 0
 
 				});
 			});
@@ -52,7 +53,9 @@ window.onscroll=function(){
 
 					$(this).animate({
 
-					 'opacity' : 1
+					 'opacity' : 1,
+
+					 'width' : 100+'%' 
 
 					},170);
 				});

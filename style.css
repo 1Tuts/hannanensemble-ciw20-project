@@ -524,61 +524,47 @@ article.contact .rcontact .name, article.contact .rcontact .email, article.conta
 }
 
 /*=================== ABOUT US PAGE ======================*/ 
-article.about {
+section.about {
 	width  : 950px;
 	margin : 0 auto;
 }
-
-article.about .text {
+section.about .text {
 	min-height    : 480px;
 	width         : 950px;
 	border-bottom : 1px solid #CCC;
 }
-
-article.about .text .headtxt{
+section.about .text .headtxt{
 	min-height : 90px;
 	width      : 950px;	
 }
-
-article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
+section.about .text .lefttxt, section.about .text .righttxt{
 	float      : left;
 	min-height : 320px;
 	width      : 300px;
 	margin-top : 20px;	
-
+	outline: 5px solid red;
 }
-
-article.about .text .midtxt {
-	margin-left : 20px;
-}
-
-article.about .text .righttxt{
+section.about .text .righttxt{
 	float       : none;
 	margin-left : 650px;		
 }
-
 /* --Pics Part -- */
-
-article.about .pics {
+section.about .pics {
 	min-height : 440px;
 	width      : 950px;
 	margin-top : 35px;
 }
-
-article.about .pics .first, article.about .pics .second, article.about .pics .third {
+section.about .pics .first, section.about .pics .second, section.about .pics .third {
 	float       : left;
 	width       : 290px;
 	min-height  : inherit;
 	margin-left : 0px;	
 	outline: 5px solid green;
 }
-
-article.about .pics .second {
+section.about .pics .second {
 	margin-left : 40px;
-	
 }
-
-article.about .pics .third {
+section.about .pics .third {
 	float       : none;
 	margin-left : 660px;
 }

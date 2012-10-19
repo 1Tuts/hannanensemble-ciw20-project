@@ -1,0 +1,455 @@
+
+section, div {
+	outline : 0px solid red;
+}
+
+.clear{
+	clear      : both;
+	overflow   : hidden;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	border     : 0 none !important;
+	float      : none !important;
+}
+
+body {
+	/*background-image    : url('images/backpic.jpg');*/
+	background-repeat   : no-repeat;
+	background-position : top center;
+	margin              : 0 auto;
+}
+
+/***********************  HEADER  ***************************/
+
+header.normal {
+
+}
+
+section.header {
+	margin         : 0 auto;
+	width          : 950px;
+	padding-bottom : 25px;
+	padding-top    : 25px;
+	border-bottom  : 2px solid #eee;
+}
+
+header.normal section.header .logo {
+	width        : 145px;
+	min-height   : 45px;
+	margin-right : 810px;
+	background-image : url('images/logo.png');
+}
+
+section.header nav {
+	float : right;
+}
+
+/***************************  ACTION MENU  **************************/
+
+header.action {
+	opacity          : 0;
+	top              : 0;
+	left             : 0;
+	right            : 0;
+	padding          : 0 !important;
+	margin           : 0 !important;
+	position         : fixed;
+	background-color : rgba(240,240,240,.9);
+	box-shadow       : 0 0 20px #666;
+	width            : 100%;
+	z-index: 30;
+}
+
+header.action section.header {
+	padding: 0;
+}
+
+header.action .logo {
+	width        : 113px;
+	min-height   : 35px;
+	margin-right : 810px;
+	background-image : url('images/logo-min.png');
+}
+
+/**********************   NORMAL MENU   ***********************/
+
+nav menu {
+	list-style : none;
+}
+
+nav menu li {
+	float : right;
+}
+
+nav menu li a {
+	display         : block;
+	padding         : 17px 15px 17px 0;	
+	text-decoration : none;
+	text-transform  : uppercase;
+	color           : #666;
+	font-size       : 13px;
+	font-weight     : 400;
+	-webkit-transition : all 200ms;
+}
+
+nav menu li a span {
+	color         : #aaa;
+	padding-right : 15px;
+	font-size     : 11px;
+	font-weight   : 200;
+}
+
+nav menu li a:hover {
+	background-color : #444;
+	color            : white;
+}
+
+nav menu li a:hover span {
+	color : #444;
+}
+
+nav menu li a.active {
+	background-color :  #F96E5B;
+}
+
+/*--------------Middle--------------*/
+
+.content-container {
+	background-image:url('images/bg-1.png');
+	background-repeat: repeat;
+}
+
+article.middle {
+	border-top : 2px solid #eee;
+}
+
+article.middle{
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 1100px;
+	font-family: Tahoma;
+}
+
+article.middle .title {
+	margin       : 0 auto;
+	width        : 950px;
+	font-size: 25px;
+	color: #aaa;
+	font-weight: 300;
+	padding      : 37px 0;
+	border-bottom : 1px solid #eee;
+	margin-bottom: 30px;
+}
+/************************* SLIDER ******************************/
+
+article.middle .banner {
+	position : relative;
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 365px;
+	margin-bottom: 30px;
+	z-index: 0;
+}
+
+article.middle .banner > div {
+	position : absolute;
+	height   : 365px;
+	width    : 950px;
+	top      : 0;
+	left     : 0;
+	z-index  : -2;
+	background-position : center center;
+	background-repeat   : no-repeat;
+}
+article.middle .banner > section {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	z-index: 1;
+	top: 86%;
+	left: 0;
+}
+
+article.middle .banner > section div {
+	float: left;
+}
+div#preimg {
+	width: 48px;
+	height: 48px;
+	background-image: url('images/sprite.png');
+	background-color: #444;
+}
+div#nextimg {
+	width: 48px;
+	height: 48px;
+	background-color: #444;
+}
+/* box haye zier slide */
+
+article.middle .boxess{
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 260px;
+	margin-bottom: 40px;
+}
+
+/* last box*/
+
+article.middle .boxess .forth {
+	margin-left : 715px;
+	min-height  : 230px;
+}
+
+#boxone {
+	float      : left;
+	width      : 237px;
+	min-height : 230px;
+}
+
+/* RECENT WORK */
+
+article.middle .recentwork {
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 256px;
+	margin-bottom : 50px;
+}
+
+article.middle .recentwork .forth{/* last box*/
+	margin-left : 715px;
+	min-height  : inherit;		
+}
+
+#boxtwo {
+	float        : left;
+	width        : 236px;
+	min-height   : inherit;
+	border-right : 2px solid #FFF;
+}
+
+/*--------------Foot--------------*/ 
+.footer-container {
+	background-image: url('images/footer-tail.gif');
+	background-repeat: repeat;
+}
+
+footer.foot {
+	margin     : 0 auto;
+	width      : 950px;
+}
+
+footer.foot .bigfooter {/* div 4 box */
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 300px;
+}
+
+footer.foot .bigfooter .forth { /* last box*/
+	margin-left : 715px;
+	min-height  : inherit;	
+}
+
+#boxthree {
+	float      : left;
+	width      : 237px;
+	min-height : inherit;
+}
+
+/* Copyright */
+
+footer.foot .footer {
+	margin     : 0 auto;
+	width      : 949px; /* 1px for pading*/
+	min-height : 65px;
+	padding    : 1px;
+}
+
+footer.foot .footer .copyright{
+	margin-top  : 20px;
+	margin-left : 25px;
+	float       : left;
+	width       : 260px; 
+	min-height  : 30px; 
+}
+
+footer.foot .footer .facebook {
+	margin-left : 640px;
+	margin-top  : 20px;
+	width       : 295px;
+	min-height  : 30px;
+}
+
+/*Darkline in bottom*/
+
+footer.foot .darkline {
+	min-height : 0px;
+	border     : 2px solid #333;			
+}
+
+/*=================== CONTACT  PAGE ======================*/ 
+.ok {
+	outline: 1px solid #9f9;
+}
+
+.err {
+	outline: 1px solid #f99;
+}
+
+article.middle div.send-message {
+	float : right;
+	width : 460px;
+}
+
+div.send-message h4 {
+	font-size: 17px;
+	margin-bottom:15px;
+	color: #666;
+}
+
+div.send-message form#contact {
+	padding : 25px 25px 20px 0;
+	width   : 435px;
+	background-color: #f8f8f8;
+}
+
+div.send-message form#contact input.text {
+	width : 370px;
+}
+
+div.send-message form#contact input.button {
+	width      : 150px;
+	height     : 30px;
+	color      : #d0d0d0;
+	text-align : center;	
+	background-color : #444 ;
+	border-radius: 20px;
+	-webkit-transition: all 300ms;
+}
+
+div.send-message form#contact input.button:hover {
+	background-color : #F96E5B;
+	color: #f0f0f0;
+}
+
+div.send-message form#contact input.text,div.send-message form#contact textarea {
+	display       : block;
+	border        : 1px solid #ddd;
+	padding       : 8px 5px;
+	font-size     : 12px;
+	margin-bottom : 15px;
+	font-weight   : bold;
+	color         : #aaa;
+	-webkit-border-radius : 3px;
+}
+
+div.send-message form#contact input:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition : all 400ms;
+}
+ 
+div.send-message form#contact textarea:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition : all 300ms;
+}
+
+div.contact-info {
+	margin-right: 490px;
+	color: #707070;
+}
+
+div.contact-info h4 {
+	font-size: 20px;
+	margin-bottom:15px;
+	color: #666;
+}
+
+div.contact-info div.map {
+	height: 300px;
+	margin-bottom: 15px;
+}
+
+div.contact-info p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+div.contact-info span {
+	font-size: 14px;
+	min-height: 60px;
+	padding-right: 45px;
+	line-height: 25px;
+	background-position: center right;
+	background-repeat: no-repeat;
+	display: block;
+	border : 2px dashed #ddd;
+}
+
+div.contact-info span.address {
+	background-image: url('images/address-icon1.png');
+	float: right;
+	width: 170px;
+}
+
+div.contact-info span.tell {
+	background-image: url('images/address-icon2.png');
+	margin-right: 230px;
+}
+/*=================== ABOUT US PAGE ======================*/ 
+
+article.about {
+	width  : 950px;
+	margin : 0 auto;
+}
+
+article.about .text {
+	min-height    : 480px;
+	width         : 950px;
+	border-bottom : 1px solid #CCC;
+}
+
+article.about .text .headtxt{
+	min-height : 90px;
+	width      : 950px;	
+}
+
+article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
+	float      : left;
+	min-height : 320px;
+	width      : 300px;
+	margin-top : 20px;				
+}
+
+article.about .text .midtxt {
+	margin-left : 20px;
+}
+
+article.about .text .righttxt{
+	float       : none;
+	margin-left : 650px;		
+}
+
+/* --Pics Part -- */
+
+article.about .pics {
+	min-height : 440px;
+	width      : 950px;
+	margin-top : 35px;
+}
+
+article.about .pics .first, article.about .pics .second, article.about .pics .third {
+	float       : left;
+	width       : 290px;
+	min-height  : inherit;
+	margin-left : 0px;		
+}
+
+article.about .pics .second {
+	margin-left : 40px;
+}
+
+article.about .pics .third {
+	float       : none;
+	margin-left : 660px;
+}
