@@ -80,23 +80,23 @@
 			</div>
 			<div class="recentwork">
 				<div class="first">
-					<img src="images/bozorgan.jpg" />
-					<p>بزرگان تنبــــور</p>
+					<img src="images/tanboor.jpg" />
+					<p>درباره ی تنبـــور</p>
 					<div class="back"></div>
 				</div>
 				<div class="second">
 					<img src="images/bozorgan.jpg" />
-					<p>بزرگان تنبــــور</p>
+					<p>آلبوم های تنبـــور</p>
 					<div class="back"></div>
 				</div>
 				<div class="third">
-					<img src="images/bozorgan.jpg" />
-					<p>بزرگان تنبــــور</p>
+					<img src="images/books.jpg" />
+					<p>کتابهای تنبــــور</p>
 					<div class="back"></div>
 				</div>
 				<div class="forth">
 					<img src="images/bozorgan.jpg" />
-					<p>بزرگان تنبــــور</p>
+					<p>بزرگان تنبـــور</p>
 					<div class="back"></div>
 				</div>
 				<div class="clear"></div>
