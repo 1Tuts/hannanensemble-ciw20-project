@@ -85,7 +85,7 @@
 					<div class="back"></div>
 				</div>
 				<div class="second">
-					<img src="images/bozorgan.jpg" />
+					<img src="images/album.jpg" />
 					<p>آلبوم های تنبـــور</p>
 					<div class="back"></div>
 				</div>
