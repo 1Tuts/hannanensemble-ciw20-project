@@ -504,57 +504,59 @@ section.about div{
 	outline: 1px solid red;
 }
 section.about {
-	width  : 950px;
-	margin : 0 auto;
+	width: 			950px;
+	margin: 		0 auto;
 }
 
 section.about .text {
-	min-height    : 480px;
-	width         : 950px;
-	border-bottom : 1px solid #CCC;
+	min-height: 	480px;
+	width: 			950px;
+	border-bottom: 	1px solid #CCC;
 }
 
 section.about .text .headtxt{
-	min-height : 90px;
-	width      : 950px;	
+	min-height: 	90px;
+	width: 			950px;	
 }
 
 section.about .text .lefttxt, section.about .text .midtxt, section.about .text .righttxt{
-	float      : left;
-	min-height : 320px;
-	width      : 300px;
-	margin-top : 20px;				
+	float     : 	left;
+	min-height: 	320px;
+	width     : 	300px;
+	margin-top: 	20px;				
 }
-
+section.about .text .lefttxt{
+	background-image:url(images/tehrani2.jpg);
+}
 section.about .text .midtxt {
-	margin-left : 20px;
+	margin-left: 	20px;
 }
 
 section.about .text .righttxt{
-	float       : none;
-	margin-left : 650px;		
+	float	   : 	none;
+	margin-left: 	650px;		
 }
 
 /* --Pics Part -- */
 
 section.about .pics {
-	min-height : 440px;
-	width      : 950px;
-	margin-top : 35px;
+	min-height : 	440px;
+	width      : 	950px;
+	margin-top : 	35px;
 }
 
 section.about .pics .first, section.about .pics .second, section.about .pics .third {
-	float       : left;
-	width       : 290px;
-	min-height  : inherit;
-	margin-left : 0px;		
+	float       : 	left;
+	width       :	290px;
+	min-height  : 	inherit;
+	margin-left : 	0px;		
 }
 
 section.about .pics .second {
-	margin-left : 40px;
+	margin-left : 	40px;
 }
 
 section.about .pics .third {
-	float       : none;
-	margin-left : 660px;
+	float       : 	none;
+	margin-left : 	660px;
 }
