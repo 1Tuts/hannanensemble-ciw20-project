@@ -1,7 +1,7 @@
-/*section, div {*/
+/*section, div {
 	outline : 1px solid red;
 }
-
+*/
 
 .clear{
 	clear      : both;
@@ -14,12 +14,7 @@
 	float      : none !important;
 }
 
-body {
-
-}
-
-/*--------------Head-------------*/
-
+/*------------------------------ Header -------------------------------*/
 .grayline {
 	min-height : 0px;
 	border-top : 7px solid whiteSmoke;
@@ -48,8 +43,7 @@ section.header nav {
 	float : right;
 }
 
-/***************************  ACTION MENU  **************************/
-
+/*------------------------------ Action Menu -------------------------------*/
 header.action {
 	opacity          : 0;
 	top              : 0;
@@ -75,8 +69,7 @@ header.action .logo {
 	background-image : url('images/logo-min.png');
 }
 
-/**********************   NORMAL MENU   ***********************/
-
+/*------------------------------ Normal Menu -------------------------------*/
 nav menu {
 	list-style : none;
 }
@@ -117,7 +110,6 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
-
 section.contain {
 
 }
@@ -144,7 +136,7 @@ section.contain .middle .banner {
 	min-height : 365px;
 	margin-bottom: 30px;
 }
-/************************* SLIDER ******************************/
+/*------------------------------ Slider -------------------------------*/
 div.middle .banner {
 	position : relative;
 	margin     : 0 auto;
