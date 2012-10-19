@@ -124,10 +124,10 @@
 					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
 					   <br /><br />
 					   <ul>
-						   <li class="fb" id="trans"><a target="_blank"></a></li>
-						   <li class="twitter" id="trans"><a target="_blank"></a></li>
-						   <li class="flickr" id="trans"><a target="_blank"></a></li>
-						   <li class="rss" id="trans"><a target="_blank"></a></li>
+						   <li class="fb" id="trans"><a href="http://www.facebook.com/TanboornavazaneHanan" target="_blank"></a></li>
+						   <li class="twitter" id="trans"><a href="https://twitter.com/HananEnsemble" target="_blank"></a></li>
+						   <li class="flickr" id="trans"><a href="http://www.flickr.com/photos/hananensemble/" target="_blank"></a></li>
+						   <li class="rss" id="trans"><a href="" target="_blank"></a></li>
 					   </ul>
 				</div>
 				<div class="second">
