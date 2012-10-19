@@ -241,18 +241,24 @@ section.contain .middle .recentwork .forth .back{
 	min-height: 224px;
 	position: absolute;
 	top: 0;
+	display: none;
 	bottom: 0;
 	-webkit-transition:all 250ms;
 	-ms-transition:all 250ms;
 	-moz-transition:all 250ms;
 	-o-transition:all 250ms;
 }
-section.contain .middle .recentwork .forth .back:hover{
+section.contain .middle .recentwork .forth:hover .back
+,section.contain .middle .recentwork .forth .back:hover{
+	display: block;
 	background-color: #F96E5B;	
 	z-index: 120;
+	cursor: pointer;
+	color: #FFF;
+	font-weight:bolder;
 }
 section.contain .middle .recentwork p{
-	margin-right: 10px;
+	margin-right: 17px;
 }
 /*--------------Foot--------------*/ 
 footer.foot {

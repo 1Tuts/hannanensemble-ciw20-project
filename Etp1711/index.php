@@ -82,7 +82,9 @@
 				<div class="first">
 					<img src="images/tanboor.jpg" />
 					<p>درباره ی تنبـــور</p>
-					<div class="back"></div>
+					<div class="back">
+						
+					</div>
 				</div>
 				<div class="second">
 					<img src="images/album.jpg" />
@@ -97,7 +99,9 @@
 				<div class="forth">
 					<img src="images/bozorgan.jpg" />
 					<p>بزرگان تنبـــور</p>
-					<div class="back"></div>
+					<div class="back">
+						<p>بزرگان تنبور</p>
+					</div>
 				</div>
 				<div class="clear"></div>
 			</div>
