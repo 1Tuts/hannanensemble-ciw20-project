@@ -500,7 +500,9 @@ div.contact-info span.tell {
 	margin-right: 230px;
 }
 /*=================== ABOUT US PAGE ======================*/ 
-
+section.about div{
+	outline: 1px solid red;
+}
 section.about {
 	width  : 950px;
 	margin : 0 auto;
@@ -517,7 +519,7 @@ section.about .text .headtxt{
 	width      : 950px;	
 }
 
-section.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
+section.about .text .lefttxt, section.about .text .midtxt, section.about .text .righttxt{
 	float      : left;
 	min-height : 320px;
 	width      : 300px;
@@ -541,7 +543,7 @@ section.about .pics {
 	margin-top : 35px;
 }
 
-section.about .pics .first, article.about .pics .second, article.about .pics .third {
+section.about .pics .first, section.about .pics .second, section.about .pics .third {
 	float       : left;
 	width       : 290px;
 	min-height  : inherit;
