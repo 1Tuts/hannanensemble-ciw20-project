@@ -528,7 +528,16 @@ section.about .text .lefttxt, section.about .text .righttxt{
 section.about .text .righttxt{
 	float: 			none;
 	margin-left: 	310px;
-	width: 			600px;
+	width: 			630px;
+}
+section.about .text .righttxt .ebi{
+	font-size: 		20px;
+	margin-right: 	10px;
+}
+section.about .text .righttxt p{
+	line-height: 	25px;
+	margin-top: 	30px;
+	margin-right: 	5px;
 }
 section.about .text .lefttxt{
 	background-image:url(images/tehrani2.jpg);
