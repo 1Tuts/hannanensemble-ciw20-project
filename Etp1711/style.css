@@ -625,7 +625,14 @@ section.about .pics .text {
 	float       : left;
 	width       : 450px;
 	min-height  : inherit;
-	margin-left : 0px;		
+	margin-left : 0px;	
+	text-align: center	
+}
+section.about .pics .text h2 {
+	font-size: 23px;
+}
+section.about .pics .text p {
+	margin-top: 20px;
 }
 
 section.about .pics .hananpic {
