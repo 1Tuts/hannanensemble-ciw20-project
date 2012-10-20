@@ -15,7 +15,7 @@
 }
 
 body {
-	
+	/*background-image    : url('images/backpic.jpg');*/
 	background-repeat   : no-repeat;
 	background-position : top center;
 	margin              : 0 auto;
@@ -465,9 +465,9 @@ footer.foot .darkline {/*Darkline in bottom*/
 	right:0;
 	min-height:0px;
 	outline:7px solid #333333;			
-
+}
 /*=================== CONTACT  PAGE ======================*/ 
-article.contact{
+article.contact {
 	min-height : 700px;
 	width      : 950px;
 	margin     : 0 auto;
@@ -524,47 +524,59 @@ article.contact .rcontact .name, article.contact .rcontact .email, article.conta
 }
 
 /*=================== ABOUT US PAGE ======================*/ 
-section.about {
+
+article.about {
 	width  : 950px;
 	margin : 0 auto;
 }
-section.about .text {
+
+article.about .text {
 	min-height    : 480px;
 	width         : 950px;
 	border-bottom : 1px solid #CCC;
 }
-section.about .text .headtxt{
+
+article.about .text .headtxt{
 	min-height : 90px;
 	width      : 950px;	
 }
-section.about .text .lefttxt, section.about .text .righttxt{
+
+article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
 	float      : left;
 	min-height : 320px;
 	width      : 300px;
-	margin-top : 20px;	
-	outline: 5px solid red;
+	margin-top : 20px;				
 }
-section.about .text .righttxt{
+
+article.about .text .midtxt {
+	margin-left : 20px;
+}
+
+article.about .text .righttxt{
 	float       : none;
 	margin-left : 650px;		
 }
+
 /* --Pics Part -- */
-section.about .pics {
+
+article.about .pics {
 	min-height : 440px;
 	width      : 950px;
 	margin-top : 35px;
 }
-section.about .pics .first, section.about .pics .second, section.about .pics .third {
+
+article.about .pics .first, article.about .pics .second, article.about .pics .third {
 	float       : left;
 	width       : 290px;
 	min-height  : inherit;
-	margin-left : 0px;	
-	outline: 5px solid green;
+	margin-left : 0px;		
 }
-section.about .pics .second {
+
+article.about .pics .second {
 	margin-left : 40px;
 }
-section.about .pics .third {
+
+article.about .pics .third {
 	float       : none;
 	margin-left : 660px;
 }
