@@ -596,12 +596,11 @@ section.about .text .lefttxt, section.about .text .righttxt{
 	min-height : 320px;
 	width      : 300px;
 	margin-top : 20px;	
-
 }
-
 section.about .text .righttxt{
 	float       : none;
-	margin-left : 650px;		
+	margin-left : 350px;
+	width      : 630px;		
 }
 
 /* --Pics Part -- */
