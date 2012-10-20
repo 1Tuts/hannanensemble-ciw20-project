@@ -621,18 +621,17 @@ section.about .pics {
 	margin-top : 35px;
 }
 
-section.about .pics .first, section.about .pics .second, section.about .pics .third {
+section.about .pics .text {
 	float       : left;
-	width       : 290px;
+	width       : 450px;
 	min-height  : inherit;
 	margin-left : 0px;		
 }
 
-section.about .pics .second {
-	margin-left : 40px;
-}
-
-section.about .pics .third {
-	float       : none;
-	margin-left : 660px;
+section.about .pics .hananpic {
+	margin-left : 300px;
+	width       : 480px;
+	min-height  : inherit;
+	background-image: url(images/hananpic.jpg);
+	background-repeat: no-repeat;
 }
