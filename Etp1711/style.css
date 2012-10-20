@@ -591,16 +591,12 @@ section.about .text .headtxt{
 	width      : 950px;	
 }
 
-section.about .text .lefttxt, section.about .text .midtxt, section.about .text .righttxt{
+section.about .text .lefttxt, section.about .text .righttxt{
 	float      : left;
 	min-height : 320px;
 	width      : 300px;
 	margin-top : 20px;	
 
-}
-
-section.about .text .midtxt {
-	margin-left : 20px;
 }
 
 section.about .text .righttxt{
