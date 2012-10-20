@@ -172,23 +172,48 @@ section.contain .middle .boxess{
 section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
-	border-right: 1px dashed #eee
+	float      : left;
+	width      : 237px;
+	min-height : 180px;
+	border-right: 1px dashed #eee;
+	text-align: center;
 }
 
 /* last box*/
 
 section.contain .middle .boxess .forth {
 	margin-left : 715px;
-	min-height  : 180px;
+	min-height  : 178px;
+	text-align: center;
+	padding: 1px;
+}
+section.contain .middle .boxess .first h3, section.contain .middle .boxess .second h3, section.contain .middle .boxess .third h3, section.contain .middle .boxess .forth h3{
+	margin-top: 20px;
+	font-weight: bold;
+	color: #707070;
+}
+section.contain .middle .boxess .first img, section.contain .middle .boxess .second img, section.contain .middle .boxess .third img, section.contain .middle .boxess .forth img{
+	margin-top: 15px;
+}
+section.contain .middle .boxess .first p, section.contain .middle .boxess .second p, section.contain .middle .boxess .third p, section.contain .middle .boxess .forth p{
+	margin-top: 15px;
+	font-size: 	12px;	
+}
+section.contain .middle .boxess .first:hover,
+section.contain .middle .boxess .second:hover,
+section.contain .middle .boxess .third:hover,
+section.contain .middle .boxess .forth:hover{
+	background-color: #F96E5B;
+	color: #FFF;
+	-webkit-transition:all 450ms;
+	-ms-transition:all 450ms;
+	-moz-transition:all 450ms;
+	-o-transition:all 450ms;
+
+
 }
 
-#boxone {
-	float      : left;
-	width      : 237px;
-	min-height : 180px;
-}
-
-/* RECENT WORK */
+/*forthRECENT WORK */
 section.contain .middle .recentwork {
 	margin: 			0 auto;
 	width: 				950px;
