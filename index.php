@@ -20,11 +20,10 @@
 		<section class="header">
 			<nav>
 				<menu>
-					<li><a href="./">صفحه اصلی<span>|</span></a></li>
+					<li><a href="#">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+					<li><a href="#">گالری تصاویر<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
@@ -37,11 +36,10 @@
 		<section class="header">
 			<nav>
 				<menu>
-					<li><a href="./">صفحه اصلی<span>|</span></a></li>
+					<li><a href="#">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+					<li><a href="#">گالری تصاویر<span>|</span></a></li>
+					<li><a href="#">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
@@ -74,17 +72,45 @@
 				?>         
 			</div>
 			<div class="boxess">
-				<div class="first" id="boxone"></div>
-				<div class="second" id="boxone"></div>
-				<div class="third" id="boxone"></div>
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>
 			<div class="recentwork">
-				<div class="first" id="boxtwo"></div>
-				<div class="second" id="boxtwo"></div>
-				<div class="third" id="boxtwo"></div>
-				<div class="forth"></div>
+				<div class="first">
+					<img src="images/tanboor.jpg" />
+					<p>درباره ی تنبـــور</p>
+					<div class="back">
+						<h4>درباره ی تنبـــور</h4>
+						<h6>در این قسمت به گردآوری مقالات و نظرات اساتید و پیشکسوتان و هر آنچه در مورد تنبــور گفته شده میپردازیم .</h6>	
+					</div>
+				</div>
+				<div class="second">
+					<img src="images/album.jpg" />
+					<p>آلبوم های تنبـــور</p>
+					<div class="back">
+						<h4>آلبوم های تنبـــور</h4>
+						<h6>هدف این قسمت یادآوری آثار ماندگار تنبــور و معرفی آلبوم های جدید تنبــور میباشد .</h6>
+					</div>
+				</div>
+				<div class="third">
+					<img src="images/books.jpg" />
+					<p>کتابهای تنبــــور</p>
+					<div class="back">
+						<h4>کتابهای تنبــــور</h4>
+						<h6>در این قسمت کتب و جزواتی را که درباره تنبور به چاپ رسیده باشد را به نمایش میگزاریم .</h6>
+					</div>
+				</div>
+				<div class="forth">
+					<img src="images/bozorgan.jpg" />
+					<p>بزرگان تنبـــور</p>
+					<div class="back">
+						<h4>بزرگان تنبـــور</h4>
+						<h6>هنردوستــان عزیز در این قسمت شما میتوانید با نوازندگان نامدار تنبـــور آشنا شوید و سرگذشت<br /> و آثار آنان را مطالعه نمائید .</h6>
+					</div>
+				</div>
 				<div class="clear"></div>
 			</div>
 		</div>
@@ -98,20 +124,26 @@
 					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
 					   <br /><br />
 					   <ul>
-						   <li class="fb" id="trans"><a target="_blank"></a></li>
-						   <li class="twitter" id="trans"><a target="_blank"></a></li>
-						   <li class="flickr" id="trans"><a target="_blank"></a></li>
-						   <li class="rss" id="trans"><a target="_blank"></a></li>
+						   <li class="fb" id="trans"><a href="http://www.facebook.com/TanboornavazaneHanan" target="_blank"></a></li>
+						   <li class="twitter" id="trans"><a href="https://twitter.com/HananEnsemble" target="_blank"></a></li>
+						   <li class="flickr" id="trans"><a href="http://www.flickr.com/photos/hananensemble/" target="_blank"></a></li>
+						   <li class="rss" id="trans"><a href="" target="_blank"></a></li>
 					   </ul>
 				</div>
 				<div class="second">
 					<h3>آخرین پست ها</h3>
+					<p><a>دیدار با استاد طاهر یارویسی</a></p>
 				</div>
 				<div class="third">
 					<h3>آخرین اخبار</h3>
+					<p><a>آلبوم جدید حسام الدین سراج</a></p>
+					<p><a>کنسرت بزرگ از غرب تا شرق در مشهد</a></p>
 				</div>
 				<div class="forth">
 					<h3>عضویت در خبرنامه</h3>
+					<p>لطفا ایمیل خود را وارد کنید</p>
+					<input type="input">
+					<input class="button" type="submit" value="ارسال">
 				</div>
 				<div class="clear"></div>
 			</div>
