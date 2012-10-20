@@ -571,9 +571,6 @@ div.contact-info span.tell {
 }
 
 /*------------------------------ About Page -------------------------------*/ 
-section.about div{
-	outline: 1px solid red;	
-}
 section.about {
 	width  : 		950px;
 	margin : 		0 auto;
@@ -635,19 +632,6 @@ section.about .pics .text h2 {
 section.about .pics .text p {
 	margin-top: 	30px;
 	line-height: 	22px;
-
-}
-#two{
-	margin-right: 	5px; 
-	margin-left: 	5px; 
-}
-#three{
-	margin-right: 	7px; 
-	margin-left: 	10px; 
-}
-#four{
-	margin-right: 	15px; 
-	margin-left: 	15px; 
 }
 section.about .pics .hananpic {
 	margin-left : 	300px;
