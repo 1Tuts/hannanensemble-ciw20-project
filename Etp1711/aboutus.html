@@ -1,36 +1,75 @@
-<!doctype html>
-<html>
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
-<link type="text/css" rel="stylesheet" href="reset.css" />
-<link type="text/css" rel="stylesheet" href="1styles.css" />
-<link type="text/css" rel="stylesheet" href="mystyle.css" />
+    <meta charset="utf-8" />
+    <title>Untitled Document</title>
+    <link type="text/css" rel="stylesheet" href="reset.css" />
+    <link type="text/css" rel="stylesheet" href="1styles.css" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="js/zepto.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/slide.js"></script>
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
 </head>
+
 <style>
 body{
-	background-image:url(images/aboutUs.jpg);	
+	   min-height          : 1400px;   
+
 }
 </style>
 
 <body>
-	<section class="head">
-    	<div class="grayline">
-        </div>	
+	<header class="normal">
+        <div class="grayline"></div>    
         <section class="header">
-        	<div class="logo"></div>
-            <div class="menubar"></div>
+            <nav>
+                <menu>
+                    <li><a href="./">صفحه اصلی<span>|</span></a></li>
+                    <li><a href="#">درباره گروه<span>|</span></a></li>
+                    <li><a href="#">اعضا<span>|</span></a></li>
+                    <li><a href="#">اخبار<span>|</span></a></li>
+                    <li><a href="./contactus.php">تماس با ما<span></span></a></li>
+                    <li class="clear"></li>
+                </menu>
+            </nav>
+            <div class="logo"></div>
             <div class="clear"></div>
         </section>
-    </section>
+    </header>
+    <header class="action">
+        <div class="grayline"></div>    
+        <section class="header">
+            <nav>
+                <menu>
+                    <li><a href="./">صفحه اصلی<span>|</span></a></li>
+                    <li><a href="#">درباره گروه<span>|</span></a></li>
+                    <li><a href="#">اعضا<span>|</span></a></li>
+                    <li><a href="#">اخبار<span>|</span></a></li>
+                    <li><a href="./contactus.php">تماس با ما<span></span></a></li>
+                    <li class="clear"></li>
+                </menu>
+            </nav>
+            <div class="logo"></div>
+            <div class="clear"></div>
+        </section>
+    </header>
 
     <section class="about">
-    	<div class="contain">
+    	
         	<div class="text">
                 <div class="headtxt"></div>
                 <div class="lefttxt"></div>
-                <div class="midtxt"></div>
-                <div class="righttxt"></div>
+                <div class="righttxt">
+                    <h2 id ="test">ابراهیم طهرانی پور</h2>
+                    <p>در خانواده ی اهل هنر و ادب در مشهد متولد شد . از همان سنین کودکی و نوجوانی در نزد پدر علاوه بر فرا گرفتن   ریتمهای ضرب و تنبک آشنایی و نزدیکی خاصی  به دیوان شعرا و کتب سلوک عارفان پیدا کرد و علاقه مند شد .<br /> در پانزده سالگی به طور حرفه ای دف را نزد <b>استاد آزاد بیگی</b> شروع کرد و سالها به نوازندگی این ساز پرشور پرداخت .
+وی به موسیقی خانقاهی مسلط است و به همین واسطه ساز آیینی و اهورایی تنبور را نزد <b>استاد فراز کاویانی</b> آغاز کرد و<br /> بعد از چند سال به محضر <b>بزرگمرد تنبور استاد طاهر یارویسی</b> شتافت.<br /> 
+در جشنواره ها  و کنسرتهای متعددی با نوازندگی تنبور و دف شرکت کرد و در سال 87 گروه تنبور نوازان حنان به سرپرستی وی تشکیل شد.
+وی اصول صداسازی و شناخت ردیف را نزد <b>استاد سالاری نصب</b> اغاز کرد و در این سالها به تکنوازی ها و گروه نوازی های زیادی را در مشهد ،تهران ، کرمانشاه ، سمنان ،نیشابور و ....به اجرا درآورد .
+وی هم اکنون به تدریس مشتاقان تنبور و دف میپردازد و اولین آلبوم تنبور نوازان حنــان با آهنگسازی وی بزودی منتشر میشود.</p>
+                </div>
                 <div class="clear"></div>			           
             </div>
             <div class="pics">
@@ -40,25 +79,47 @@ body{
                 <div class="clear"></div>	
             </div>
             
-        </div>
+       
     </section>
-    <section class="foot">
-    	<section class="contain">
-        	<div class="bigfooter">
-            	<div class="first" id="boxthree"></div>
-                <div class="second" id="boxthree"></div>
-                <div class="third" id="boxthree"></div>
-                <div class="forth"></div>
+   <footer class="foot">
+        <section class="contain">
+            <div class="bigfooter">
+                <div class="first">
+                    <h3>درباره ما</h3>
+                       <p><a href="contactus.html">شما هنردوستان میتوانید با ارسال فرم در صفحه تماس با ما با تنبورنوازان در ارتباط باشید.</a></p><br />
+                       <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
+                       <br /><br />
+                       <ul>
+                           <li class="fb" id="trans"><a target="_blank"></a></li>
+                           <li class="twitter" id="trans"><a target="_blank"></a></li>
+                           <li class="flickr" id="trans"><a target="_blank"></a></li>
+                           <li class="rss" id="trans"><a target="_blank"></a></li>
+                       </ul>
+                </div>
+                <div class="second">
+                    <h3>آخرین پست ها</h3>
+                </div>
+                <div class="third">
+                    <h3>آخرین اخبار</h3>
+                </div>
+                <div class="forth">
+                    <h3>عضویت در خبرنامه</h3>
+                </div>
                 <div class="clear"></div>
             </div>
             <div class="footer">
-            	<div class="copyright"></div>
-                <div class="facebook"></div>
+                <div class="copyright">
+                    <p class="rights">Copyright © 2012 By HananEnsemble.</p>
+                </div>
+                <div class="designteam">
+                    <p class="Design">Follow Designing Team "DibaDev" On <span><a>Twitter, <a/></span> <span><a>Facebook,</a></span> <span><a href="https://github.com/DibaDev">Github </a></span></p>
+                </div>
                 <div class="clear"></div>
             </div>
             
         </section>
         <div class="darkline"></div>
-    </section>    
+    </footer>
+    <div class="darkline"></div>
 </body>
 </html>
