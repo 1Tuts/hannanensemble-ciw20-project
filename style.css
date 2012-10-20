@@ -15,7 +15,11 @@
 }
 
 body {
-
+	
+	background-repeat   : no-repeat;
+	background-position : top center;
+	margin              : 0 auto;
+	min-height          : 1600px;
 }
 
 /*--------------Head-------------*/
@@ -125,17 +129,17 @@ section.contain {
 section.contain .middle{
 	margin     : 0 auto;
 	width      : 950px;
+	min-height : 1100px;
 }
 
 section.contain .middle .title {
 	margin       : 0 auto;
 	width        : 950px;
-	padding      : 27px 0;
-	text-align   : right;
+	min-height   : 80px;
+	padding      : 17px 0;
+	text-align   : center;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 30px;
-	font-family: Tahoma;
-	font-size: 20px;
 }
 
 section.contain .middle .banner {
@@ -168,55 +172,111 @@ div.middle .banner > div {
 /* box haye zier slide */
 
 section.contain .middle .boxess{
-	margin       : 0 auto;
-	width        : 950px;
-	min-height   : 210px;
-	border-top   : 1px solid #eee;
-	border-bottom: 2px solid #eee;
-	margin-bottom: 40px;
-	padding-top: 35px;
+	margin       : 		0 auto;
+	width        : 		950px;
+	min-height   : 		210px;
+	border-top   : 		1px solid #eee;
+	border-bottom: 		2px solid #eee;
+	margin-bottom:		40px;
+	padding-top: 		35px;
 }
 
 section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
-	border-right: 1px dashed #eee
+	border-right: 		1px dashed #eee;
+	float      : 		left;
+	width      : 		237px;
+	min-height : 		180px;
 }
-
 /* last box*/
-
 section.contain .middle .boxess .forth {
-	margin-left : 715px;
-	min-height  : 180px;
-}
-
-#boxone {
-	float      : left;
-	width      : 237px;
-	min-height : 180px;
+	margin-left : 		715px;
+	min-height  : 		180px;
 }
 
 /* RECENT WORK */
-
 section.contain .middle .recentwork {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 256px;
-	margin-bottom : 50px;
+	margin: 			0 auto;
+	width: 				950px;
+	min-height: 		256px;
+	margin-bottom:		50px;
 }
+section.contain .middle .recentwork .first,
+section.contain .middle .recentwork .second,
+section.contain .middle .recentwork .third{
+	float: 				left;
+	width:				236px;
+	min-height: 		210px;
+	border-right:		2px solid #FFF;
+	position:			relative;
+	
+}
+section.contain .middle .recentwork .first .back,
+section.contain .middle .recentwork .second .back,
+section.contain .middle .recentwork .third .back{
+	width:				236px;
+	min-height: 		224px;
+	position: 		  	absolute;
+	top: 				0;
+	bottom: 			0;
+	display: 			none;
 
+}
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third .back:hover{
+	background-color: 	#F96E5B;	
+	z-index:			120;
+}
+section.contain .middle .recentwork .first:hover .back,
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second:hover .back,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third:hover .back,
+section.contain .middle .recentwork .third .back:hover{
+	display:         	block;
+	background-color:   #F96E5B;	
+	z-index:            120;
+	cursor:             pointer;
+}
 section.contain .middle .recentwork .forth{/* last box*/
-	margin-left : 715px;
-	min-height  : inherit;		
+	margin-left: 		715px;
+	min-height: 		210px;	
+	position: 			relative;
 }
-
-#boxtwo {
-	float        : left;
-	width        : 236px;
-	min-height   : inherit;
-	border-right : 2px solid #FFF;
+section.contain .middle .recentwork .forth .back{
+	width: 				236px;
+	min-height: 		224px;
+	position: 			absolute;
+	top: 				0;
+	bottom: 			0;
+	display: 			none;
 }
-
+section.contain .middle .recentwork .forth:hover .back
+,section.contain .middle .recentwork .forth .back:hover{
+	display:          	block;
+	background-color: 	#F96E5B;	
+	z-index:          	120;
+	cursor:           	pointer;
+}
+section.contain .middle .recentwork h4{
+	margin-top: 	  	15px;
+	margin-right:	 	10px;
+	color:           	#FFF;
+	font-weight:      	bolder;
+}
+section.contain .middle .recentwork h6{
+	margin-top: 	  	35px;
+	margin-right:	 	10px;
+	color:           	#FFF;
+	font-size: 			14px;
+	line-height: 		25px;
+}
+section.contain .middle .recentwork p{
+	margin-top: 	 	10px;
+	margin-right: 	 	17px;
+}
 /*--------------Foot--------------*/ 
 footer.foot {
 	left:0;
@@ -289,6 +349,21 @@ footer.foot .contain .bigfooter .forth button {
 	margin-top:20px;
 	margin-right:25px;
 	color:#FFF;		
+}
+footer.foot .contain .bigfooter .forth .button {
+	background-color: #F96E5B;	
+	color: #FFF;
+	border: 0 none;
+	width: 130px;
+	height: 25px;
+	border-radius: 10px;
+	-webkit-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-moz-transition:all 250ms;
+	-o-transition:all 250ms;
+}
+footer.foot .contain .bigfooter .forth .button:hover {
+	background-color: #000;	
 }
 
 footer.foot .contain .bigfooter p{
@@ -390,173 +465,106 @@ footer.foot .darkline {/*Darkline in bottom*/
 	right:0;
 	min-height:0px;
 	outline:7px solid #333333;			
-}
+
 /*=================== CONTACT  PAGE ======================*/ 
-.ok {
-	outline: 1px solid #9f9;
+article.contact{
+	min-height : 700px;
+	width      : 950px;
+	margin     : 0 auto;
 }
 
-.err {
-	outline: 1px solid #f99;
+article.contact .text {
+	min-height : 70px;	
+	width      : 950px;
+	margin     : 0 auto;
 }
 
-div.middle .send-message {
-	float : right;
-	width : 460px;
+article.contact .lcontact {
+	float      : left;
+	min-height : 600px;	
+	outline    : 1px solid red;
+	width      : 460px;
+	margin-top : 20px;		
 }
 
-div.send-message h4 {
-	font-size: 17px;
-	margin-bottom:15px;
-	color: #666;
+article.contact .rcontact {
+	margin-left : 490px;
+	min-height  : 600px;	
+	outline     : 1px solid red;
+	width       : 450px;
+	margin-top  : 20px;
+	padding     : 1px;		
 }
 
-div.send-message form#contact {
-	padding : 25px 25px 20px 0;
-	width   : 435px;
-	background-color: #f8f8f8;
+article.contact .rcontact .text {
+	width      : 450px;
+	min-height : 50px;	
 }
 
-div.send-message form#contact input.text {
-	width : 370px;
+article.contact .rcontact .name, article.contact .rcontact .email, article.contact .rcontact .subject, article.contact .rcontact .messege, article.contact .rcontact .submit {
+	width       : 370px;
+	margin-left : 25px;	
+	margin-top  : 47px;
+	outline     : 1px solid red;
+	min-height  : 30px;				
 }
 
-div.send-message form#contact input.button {
-	width      : 150px;
-	height     : 30px;
-	color      : #d0d0d0;
-	text-align : center;	
-	background-color : #444 ;
-	border-radius: 20px;
-	-webkit-transition: all 300ms;
+#txtboxdiv {
+	margin-top : 34px;
 }
 
-div.send-message form#contact input.button:hover {
-	background-color : #F96E5B;
-	color: #f0f0f0;
+#msgdiv {
+	margin-top : 20px;
+	width      : 415px;
+	min-height : 160px;				
 }
 
-div.send-message form#contact input.text,div.send-message form#contact textarea {
-	display       : block;
-	border        : 1px solid #ddd;
-	padding       : 8px 5px;
-	font-size     : 12px;
-	margin-bottom : 15px;
-	font-weight   : bold;
-	color         : #aaa;
-	-webkit-border-radius : 3px;
+#subdiv {
+	margin-top : 24px;	
 }
 
-div.send-message form#contact input:focus::-webkit-input-placeholder{
-	color : transparent;
-	-webkit-transition : all 400ms;
-}
- 
-div.send-message form#contact textarea:focus::-webkit-input-placeholder{
-	color : transparent;
-	-webkit-transition : all 300ms;
-}
-
-div.contact-info {
-	margin-right: 490px;
-	color: #707070;
-}
-
-div.contact-info h4 {
-	font-size: 20px;
-	margin-bottom:15px;
-	color: #666;
-}
-
-div.contact-info div.map {
-	height: 300px;
-	margin-bottom: 15px;
-}
-
-div.contact-info p {
-	line-height: 20px;
-	margin-bottom: 20px;
-}
-
-div.contact-info span {
-	font-size: 14px;
-	min-height: 60px;
-	padding-right: 45px;
-	line-height: 25px;
-	background-position: center right;
-	background-repeat: no-repeat;
-	display: block;
-	border : 2px dashed #ddd;
-}
-
-div.contact-info span.address {
-	background-image: url('images/address-icon1.png');
-	float: right;
-	width: 170px;
-}
-
-div.contact-info span.tell {
-	background-image: url('images/address-icon2.png');
-	margin-right: 230px;
-}
 /*=================== ABOUT US PAGE ======================*/ 
-section.about div{
-	outline: 1px solid red;
-}
 section.about {
-	width: 			950px;
-	margin: 		0 auto;
+	width  : 950px;
+	margin : 0 auto;
 }
-
 section.about .text {
-	min-height: 	480px;
-	width: 			950px;
-	border-bottom: 	1px solid #CCC;
+	min-height    : 480px;
+	width         : 950px;
+	border-bottom : 1px solid #CCC;
 }
-
 section.about .text .headtxt{
-	min-height: 	90px;
-	width: 			950px;	
+	min-height : 90px;
+	width      : 950px;	
 }
-
-section.about .text .lefttxt, section.about .text .midtxt, section.about .text .righttxt{
-	float     : 	left;
-	min-height: 	320px;
-	width     : 	300px;
-	margin-top: 	20px;				
+section.about .text .lefttxt, section.about .text .righttxt{
+	float      : left;
+	min-height : 320px;
+	width      : 300px;
+	margin-top : 20px;	
+	outline: 5px solid red;
 }
-section.about .text .lefttxt{
-	background-image:url(images/tehrani2.jpg);
-}
-section.about .text .midtxt {
-	margin-left: 	20px;
-}
-
 section.about .text .righttxt{
-	float	   : 	none;
-	margin-left: 	650px;		
+	float       : none;
+	margin-left : 650px;		
 }
-
 /* --Pics Part -- */
-
 section.about .pics {
-	min-height : 	440px;
-	width      : 	950px;
-	margin-top : 	35px;
+	min-height : 440px;
+	width      : 950px;
+	margin-top : 35px;
 }
-
 section.about .pics .first, section.about .pics .second, section.about .pics .third {
-	float       : 	left;
-	width       :	290px;
-	min-height  : 	inherit;
-	margin-left : 	0px;		
+	float       : left;
+	width       : 290px;
+	min-height  : inherit;
+	margin-left : 0px;	
+	outline: 5px solid green;
 }
-
 section.about .pics .second {
-	margin-left : 	40px;
+	margin-left : 40px;
 }
-
 section.about .pics .third {
-	float       : 	none;
-	margin-left : 	660px;
+	float       : none;
+	margin-left : 660px;
 }
