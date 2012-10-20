@@ -608,7 +608,11 @@ section.about .text .righttxt h2{
 	font-size: 23px;
 	margin-right: 15px;
 }
-
+section.about .text .righttxt p{
+	margin-right: 15px;
+	line-height: 23px;
+	margin-top: 15px;
+}
 /* --Pics Part -- */
 
 section.about .pics {
