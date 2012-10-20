@@ -15,15 +15,17 @@
 </head>
 
 <body>
+	<!-- ---------------- Header ------------------- -->
 	<header class="normal">
 		<div class="grayline"></div>	
 		<section class="header">
 			<nav>
 				<menu>
-					<li><a href="#">صفحه اصلی<span>|</span></a></li>
+					<li><a href="./">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">گالری تصاویر<span>|</span></a></li>
-					<li><a href="#">تماس با ما<span></span></a></li>
+					<li><a href="#">اعضا<span>|</span></a></li>
+					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
@@ -36,10 +38,11 @@
 		<section class="header">
 			<nav>
 				<menu>
-					<li><a href="#">صفحه اصلی<span>|</span></a></li>
+					<li><a href="./">صفحه اصلی<span>|</span></a></li>
 					<li><a href="#">درباره گروه<span>|</span></a></li>
-					<li><a href="#">گالری تصاویر<span>|</span></a></li>
-					<li><a href="#">تماس با ما<span></span></a></li>
+					<li><a href="#">اعضا<span>|</span></a></li>
+					<li><a href="#">اخبار<span>|</span></a></li>
+					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
 					<li class="clear"></li>
 				</menu>
 			</nav>
@@ -47,6 +50,7 @@
 			<div class="clear"></div>
 		</section>
 	</header>
+	<!-- ---------------- Middle ------------------- -->
 	<section class="contain">
 		<div class="middle">
 			<div class="title"></div>
@@ -72,9 +76,9 @@
 				?>         
 			</div>
 			<div class="boxess">
-				<div class="first"></div>
-				<div class="second"></div>
-				<div class="third"></div>
+				<div class="first" id="boxone"></div>
+				<div class="second" id="boxone"></div>
+				<div class="third" id="boxone"></div>
 				<div class="forth"></div>
 				<div class="clear"></div>
 			</div>
@@ -115,6 +119,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- ---------------- Footer ------------------- -->
 	<footer class="foot">
 		<section class="contain">
 			<div class="bigfooter">
@@ -156,7 +161,6 @@
 				</div>
 				<div class="clear"></div>
 			</div>
-			
 		</section>
 		<div class="darkline"></div>
 	</footer>

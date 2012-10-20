@@ -1,7 +1,7 @@
-/*section, div {*/
+/*section, div {
 	outline : 1px solid red;
 }
-
+*/
 
 .clear{
 	clear      : both;
@@ -14,16 +14,7 @@
 	float      : none !important;
 }
 
-body {
-	/*background-image    : url('images/backpic.jpg');*/
-	background-repeat   : no-repeat;
-	background-position : top center;
-	margin              : 0 auto;
-	min-height          : 1600px;
-}
-
-/*--------------Head-------------*/
-
+/*------------------------------ Header -------------------------------*/
 .grayline {
 	min-height : 0px;
 	border-top : 7px solid whiteSmoke;
@@ -52,8 +43,7 @@ section.header nav {
 	float : right;
 }
 
-/***************************  ACTION MENU  **************************/
-
+/*------------------------------ Action Menu -------------------------------*/
 header.action {
 	opacity          : 0;
 	top              : 0;
@@ -79,8 +69,7 @@ header.action .logo {
 	background-image : url('images/logo-min.png');
 }
 
-/**********************   NORMAL MENU   ***********************/
-
+/*------------------------------ Normal Menu -------------------------------*/
 nav menu {
 	list-style : none;
 }
@@ -120,8 +109,7 @@ nav menu li a.active {
 	background-color :  #F96E5B;
 }
 
-/*--------------Middle--------------*/
-
+/*------------------------------ Middle -------------------------------*/
 section.contain {
 
 }
@@ -129,17 +117,17 @@ section.contain {
 section.contain .middle{
 	margin     : 0 auto;
 	width      : 950px;
-	min-height : 1100px;
 }
 
 section.contain .middle .title {
 	margin       : 0 auto;
 	width        : 950px;
-	min-height   : 80px;
-	padding      : 17px 0;
-	text-align   : center;
+	padding      : 27px 0;
+	text-align   : right;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 30px;
+	font-family: Tahoma;
+	font-size: 20px;
 }
 
 section.contain .middle .banner {
@@ -148,7 +136,7 @@ section.contain .middle .banner {
 	min-height : 365px;
 	margin-bottom: 30px;
 }
-/************************* SLIDER ******************************/
+/*------------------------------ Slider -------------------------------*/
 div.middle .banner {
 	position : relative;
 	margin     : 0 auto;
@@ -172,27 +160,32 @@ div.middle .banner > div {
 /* box haye zier slide */
 
 section.contain .middle .boxess{
-	margin       : 		0 auto;
-	width        : 		950px;
-	min-height   : 		210px;
-	border-top   : 		1px solid #eee;
-	border-bottom: 		2px solid #eee;
-	margin-bottom:		40px;
-	padding-top: 		35px;
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 210px;
+	border-top   : 1px solid #eee;
+	border-bottom: 2px solid #eee;
+	margin-bottom: 40px;
+	padding-top: 35px;
 }
 
 section.contain .middle .boxess .first,
 section.contain .middle .boxess .second,
 section.contain .middle .boxess .third{
-	border-right: 		1px dashed #eee;
-	float      : 		left;
-	width      : 		237px;
-	min-height : 		180px;
+	border-right: 1px dashed #eee
 }
+
 /* last box*/
+
 section.contain .middle .boxess .forth {
-	margin-left : 		715px;
-	min-height  : 		180px;
+	margin-left : 715px;
+	min-height  : 180px;
+}
+
+#boxone {
+	float      : left;
+	width      : 237px;
+	min-height : 180px;
 }
 
 /* RECENT WORK */
@@ -277,7 +270,8 @@ section.contain .middle .recentwork p{
 	margin-top: 	 	10px;
 	margin-right: 	 	17px;
 }
-/*--------------Foot--------------*/ 
+
+/*------------------------------ Footer -------------------------------*/ 
 footer.foot {
 	left:0;
 	right:0;
@@ -466,65 +460,117 @@ footer.foot .darkline {/*Darkline in bottom*/
 	min-height:0px;
 	outline:7px solid #333333;			
 }
-/*=================== CONTACT  PAGE ======================*/ 
-article.contact {
-	min-height : 700px;
-	width      : 950px;
-	margin     : 0 auto;
+
+/*------------------------------ Contact Page -------------------------------*/
+.ok {
+	outline: 1px solid #9f9;
 }
 
-article.contact .text {
-	min-height : 70px;	
-	width      : 950px;
-	margin     : 0 auto;
+.err {
+	outline: 1px solid #f99;
 }
 
-article.contact .lcontact {
-	float      : left;
-	min-height : 600px;	
-	outline    : 1px solid red;
-	width      : 460px;
-	margin-top : 20px;		
+div.middle .send-message {
+	float : right;
+	width : 460px;
 }
 
-article.contact .rcontact {
-	margin-left : 490px;
-	min-height  : 600px;	
-	outline     : 1px solid red;
-	width       : 450px;
-	margin-top  : 20px;
-	padding     : 1px;		
+div.send-message h4 {
+	font-size: 17px;
+	margin-bottom:15px;
+	color: #666;
 }
 
-article.contact .rcontact .text {
-	width      : 450px;
-	min-height : 50px;	
+div.send-message form#contact {
+	padding : 25px 25px 20px 0;
+	width   : 435px;
+	background-color: #f8f8f8;
 }
 
-article.contact .rcontact .name, article.contact .rcontact .email, article.contact .rcontact .subject, article.contact .rcontact .messege, article.contact .rcontact .submit {
-	width       : 370px;
-	margin-left : 25px;	
-	margin-top  : 47px;
-	outline     : 1px solid red;
-	min-height  : 30px;				
+div.send-message form#contact input.text {
+	width : 370px;
 }
 
-#txtboxdiv {
-	margin-top : 34px;
+div.send-message form#contact input.button {
+	width      : 150px;
+	height     : 30px;
+	color      : #d0d0d0;
+	text-align : center;	
+	background-color : #444 ;
+	border-radius: 20px;
+	-webkit-transition: all 300ms;
 }
 
-#msgdiv {
-	margin-top : 20px;
-	width      : 415px;
-	min-height : 160px;				
+div.send-message form#contact input.button:hover {
+	background-color : #F96E5B;
+	color: #f0f0f0;
 }
 
-#subdiv {
-	margin-top : 24px;	
+div.send-message form#contact input.text,div.send-message form#contact textarea {
+	display       : block;
+	border        : 1px solid #ddd;
+	padding       : 8px 5px;
+	font-size     : 12px;
+	margin-bottom : 15px;
+	font-weight   : bold;
+	color         : #aaa;
+	-webkit-border-radius : 3px;
 }
 
-/*=================== ABOUT US PAGE ======================*/ 
+div.send-message form#contact input:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition : all 400ms;
+}
+ 
+div.send-message form#contact textarea:focus::-webkit-input-placeholder{
+	color : transparent;
+	-webkit-transition : all 300ms;
+}
 
+div.contact-info {
+	margin-right: 490px;
+	color: #707070;
+}
+
+div.contact-info h4 {
+	font-size: 20px;
+	margin-bottom:15px;
+	color: #666;
+}
+
+div.contact-info div.map {
+	height: 300px;
+	margin-bottom: 15px;
+}
+
+div.contact-info p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+div.contact-info span {
+	font-size: 14px;
+	min-height: 60px;
+	padding-right: 45px;
+	line-height: 25px;
+	background-position: center right;
+	background-repeat: no-repeat;
+	display: block;
+	border : 2px dashed #ddd;
+}
+
+div.contact-info span.address {
+	background-image: url('images/address-icon1.png');
+	float: right;
+	width: 170px;
+}
+
+div.contact-info span.tell {
+	background-image: url('images/address-icon2.png');
+	margin-right: 230px;
+}
+
+/*------------------------------ About Page -------------------------------*/ 
 article.about {
 	width  : 950px;
 	margin : 0 auto;
