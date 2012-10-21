@@ -693,15 +693,14 @@ section.player .contain .tehrani img{
 	border-radius: 	8px;
 	box-shadow: 	5px 5px 5px #888888;	
 }
-section.player .contain .tehrani h2{
-	margin-top: 	20px;
+.txtname{
 	font-size: 		22px;
 }
-
-section.player .contain .tehrani h3{
+.txtsaz{
 	font-size: 		17px;
+}
+section.player .contain .tehrani h2,section.player .contain .tehrani h3{
 	margin-top: 	10px;
-	line-height: 	22px;
 }
 section.player .contain .tehrani h3 a{
 	font-size: 		17px;
@@ -715,11 +714,18 @@ section.player .contain .tehrani h3 a:hover{
 	color: 			#f96e5b;
 }
 section.player .contain .benyamin{
-	width: 			580px;
+	width: 			480px;
 	min-height: 	350px;
 	float: 			left;	
 	text-align: 	left;
 }
 section.player .contain .benyamin img{
 	float: 			left;
+}
+section.player .contain .benyamin h2{
+	margin-top: 	20px;
+	margin-left: 	190px;
+}
+section.player .contain .benyamin h3{
+	margin-left: 	200px;
 }
