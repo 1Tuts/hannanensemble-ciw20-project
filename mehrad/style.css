@@ -111,7 +111,7 @@ nav menu li a.active {
 
 /*------------------------------ Middle -------------------------------*/
 section.contain {
-
+	
 }
 
 section.contain .middle{
@@ -705,7 +705,8 @@ div.players ul li {
 	width        : 150px;
 	height       : 150px;
 	margin-left  : 10px;
-	
+	opacity           : 0.4;
+	-webkit-transition: all 260ms;
 	display      : block;
 }
 
@@ -716,8 +717,7 @@ div.players ul li#last {
 
 div.players ul li img.face {
 	display           : block;
-	opacity           : 0.4;
-	-webkit-transition: all 260ms;
+	
 	border-radius     : 3px;
 }
 

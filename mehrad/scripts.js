@@ -105,8 +105,8 @@ window.onscroll=function(){
 	});
 	//-------------------------- players -------------------------
 
-	var faces       = $('div.players ul li img.face'),
-		faceBio = $('div.players div.player-description p');
+	var faces       = $('div.players ul li'),
+		faceBio = $('div.players div.player-description > p');
 
 		faces.each(function(){
 
