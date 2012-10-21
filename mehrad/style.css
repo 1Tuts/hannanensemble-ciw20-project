@@ -710,25 +710,29 @@ div.players ul li {
 }
 
 div.players ul li#last {
-	float: none;
-	margin-right: 650px;
+	float        : none;
+	margin-right : 650px;
 }
 
 div.players ul li img.face {
-	display : block;
-	opacity : 0.4;
-	-webkit-transition : all 260ms;
-	border-radius: 3px;
+	display           : block;
+	opacity           : 0.4;
+	-webkit-transition: all 260ms;
+	border-radius     : 3px;
 }
 
 div.players ul li img.face:hover {
-	opacity: 1;
+	opacity : 1;
 }
 
+div.players div.player-description {
+	width  : 850px;
+	margin : 0 auto;
+}
 div.players div.player-description p {
-	display: none;
-	color     : #444;
-	font-size : 18px;
-	min-height: 0;
-	background-color: #bbb;
+	display          : none;
+	color            : #444;
+	font-size        : 18px;
+	min-height       : 0;
+	background-color : #bbb;
 }
