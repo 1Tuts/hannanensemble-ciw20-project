@@ -627,74 +627,38 @@ div.contact-info span.tell {
 }
 
 /*------------------------------ About Page -------------------------------*/ 
-section.about {
-	width  : 		950px;
-	margin : 		0 auto;
-	margin-top: 	13px;
-}	
+section.about{
 
-section.about .text {
-	min-height    : 480px;
-	width         : 950px;
-	border-bottom : 1px solid #CCC;
 }
 
-section.about .text .headtxt{
-	min-height : 	90px;
-	width      : 	950px;	
+section.about .aboutus{
+	width: 950px;
+	margin: 0 auto
 }
 
-section.about .text .lefttxt{
-	float      : 	left;
-	min-height : 	320px;
-	width      : 	300px;
-	margin-top : 	20px;	
-	background-image: url(images/tehrani2.jpg);
-}
-section.about .text .righttxt{
-	margin-left : 	350px;
-	margin-top : 	20px;
-	width      : 	630px;	
-	min-height : 	320px;	
-}
-section.about .text .righttxt h2{
-	font-size: 		23px;
-	margin-right: 	15px;
-}
-section.about .text .righttxt p{
-	margin-right: 	15px;
-	line-height: 	23px;
-	margin-top: 	15px;
-}
-/* --Pics Part -- */
-
-section.about .pics {
-	min-height : 	440px;
-	width      : 	950px;
-	margin-top : 	35px;
+section.about .aboutus .title{
+	margin       : 0 auto;
+	width        : 950px;
+	padding      : 27px 0;
+	text-align   : right;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+	font-family: Tahoma;
+	font-size: 20px;
 }
 
-section.about .pics .text {
-	float       	: left;
-	width       	: 450px;
-	min-height  	: inherit;
-	margin-left 	: 0px;	
-	text-align: 	center	
+
+section.about .aboutus .text{
+	margin-bottom: 55px;
 }
-section.about .pics .text h2 {
-	font-size: 		23px;
-	margin-top: 	30px;
-}
-section.about .pics .text p {
-	margin-top: 	30px;
-	line-height: 	22px;
-}
-section.about .pics .hananpic {
-	margin-left : 	300px;
-	width       : 	480px;
-	min-height  : 	inherit;
-	background-image: url(images/hananpic.jpg);
+
+section.about .aboutus .pic{
+	width: 480px;
+	min-height: 320px;
+	float: left;
+	background-image: url('./images/hananpic.jpg');
 	background-repeat: no-repeat;
+	background-position: center;
 }
 /*------------------------------ Player Page -------------------------------*/
 section.player div{
