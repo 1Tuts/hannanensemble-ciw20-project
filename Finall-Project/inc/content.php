@@ -3,7 +3,7 @@
 			<div class="title"></div>
 			<div class="banner">
 				<?php
-					$images_path = "images/slide";
+					$images_path = bloginfo('template_url')."/images/slide";
 					$images      = scandir($images_path);
 					
 					foreach ($images as $img) {
