@@ -453,3 +453,17 @@ article.about .pics .third {
 	float       : none;
 	margin-left : 660px;
 }
+
+/************************ PLAYERS PAGE ***************************/
+
+div.middle div.players {
+
+}
+
+div.players ul li {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	border-bottom: 1px solid #999;
+}
