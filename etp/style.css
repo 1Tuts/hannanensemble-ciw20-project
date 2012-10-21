@@ -714,22 +714,25 @@ section.player .contain .tehrani h3 a:hover{
 	color: 			#f96e5b;
 }
 section.player .contain .benyamin{
-	width: 			480px;
-	min-height: 	350px;
+	width: 			550px;
 	float: 			left;	
-	/*text-align: 	left;*/
 }
 section.player .contain .benyamin img{
 	float: 			left;
 }
 section.player .contain .benyamin h2{
 	margin-top: 	20px;
-	margin-right: 	190px;
+	margin-right: 	265px;
 }
 section.player .contain .benyamin h3{
-	margin-right: 	200px;
+	margin-right: 	280px;
 }
 section.player .contain .benyamin p{
 	margin-top: 	120px;
 	line-height: 	20px;
+}
+section.player .contain .saeed{
+	width: 			250px;
+	min-height: 	250px;
+	margin-top: 	200px;
 }
