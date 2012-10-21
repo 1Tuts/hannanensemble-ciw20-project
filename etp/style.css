@@ -680,12 +680,20 @@ section.player .contain{
 	min-height: 	800px;
 }
 section.player .contain .tehrani{
-	width: 			250px;
+	width: 			260px;
 	margin: 		0 auto;
 	text-align: 	center;
+	min-height: 	300px;
 }
 section.player .contain .tehrani img{
 	margin-top: 	30px;
+	-webkit-transition:	all 300ms;	
+	-moz-transition:	all 300ms;
+	-ms-transition:		all 300ms;
+	-o-transition:		all 300ms; 
+	}
+section.player .contain .tehrani img:hover{
+	opacity: 0.9;
 }
 .imgstyle{
 	border-radius: 	8px;
@@ -708,6 +716,10 @@ section.player .contain .tehrani h3 a{
 	color: 			#000;
 	margin-top: 	20px;
 	font-weight: 	bold;
+	-webkit-transition:all 250ms;	
+	-moz-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-o-transition:all 250ms; 
 }
 section.player .contain .tehrani h3 a:hover{
 	color: 			#f96e5b;
