@@ -22,7 +22,7 @@
 			<nav>
 				<menu>
 					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
 					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
@@ -39,7 +39,7 @@
 			<nav>
 				<menu>
 					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
 					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
@@ -76,10 +76,26 @@
 				?>         
 			</div>
 			<div class="boxess">
-				<div class="first" id="boxone"></div>
-				<div class="second" id="boxone"></div>
-				<div class="third" id="boxone"></div>
-				<div class="forth"></div>
+				<div class="first">
+					<h3>نوازندگــان</h3>
+					<img src="images/navazande.png">
+					<p>معرفی نوازنده گان تنبور نوازان حنان</p>
+				</div>
+				<div class="second">
+					<h3>اخبــار</h3>
+					<img src="images/akhbar.png">
+					<p>اخبار کنسرتها و جشنواره های موسیقی</p>
+				</div>
+				<div class="third">
+					<h3>نمایه هــا</h3>
+					<img src="images/navazande.png">
+					<p>نمایش نمایه های حنـــان</p>
+				</div>
+				<div class="forth">
+					<h3>برنامه ها</h3>
+					<img src="images/navazande.png">
+					<p>نوازهای اجرا شده ی حنـــان</p>
+				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="recentwork">

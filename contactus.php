@@ -20,7 +20,7 @@
 			<nav>
 				<menu>
 					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
 					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
@@ -37,7 +37,7 @@
 			<nav>
 				<menu>
 					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="#">درباره گروه<span>|</span></a></li>
+					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
 					<li><a href="#">اعضا<span>|</span></a></li>
 					<li><a href="#">اخبار<span>|</span></a></li>
 					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
