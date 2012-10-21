@@ -717,15 +717,19 @@ section.player .contain .benyamin{
 	width: 			480px;
 	min-height: 	350px;
 	float: 			left;	
-	text-align: 	left;
+	/*text-align: 	left;*/
 }
 section.player .contain .benyamin img{
 	float: 			left;
 }
 section.player .contain .benyamin h2{
 	margin-top: 	20px;
-	margin-left: 	190px;
+	margin-right: 	190px;
 }
 section.player .contain .benyamin h3{
-	margin-left: 	200px;
+	margin-right: 	200px;
+}
+section.player .contain .benyamin p{
+	margin-top: 	120px;
+	line-height: 	20px;
 }
