@@ -675,6 +675,8 @@ section.player{
 	margin-top: 	13px;
 }
 section.player .contain{
+	width  : 		950px;
+	margin : 		0 auto;
 	min-height: 	800px;
 
 }
