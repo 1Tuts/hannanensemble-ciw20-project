@@ -571,58 +571,72 @@ div.contact-info span.tell {
 }
 
 /*------------------------------ About Page -------------------------------*/ 
-article.about {
-	width  : 950px;
-	margin : 0 auto;
-}
+section.about {
+	width  : 		950px;
+	margin : 		0 auto;
+	margin-top: 	13px;
+}	
 
-article.about .text {
+section.about .text {
 	min-height    : 480px;
 	width         : 950px;
 	border-bottom : 1px solid #CCC;
 }
 
-article.about .text .headtxt{
-	min-height : 90px;
-	width      : 950px;	
+section.about .text .headtxt{
+	min-height : 	90px;
+	width      : 	950px;	
 }
 
-article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
-	float      : left;
-	min-height : 320px;
-	width      : 300px;
-	margin-top : 20px;				
+section.about .text .lefttxt{
+	float      : 	left;
+	min-height : 	320px;
+	width      : 	300px;
+	margin-top : 	20px;	
+	background-image: url(images/tehrani2.jpg);
 }
-
-article.about .text .midtxt {
-	margin-left : 20px;
+section.about .text .righttxt{
+	margin-left : 	350px;
+	margin-top : 	20px;
+	width      : 	630px;	
+	min-height : 	320px;	
 }
-
-article.about .text .righttxt{
-	float       : none;
-	margin-left : 650px;		
+section.about .text .righttxt h2{
+	font-size: 		23px;
+	margin-right: 	15px;
 }
-
+section.about .text .righttxt p{
+	margin-right: 	15px;
+	line-height: 	23px;
+	margin-top: 	15px;
+}
 /* --Pics Part -- */
 
-article.about .pics {
-	min-height : 440px;
-	width      : 950px;
-	margin-top : 35px;
+section.about .pics {
+	min-height : 	440px;
+	width      : 	950px;
+	margin-top : 	35px;
 }
 
-article.about .pics .first, article.about .pics .second, article.about .pics .third {
-	float       : left;
-	width       : 290px;
-	min-height  : inherit;
-	margin-left : 0px;		
+section.about .pics .text {
+	float       	: left;
+	width       	: 450px;
+	min-height  	: inherit;
+	margin-left 	: 0px;	
+	text-align: 	center	
 }
-
-article.about .pics .second {
-	margin-left : 40px;
+section.about .pics .text h2 {
+	font-size: 		23px;
+	margin-top: 	30px;
 }
-
-article.about .pics .third {
-	float       : none;
-	margin-left : 660px;
+section.about .pics .text p {
+	margin-top: 	30px;
+	line-height: 	22px;
+}
+section.about .pics .hananpic {
+	margin-left : 	300px;
+	width       : 	480px;
+	min-height  : 	inherit;
+	background-image: url(images/hananpic.jpg);
+	background-repeat: no-repeat;
 }
