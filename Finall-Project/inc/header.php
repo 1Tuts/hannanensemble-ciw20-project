@@ -6,6 +6,7 @@
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/reset.css" />
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/1styles.css" />
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+	<link rel="Shortcut Icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slide.js"></script>
