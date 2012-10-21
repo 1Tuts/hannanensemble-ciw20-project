@@ -683,4 +683,10 @@ section.player .contain{
 section.player .contain .tehrani{
 	width: 			400px;
 	min-height: 	400px;
+	float: 			left;
+}
+section.player .contain .benyamin{
+	width: 			400px;
+	min-height: 	400px;
+	margin-left: 	500px;	
 }
