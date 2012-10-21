@@ -103,6 +103,55 @@ window.onscroll=function(){
 
 		return !err;
 	});
+	//-------------------------- players -------------------------
+
+	var faces       = $('div.players ul li img.face'),
+		faceBio = $('div.players div.player-description p');
+
+		faces.each(function(){
+
+		var that = this;
+
+		$(this).click(function(){
+
+			if(faceBio.eq($(that).index()).css('display') == 'none'){
+
+				$(that).animate({
+
+					'box-shadow' : '0 0 10px #111',
+					opacity:1
+
+				},100);
+
+				
+				faceBio.eq($(that).index()).animate({
+					display : 'block'
+
+				},0,'linear',function(){
+					faceBio.eq($(that).index()).animate({ height : 300 },170)
+				});
+			}
+			else{
+
+				$(that).animate({
+
+					'box-shadow' : 'none',
+					opacity:0.4
+
+				},300);
+
+				faceBio.eq($(that).index()).animate({
+
+					height : 0
+
+				},170,'linear',function(){
+					faceBio.eq($(that).index()).css({ display : 'none' })
+				});
+			}
+			
+		});
+	});
+
 });
 
 

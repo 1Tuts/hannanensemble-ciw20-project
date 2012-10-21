@@ -6,9 +6,9 @@
     <link type="text/css" rel="stylesheet" href="reset.css" />
     <link type="text/css" rel="stylesheet" href="1styles.css" />
     <link type="text/css" rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="js/zepto.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
-    <script type="text/javascript" src="js/slide.js"></script>
+    <script type="text/javascript" src="zepto.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="slide.js"></script>
     <!--[if lt IE 9]>
         <script src="js/html5shiv.js"></script>
     <![endif]-->
@@ -58,26 +58,28 @@
 			<div class="players">
 				<ul>
 					<li>
-						<img id="ebrahim" src="images/tehrani2.jpg" alt="" class="face" />
-						<p class="player-description"></p>
+						<img id="ebrahim" src="images/tehranipour.jpg" alt="" class="face" />
 					</li>
 					<li>
 						<img id="benyamin" src="images/benyamin.jpg" alt="" class="face" />
-						<p class="player-description"></p>
 					</li>
 					<li>
 						<img id="saeed" src="images/saeed.jpg" alt="" class="face" />
-						<p class="player-description"></p>
 					</li>
 					<li>
 						<img id="hooman" src="images/hooman.jpg" alt="" class="face" />
-						<p class="player-description"></p>
 					</li>
-					<li>
+					<li id="last">
 						<img id="mohammad" src="images/tehranipour.jpg" alt="" class="face" />
-						<p class="player-description"></p>
 					</li>
 				</ul>
+                <div class="player-description">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                </div>
 			</div>
         </div>
     </section>

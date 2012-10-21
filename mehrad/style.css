@@ -1,7 +1,7 @@
-
-section, div {
-	outline : 0px solid red;
+/*section, div {
+	outline : 1px solid red;
 }
+*/
 
 .clear{
 	clear      : both;
@@ -14,14 +14,11 @@ section, div {
 	float      : none !important;
 }
 
-body {
-	/*background-image    : url('images/backpic.jpg');*/
-	background-repeat   : no-repeat;
-	background-position : top center;
-	margin              : 0 auto;
+/*------------------------------ Header -------------------------------*/
+.grayline {
+	min-height : 0px;
+	border-top : 7px solid whiteSmoke;
 }
-
-/***********************  HEADER  ***************************/
 
 header.normal {
 
@@ -38,7 +35,7 @@ section.header {
 header.normal section.header .logo {
 	width        : 145px;
 	min-height   : 45px;
-	margin-right : 810px;
+	margin-right : 804px;
 	background-image : url('images/logo.png');
 }
 
@@ -46,8 +43,7 @@ section.header nav {
 	float : right;
 }
 
-/***************************  ACTION MENU  **************************/
-
+/*------------------------------ Action Menu -------------------------------*/
 header.action {
 	opacity          : 0;
 	top              : 0;
@@ -73,8 +69,7 @@ header.action .logo {
 	background-image : url('images/logo-min.png');
 }
 
-/**********************   NORMAL MENU   ***********************/
-
+/*------------------------------ Normal Menu -------------------------------*/
 nav menu {
 	list-style : none;
 }
@@ -114,37 +109,35 @@ nav menu li a.active {
 	background-color :  #F96E5B;
 }
 
-/*--------------Middle--------------*/
+/*------------------------------ Middle -------------------------------*/
+section.contain {
 
-.content-container {
-	background-image:url('images/bg-1.png');
-	background-repeat: repeat;
 }
 
-article.middle {
-	border-top : 2px solid #eee;
-}
-
-article.middle{
+section.contain .middle{
 	margin     : 0 auto;
 	width      : 950px;
-	min-height : 1100px;
-	font-family: Tahoma;
 }
 
-article.middle .title {
+section.contain .middle .title {
 	margin       : 0 auto;
 	width        : 950px;
-	font-size: 25px;
-	color: #aaa;
-	font-weight: 300;
-	padding      : 37px 0;
-	border-bottom : 1px solid #eee;
+	padding      : 27px 0;
+	text-align   : right;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 30px;
+	font-family: Tahoma;
+	font-size: 20px;
+}
+
+section.contain .middle .banner {
+	margin     : 0 auto;
+	width      : 950px;
+	min-height : 365px;
 	margin-bottom: 30px;
 }
-/************************* SLIDER ******************************/
-
-article.middle .banner {
+/*------------------------------ Slider -------------------------------*/
+div.middle .banner {
 	position : relative;
 	margin     : 0 auto;
 	width      : 950px;
@@ -153,7 +146,7 @@ article.middle .banner {
 	z-index: 0;
 }
 
-article.middle .banner > div {
+div.middle .banner > div {
 	position : absolute;
 	height   : 365px;
 	width    : 950px;
@@ -163,132 +156,358 @@ article.middle .banner > div {
 	background-position : center center;
 	background-repeat   : no-repeat;
 }
-article.middle .banner > section {
-	width: 100px;
-	height: 50px;
-	position: absolute;
-	z-index: 1;
-	top: 86%;
-	left: 0;
-}
 
-article.middle .banner > section div {
-	float: left;
-}
-div#preimg {
-	width: 48px;
-	height: 48px;
-	background-image: url('images/sprite.png');
-	background-color: #444;
-}
-div#nextimg {
-	width: 48px;
-	height: 48px;
-	background-color: #444;
-}
 /* box haye zier slide */
 
-article.middle .boxess{
+section.contain .middle .boxess{
 	margin       : 0 auto;
 	width        : 950px;
-	min-height   : 260px;
+	min-height   : 210px;
+	border-top   : 1px solid #eee;
+	border-bottom: 2px solid #eee;
 	margin-bottom: 40px;
+	padding-top: 35px;
+}
+
+section.contain .middle .boxess .first,
+section.contain .middle .boxess .second,
+section.contain .middle .boxess .third{
+	float      : left;
+	width      : 237px;
+	min-height : 180px;
+	border-right: 1px dashed #eee;
+	text-align: center;
 }
 
 /* last box*/
 
-article.middle .boxess .forth {
+section.contain .middle .boxess .forth {
 	margin-left : 715px;
-	min-height  : 230px;
+	min-height  : 178px;
+	text-align: center;
+	padding: 1px;
 }
 
-#boxone {
-	float      : left;
-	width      : 237px;
-	min-height : 230px;
+section.contain .middle .boxess .first h3,
+section.contain .middle .boxess .second h3,
+section.contain .middle .boxess .third h3,
+section.contain .middle .boxess .forth h3{
+	margin-top: 20px;
+	font-weight: bold;
+	color: #707070;
+}
+
+section.contain .middle .boxess .first img,
+section.contain .middle .boxess .second img,
+section.contain .middle .boxess .third img,
+section.contain .middle .boxess .forth img{
+	margin-top: 15px;
+}
+
+section.contain .middle .boxess .first p,
+section.contain .middle .boxess .second p,
+section.contain .middle .boxess .third p,
+section.contain .middle .boxess .forth p{
+	margin-top: 15px;
+	font-size: 	12px;	
+}
+
+section.contain .middle .boxess .first:hover,
+section.contain .middle .boxess .second:hover,
+section.contain .middle .boxess .third:hover,
+section.contain .middle .boxess .forth:hover{
+	background-color: #F96E5B;
+	color: #FFF;
+	-webkit-transition:all 450ms;
+	-ms-transition:all 450ms;
+	-moz-transition:all 450ms;
+	-o-transition:all 450ms;
 }
 
 /* RECENT WORK */
-
-article.middle .recentwork {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 256px;
-	margin-bottom : 50px;
+section.contain .middle .recentwork {
+	margin: 0 auto;
+	width: 950px;
+	min-height: 256px;
+	margin-bottom: 50px;
 }
 
-article.middle .recentwork .forth{/* last box*/
-	margin-left : 715px;
-	min-height  : inherit;		
+section.contain .middle .recentwork .first,
+section.contain .middle .recentwork .second,
+section.contain .middle .recentwork .third{
+	float: left;
+	width: 236px;
+	min-height: 210px;
+	border-right: 2px solid #FFF;
+	position: relative;
+	
 }
 
-#boxtwo {
-	float        : left;
-	width        : 236px;
-	min-height   : inherit;
-	border-right : 2px solid #FFF;
+section.contain .middle .recentwork .first .back,
+section.contain .middle .recentwork .second .back,
+section.contain .middle .recentwork .third .back{
+	width     :	236px;
+	min-height: 224px;
+	position  : absolute;
+	top       : 0;
+	bottom    : 0;
+	display   : none;
+
 }
 
-/*--------------Foot--------------*/ 
-.footer-container {
-	background-image: url('images/footer-tail.gif');
-	background-repeat: repeat;
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third .back:hover{
+	background-color: 	#F96E5B;	
+	z-index: 120;
 }
 
+section.contain .middle .recentwork .first:hover .back,
+section.contain .middle .recentwork .first .back:hover,
+section.contain .middle .recentwork .second:hover .back,
+section.contain .middle .recentwork .second .back:hover,
+section.contain .middle .recentwork .third:hover .back,
+section.contain .middle .recentwork .third .back:hover{
+	display: block;
+	background-color: #F96E5B;	
+	z-index: 120;
+	cursor: pointer;
+}
+
+section.contain .middle .recentwork .forth{/* last box*/
+	margin-left: 715px;
+	min-height: 210px;	
+	position: relative;
+}
+
+section.contain .middle .recentwork .forth .back{
+	width: 236px;
+	min-height: 224px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: none;
+}
+
+section.contain .middle .recentwork .forth:hover .back,
+section.contain .middle .recentwork .forth .back:hover{
+	display: block;
+	background-color: #F96E5B;	
+	z-index: 120;
+	cursor: pointer;
+}
+
+section.contain .middle .recentwork h4{
+	margin-top  : 15px;
+	margin-right: 10px;
+	color       : #FFF;
+	font-weight : bolder;
+}
+
+section.contain .middle .recentwork h6{
+	margin-top: 35px;
+	margin-right: 10px;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+section.contain .middle .recentwork p{
+	margin-top: 10px;
+	margin-right: 17px;
+}
+
+/*------------------------------ Footer -------------------------------*/ 
 footer.foot {
-	margin     : 0 auto;
-	width      : 950px;
+	left:0;
+	right:0;
+	background-color:#444444;
 }
 
-footer.foot .bigfooter {/* div 4 box */
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 300px;
+footer.foot p{
+	color: #999999;
+	font-size:14px;
 }
 
-footer.foot .bigfooter .forth { /* last box*/
-	margin-left : 715px;
-	min-height  : inherit;	
+footer.foot a{
+	color: #cccccc;
+	cursor: pointer;
+	text-decoration: none;
 }
 
-#boxthree {
-	float      : left;
-	width      : 237px;
-	min-height : inherit;
+footer.foot a:hover{
+	color: #f96e5b;
 }
 
-/* Copyright */
+footer.foot h3{
+	color: #FFF;
 
-footer.foot .footer {
-	margin     : 0 auto;
-	width      : 949px; /* 1px for pading*/
-	min-height : 65px;
-	padding    : 1px;
 }
 
-footer.foot .footer .copyright{
-	margin-top  : 20px;
-	margin-left : 25px;
-	float       : left;
-	width       : 260px; 
-	min-height  : 30px; 
+footer.foot .contain {
+	margin:0 auto;
+	width:950px;
+	margin-top:20px;
 }
 
-footer.foot .footer .facebook {
-	margin-left : 640px;
-	margin-top  : 20px;
-	width       : 295px;
-	min-height  : 30px;
+footer.foot .contain .bigfooter {/* div 4 box */
+	margin:0 auto;
+	width:950px;;
+	min-height:300px;
 }
 
-/*Darkline in bottom*/
-
-footer.foot .darkline {
-	min-height : 0px;
-	border     : 2px solid #333;			
+footer.foot .contain .bigfooter .first,
+footer.foot .contain .bigfooter .second,
+footer.foot .contain .bigfooter .third{
+	float:left;
+	width:237px;
+	min-height:290px;
+	text-align:right;
 }
 
-/*=================== CONTACT  PAGE ======================*/ 
+footer.foot .contain .bigfooter .first h3,
+footer.foot .contain .bigfooter .second h3,
+footer.foot .contain .bigfooter .third h3{
+	margin-top:37px;
+	margin-right:25px;
+}
+
+footer.foot .contain .bigfooter .forth { /* last box*/
+	margin-left:713px;
+	min-height:288px;
+	text-align:right;	
+	padding:1px;
+}
+
+footer.foot .contain .bigfooter .forth h3 {
+	margin-top:37px;
+	margin-right:25px;
+}
+
+footer.foot .contain .bigfooter .forth input,
+footer.foot .contain .bigfooter .forth button {
+	margin-top:20px;
+	margin-right:25px;
+	color:#FFF;		
+}
+footer.foot .contain .bigfooter .forth .button {
+	background-color: #F96E5B;	
+	color: #FFF;
+	border: 0 none;
+	width: 130px;
+	height: 25px;
+	border-radius: 10px;
+	-webkit-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-moz-transition:all 250ms;
+	-o-transition:all 250ms;
+}
+footer.foot .contain .bigfooter .forth .button:hover {
+	background-color: #000;	
+}
+
+footer.foot .contain .bigfooter p{
+	margin-top:23px;
+	margin-right:25px;
+}
+
+footer.foot .contain .bigfooter ul{
+	list-style-type:none;
+	margin-left:5px;
+}
+
+footer.foot .contain .bigfooter ul li{
+	float:left;
+	background-color:#333333;
+	border-right:3px solid #444444;
+	min-height:40px;
+	width:40px;
+}
+
+footer.foot .contain .bigfooter ul li:hover{
+	background-position:0 -40px;	
+}
+
+footer.foot .contain .bigfooter ul li a{
+	padding:18px 16px;
+	display:block;
+}
+
+/* Transition Part */
+#trans{
+	-webkit-transition:all 400ms;	
+	-moz-transition:all 400ms;
+	-ms-transition:all 400ms;
+	-o-transition:all 400ms;
+}
+
+footer.foot .contain .bigfooter .fb{
+	background-image:url(images/facebook.png);		
+}
+
+footer.foot .contain .bigfooter .fb:hover{
+	background-color:#3B5998;
+}
+
+footer.foot .contain .bigfooter .twitter{
+	background-image:url(images/twitter.png);
+}
+
+footer.foot .contain .bigfooter .twitter:hover{
+	background-color:#48C4D2;
+}
+
+footer.foot .contain .bigfooter .flickr{
+	background-image:url(images/flickr.png);	
+}
+
+footer.foot .contain .bigfooter .flickr:hover{
+	background-color:#F1628B;
+}
+
+footer.foot .contain .bigfooter .rss{
+	background-image:url(images/rss.png);	
+}
+
+footer.foot .contain .bigfooter .rss:hover{
+	background-color:#FE9900;
+}
+/* End Transition Icons */
+
+footer.foot .contain .footer {/* Copyright */
+	margin:0 auto;
+	width:949px; /* 1px for pading*/
+	min-height:65px;
+	padding:1px;
+	background-color:#333333;
+	text-align: left;
+	direction: ltr;
+}
+footer.foot .contain .footer .copyright{
+	margin-top:20px;
+	margin-left:25px;
+	float:left;
+	width:260px; 
+	line-height: 30px;
+}
+footer.foot .contain .footer .copyright .rights, .designteam .Design{
+	font-size: 12px;
+}
+footer.foot .contain .footer .designteam{
+	margin-left:580px;
+	margin-top:20px;
+	width:370px;
+	line-height: 30px;
+}
+
+footer.foot .darkline {/*Darkline in bottom*/
+	left:0;
+	right:0;
+	min-height:0px;
+	outline:7px solid #333333;			
+}
+
+/*------------------------------ Contact Page -------------------------------*/
 .ok {
 	outline: 1px solid #9f9;
 }
@@ -297,7 +516,7 @@ footer.foot .darkline {
 	outline: 1px solid #f99;
 }
 
-article.middle div.send-message {
+div.middle .send-message {
 	float : right;
 	width : 460px;
 }
@@ -396,88 +615,120 @@ div.contact-info span.tell {
 	background-image: url('images/address-icon2.png');
 	margin-right: 230px;
 }
-/*=================== ABOUT US PAGE ======================*/ 
 
-article.about {
-	width  : 950px;
-	margin : 0 auto;
-}
+/*------------------------------ About Page -------------------------------*/ 
+section.about {
+	width  : 		950px;
+	margin : 		0 auto;
+	margin-top: 	13px;
+}	
 
-article.about .text {
+section.about .text {
 	min-height    : 480px;
 	width         : 950px;
 	border-bottom : 1px solid #CCC;
 }
 
-article.about .text .headtxt{
-	min-height : 90px;
-	width      : 950px;	
+section.about .text .headtxt{
+	min-height : 	90px;
+	width      : 	950px;	
 }
 
-article.about .text .lefttxt, article.about .text .midtxt, article.about .text .righttxt{
-	float      : left;
-	min-height : 320px;
-	width      : 300px;
-	margin-top : 20px;				
+section.about .text .lefttxt{
+	float      : 	left;
+	min-height : 	320px;
+	width      : 	300px;
+	margin-top : 	20px;	
+	background-image: url(images/tehrani2.jpg);
 }
-
-article.about .text .midtxt {
-	margin-left : 20px;
+section.about .text .righttxt{
+	margin-left : 	350px;
+	margin-top : 	20px;
+	width      : 	630px;	
+	min-height : 	320px;	
 }
-
-article.about .text .righttxt{
-	float       : none;
-	margin-left : 650px;		
+section.about .text .righttxt h2{
+	font-size: 		23px;
+	margin-right: 	15px;
 }
-
+section.about .text .righttxt p{
+	margin-right: 	15px;
+	line-height: 	23px;
+	margin-top: 	15px;
+}
 /* --Pics Part -- */
 
-article.about .pics {
-	min-height : 440px;
-	width      : 950px;
-	margin-top : 35px;
+section.about .pics {
+	min-height : 	440px;
+	width      : 	950px;
+	margin-top : 	35px;
 }
 
-article.about .pics .first, article.about .pics .second, article.about .pics .third {
-	float       : left;
-	width       : 290px;
-	min-height  : inherit;
-	margin-left : 0px;		
+section.about .pics .text {
+	float       	: left;
+	width       	: 450px;
+	min-height  	: inherit;
+	margin-left 	: 0px;	
+	text-align: 	center	
 }
-
-article.about .pics .second {
-	margin-left : 40px;
+section.about .pics .text h2 {
+	font-size: 		23px;
+	margin-top: 	30px;
 }
-
-article.about .pics .third {
-	float       : none;
-	margin-left : 660px;
+section.about .pics .text p {
+	margin-top: 	30px;
+	line-height: 	22px;
+}
+section.about .pics .hananpic {
+	margin-left : 	300px;
+	width       : 	480px;
+	min-height  : 	inherit;
+	background-image: url(images/hananpic.jpg);
+	background-repeat: no-repeat;
 }
 
 /************************ PLAYERS PAGE ***************************/
 
 div.middle div.players {
+	width: 950px;
+	margin: 0 auto;
+	min-height: 500px;
+}
 
+div.players ul {
+	margin:0 auto;
+	width: 850px;
 }
 
 div.players ul li {
-	float        : left;
+	float        : right;
 	width        : 150px;
 	height       : 150px;
-	margin-right : 10px;
-	border-bottom: 1px solid #999;
+	margin-left  : 10px;
+	
+	display      : block;
+}
+
+div.players ul li#last {
+	float: none;
+	margin-right: 650px;
 }
 
 div.players ul li img.face {
 	display : block;
 	opacity : 0.4;
+	-webkit-transition : all 260ms;
+	border-radius: 3px;
 }
 
-div.players ul li p.player-description {
+div.players ul li img.face:hover {
+	opacity: 1;
+}
+
+div.players div.player-description p {
+	display: none;
 	color     : #444;
 	font-size : 18px;
 	min-height: 0;
 	background-color: #bbb;
 }
-
-
