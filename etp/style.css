@@ -740,10 +740,11 @@ section.player .contain .saeed h2, section.player .contain .mohamad h2{
 	margin-right: 	200px;
 }
 section.player .contain .saeed h3, section.player .contain .mohamad h3{
-	margin-right: 	220px;
+	margin-right: 	215px;
 }
 section.player .contain .saeed p, section.player .contain .mohamad p{
 	margin-right: 	190px;
 	margin-top: 	30px;
+	line-height: 	20px;
 }
 
