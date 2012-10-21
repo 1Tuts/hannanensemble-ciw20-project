@@ -25,29 +25,29 @@
 			<div class="boxess">
 				<div class="first">
 					<h3>نوازندگــان</h3>
-					<img src="images/navazande.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
 					<p>معرفی نوازنده گان تنبور نوازان حنان</p>
 				</div>
 				<div class="second">
 					<h3>اخبــار</h3>
-					<img src="images/akhbar.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/akhbar.png">
 					<p>اخبار کنسرتها و جشنواره های موسیقی</p>
 				</div>
 				<div class="third">
 					<h3>نمایه هــا</h3>
-					<img src="images/navazande.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
 					<p>نمایش نمایه های حنـــان</p>
 				</div>
 				<div class="forth">
 					<h3>برنامه ها</h3>
-					<img src="images/navazande.png">
+					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
 					<p>نوازهای اجرا شده ی حنـــان</p>
 				</div>
 				<div class="clear"></div>
 			</div>
 			<div class="recentwork">
 				<div class="first">
-					<img src="images/tanboor.jpg" />
+					<img src="<?php bloginfo('template_url'); ?>/images/tanboor.jpg" />
 					<p>درباره ی تنبـــور</p>
 					<div class="back">
 						<h4>درباره ی تنبـــور</h4>
@@ -55,7 +55,7 @@
 					</div>
 				</div>
 				<div class="second">
-					<img src="images/album.jpg" />
+					<img src="<?php bloginfo('template_url'); ?>/images/album.jpg" />
 					<p>آلبوم های تنبـــور</p>
 					<div class="back">
 						<h4>آلبوم های تنبـــور</h4>
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 				<div class="third">
-					<img src="images/books.jpg" />
+					<img src="<?php bloginfo('template_url'); ?>/images/books.jpg" />
 					<p>کتابهای تنبــــور</p>
 					<div class="back">
 						<h4>کتابهای تنبــــور</h4>
@@ -71,7 +71,7 @@
 					</div>
 				</div>
 				<div class="forth">
-					<img src="images/bozorgan.jpg" />
+					<img src="<?php bloginfo('template_url'); ?>/images/bozorgan.jpg" />
 					<p>بزرگان تنبـــور</p>
 					<div class="back">
 						<h4>بزرگان تنبـــور</h4>
