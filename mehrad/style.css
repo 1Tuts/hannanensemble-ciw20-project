@@ -461,9 +461,23 @@ div.middle div.players {
 }
 
 div.players ul li {
-	float: left;
-	width: 150px;
-	height: 150px;
-	margin-right: 10px;
+	float        : left;
+	width        : 150px;
+	height       : 150px;
+	margin-right : 10px;
 	border-bottom: 1px solid #999;
 }
+
+div.players ul li img.face {
+	display : block;
+	opacity : 0.4;
+}
+
+div.players ul li p.player-description {
+	color     : #444;
+	font-size : 18px;
+	min-height: 0;
+	background-color: #bbb;
+}
+
+
