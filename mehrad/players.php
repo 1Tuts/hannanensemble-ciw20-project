@@ -15,7 +15,7 @@
 </head>
 
 <body>
-	<!-- ---------------- Header ------------------- -->
+	
     <header class="normal">
         <div class="grayline"></div>    
         <section class="header">
@@ -50,46 +50,37 @@
             <div class="clear"></div>
         </section>
     </header>
-    <section class="player">
-    	<div class="contain">
-            <div class="tehrani">
-                <a href="aboutus.html"><img src="images/tehranipour.jpg" class="imgstyle" alt="Ebrahim Tehranipour"></a>
-                <h2 class="txtname">ابراهیم طهرانی پور</h2>
-                <h3 class="txtsaz">سرپرست گروه و نوازنده تنبور</h3>
-                <h3><a href="aboutus.html">بیوگرافی</h3></a>
-            </div> 
-            <div class="benyamin">
-                <img src="images/benyamin.jpg" class="imgstyle" alt="Benyamin Siran">
-                <h2 class="txtname">بنیامین سیران</h2>
-                <h3 class="txtsaz">نوازنده تنبور</h3>
-                <p>وی متولد مشهد است و در سنین نوجوانی و پس از گذراندن دوره های سلفژ در محضر استاد شاپور هدایتی به آموختن سه تار پرداخت.
-پس از یک سال ، آموختن موسیقی مقامی<br /> و ساز تنبور را نیز نزد استاد کاویانی آغاز کرد.
-وی با سابقه ی شرکت در جشنواره های مختلف موسیقی و فعالیت در گروه های موسیقی مقامی همچون وصال و حنان ؛ سال هاست در مشهد به تدریس تنبور می پردازد .</p>
-            </div>
-            <div class="saeed">
-                <img src="images/saeed.jpg" class="imgstyle" alt="Saeed Fadayizadeh">
-                <h2 class="txtname">سعید فدائی زاده</h2>
-                <h3 class="txtsaz">نوازنده تنبور</h3>
-                <p>وی متولد کرمان است و از دوران کودکی با سازهای محلی آن منطقه آشنایی پیدا کرد.<br /> وی به ساز دف مسلط است و تنبور را از سال 85 نزد فراز کاویانی آغاز کرد و از همان ابتدا<br /> در گروه وصال و حنان تنبور مینواخت .ملودی شیرین کمان ابرو ساخته وی میباشد که بزودی این آلبوم<br /> با صدای فراز کاویانی منتشر میشود .</p>
-            </div> 
-
-            <div class="hooman">
-                <img src="images/hooman.jpg" class="imgstyle" alt="Hooman Ghaffarian">
-                <h2 class="txtname">هومن غفاریان</h2>
-                <h3 class="txtsaz">نوازنده تنبور</h3>
-                <p>هومن غفاریان متولد تهران و ساکن مشهد میباشد. از دوران نوجوانی به فراگرفتن پیانو و گیتار پرداخت .<br />ساز آئینی تنبور را نزد فراز کاویانی آموخت و از ابتدا به همراهی سایر نوازندگان حنان در جشنواره ها و کنشرت ها شرکت نمود .وی مدتی به اجرا و تکنوازی در چند جشنواره تاجیکستان مشغول بود .</p>
-            </div>
-            
-            <div class="mohamad">
-                <img src="images/mohamad.jpg" class="imgstyle" alt="Mohammad Hosseini">
-                <h2 class="txtname">محمد حسینی</h2>
-                <h3 class="txtsaz">نوازنده تنبور</h3>
-                <p>متولد کرمان وی از  نه سالگی با شروع نوازندگی نی لبک با دنیای موسیقی آشنا شد و<br /> در مسابقات کودکان و نوجوانان رتبه ی اول را کسب نمود. از سال 88 تنبور را نزد استاد<br />فراز کاویانی فرا گرفت و با پیشرفتی چشمگیر به تنبورنوازان حنان پیوست وی نزد استاد سالاری<br />نصب به صدا سازی میپردازد و افتخار اجرا به همراه استاد کاویانی و استاد رضائی نیا را داشته است.</p>
-            </div> 
-
+    <section class="contain">
+		<div class="middle">
+			<div class="title">
+				برای آشنایی بیشتر با ما تماس بگیرید
+			</div>
+			<div class="players">
+				<ul>
+					<li>
+						<img id="ebrahim" src="images/tehrani2.jpg" alt="" class="face" />
+						<p class="player-description"></p>
+					</li>
+					<li>
+						<img id="benyamin" src="images/benyamin.jpg" alt="" class="face" />
+						<p class="player-description"></p>
+					</li>
+					<li>
+						<img id="saeed" src="images/saeed.jpg" alt="" class="face" />
+						<p class="player-description"></p>
+					</li>
+					<li>
+						<img id="hooman" src="images/hooman.jpg" alt="" class="face" />
+						<p class="player-description"></p>
+					</li>
+					<li>
+						<img id="mohammad" src="images/tehranipour.jpg" alt="" class="face" />
+						<p class="player-description"></p>
+					</li>
+				</ul>
+			</div>
         </div>
     </section>
-    <!-- ---------------- Footer ------------------- -->
     <footer class="foot">
         <section class="contain">
             <div class="bigfooter">
