@@ -665,3 +665,20 @@ section.about .pics .hananpic {
 	background-image: url(images/hananpic.jpg);
 	background-repeat: no-repeat;
 }
+/*------------------------------ Player Page -------------------------------*/
+section.player div{
+	outline: 1px solid red;
+}
+section.player{
+	width  : 		950px;
+	margin : 		0 auto;
+	margin-top: 	13px;
+}
+section.player .contain{
+	min-height: 	800px;
+
+}
+section.player .contain .tehrani{
+	width: 			400px;
+	min-height: 	400px;
+}
