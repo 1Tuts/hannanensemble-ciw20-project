@@ -653,12 +653,7 @@ section.about .aboutus .text{
 }
 
 section.about .aboutus .pic{
-	width: 480px;
-	min-height: 320px;
-	float: left;
-	background-image: url('./images/hananpic.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
+	
 }
 /*------------------------------ Player Page -------------------------------*/
 section.player div{
