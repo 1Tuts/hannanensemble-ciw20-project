@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Untitled Document</title>
-	<link type="text/css" rel="stylesheet" href="reset.css" />
-	<link type="text/css" rel="stylesheet" href="1styles.css" />
-	<link type="text/css" rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="js/zepto.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/slide.js"></script>
+	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/reset.css" />
+	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/1styles.css" />
+	<link type="text/css" rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" />
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/zepto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/slide.js"></script>
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
