@@ -695,6 +695,7 @@ section.player .contain .tehrani img{
 }
 .txtname{
 	font-size: 		22px;
+	width: 			250px;
 }
 .txtsaz{
 	font-size: 		17px;
@@ -713,9 +714,10 @@ section.player .contain .tehrani h3 a{
 section.player .contain .tehrani h3 a:hover{
 	color: 			#f96e5b;
 }
-section.player .contain .benyamin, section.player .contain .saeed{
+section.player .contain .benyamin, section.player .contain .saeed, section.player .contain .hooman, section.player .contain .mohamad{
 	width: 			950px;
 	padding: 		1px;
+	min-height: 	300px;
 }
 section.player .contain .benyamin img{
 	float: 			left;
@@ -732,7 +734,11 @@ section.player .contain .benyamin p{
 	margin-top: 	120px;
 	line-height: 	20px;
 }
-
-.section.player .contain .saeed h2{
-	margin-right: 200px;
+.section.player .contain .saeed img{
+	float: 			right;
 }
+.section.player .contain .saeed .txtname{
+	margin-right: 	400px;
+	color:  		#red; 	
+}
+
