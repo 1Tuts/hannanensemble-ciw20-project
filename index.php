@@ -179,8 +179,8 @@
 					<div class="clear"></div>
 				</div>
 			</section>
-			<div class="darkline"></div>
 		</footer>
+		<div class="darkline"></div>
 	</div>
 </body>
 </html>
