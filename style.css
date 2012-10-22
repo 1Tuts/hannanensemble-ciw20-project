@@ -34,7 +34,7 @@ header.normal {
 section.header {
 	margin         : 0 auto;
 	width          : 950px;
-	padding-bottom : 25px;
+	padding-bottom : 40px;
 	padding-top    : 25px;
 }
 
@@ -699,6 +699,11 @@ section.contain-gallery{
 }
 
 section.contain-gallery .middle{
-	padding-top: 20px;
+	width: 950px;
+	margin: 0 auto;
 }
 
+section.contain-gallery .middle .text{
+	margin-top: 18px;
+	min-height: 50px;
+}

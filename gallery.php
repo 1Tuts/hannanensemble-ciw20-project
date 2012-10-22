@@ -54,6 +54,7 @@
 	<section class="contain-gallery">
 		<div class="middle">
 			<div class="title" id="tit"></div>
+			<div class="text"></div>
 		</div>
 	</section>
 	<!-- ---------------- Footer ------------------- -->
