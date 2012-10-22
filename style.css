@@ -110,6 +110,10 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
+.content-container {
+	background-image:url('images/bg-1.png');
+	background-repeat: repeat;
+}
 section.contain {
 
 }
@@ -318,10 +322,13 @@ section.contain .middle .recentwork p{
 }
 
 /*------------------------------ Footer -------------------------------*/ 
+div.footer-container {
+	background-color: #444;
+}
+
 footer.foot {
-	left:0;
-	right:0;
-	background-color:#444444;
+	margin:0 auto;
+	width:950px;
 }
 
 footer.foot p{
@@ -341,18 +348,11 @@ footer.foot a:hover{
 
 footer.foot h3{
 	color: #FFF;
-
-}
-
-footer.foot .contain {
-	margin:0 auto;
-	width:950px;
-	margin-top:20px;
 }
 
 footer.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
-	width:950px;;
+	width:950px;
 	min-height:300px;
 }
 
@@ -683,7 +683,7 @@ section.about .pics .hananpic {
 	margin-left : 	300px;
 	width       : 	480px;
 	min-height  : 	inherit;
-	background-image: url(images/hananpic.jpg);
+	background-image: url('images/hananpic.jpg');
 	background-repeat: no-repeat;
 }
 
