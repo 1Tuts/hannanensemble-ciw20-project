@@ -1,3 +1,4 @@
+<div class="footer-container">
 	<footer class="foot">
 		<section class="contain">
 			<div class="bigfooter">
@@ -42,5 +43,6 @@
 		</section>
 		<div class="darkline"></div>
 	</footer>
+</div>
 </body>
 </html>

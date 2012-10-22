@@ -16,37 +16,39 @@
 </head>
 
 <body>
-	<header class="normal">
-		<div class="grayline"></div>	
-		<section class="header">
-			<nav>
-				<menu>
-					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
-					<li class="clear"></li>
-				</menu>
-			</nav>
-			<div class="logo"></div>
-			<div class="clear"></div>
-		</section>
-	</header>
-	<header class="action">
-		<div class="grayline"></div>	
-		<section class="header">
-			<nav>
-				<menu>
-					<li><a href="./">صفحه اصلی<span>|</span></a></li>
-					<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-					<li><a href="#">اعضا<span>|</span></a></li>
-					<li><a href="#">اخبار<span>|</span></a></li>
-					<li><a href="./contactus.php">تماس با ما<span></span></a></li>
-					<li class="clear"></li>
-				</menu>
-			</nav>
-			<div class="logo"></div>
-			<div class="clear"></div>
-		</section>
-	</header>
+	<div class="grayline"></div>
+	<div class="content-container">
+		<header class="normal">
+			<section class="header">
+				<nav>
+					<menu>
+						<li><a href="./">صفحه اصلی<span>|</span></a></li>
+						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
+						<li><a href="#">اعضا<span>|</span></a></li>
+						<li><a href="#">اخبار<span>|</span></a></li>
+						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+						<li class="clear"></li>
+					</menu>
+				</nav>
+				<div class="logo"></div>
+				<div class="clear"></div>
+			</section>
+		</header>
+		<header class="action">
+			<div class="grayline"></div>	
+			<section class="header">
+				<nav>
+					<menu>
+						<li><a href="./">صفحه اصلی<span>|</span></a></li>
+						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
+						<li><a href="#">اعضا<span>|</span></a></li>
+						<li><a href="#">اخبار<span>|</span></a></li>
+						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+						<li class="clear"></li>
+					</menu>
+				</nav>
+				<div class="logo"></div>
+				<div class="clear"></div>
+			</section>
+		</header>
+	</div>
