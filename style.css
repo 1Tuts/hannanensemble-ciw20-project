@@ -1,7 +1,7 @@
-/*section, div {
-	outline : 1px solid red;
+section, div {
+	outline : 1px dashed red;
 }
-*/
+
 
 .clear{
 	clear      : both;
@@ -130,16 +130,15 @@ section.contain .middle{
 	width      : 950px;
 }
 
-section.contain .middle .title {
+#tit {
 	margin       : 0 auto;
 	width        : 950px;
-	padding      : 27px 0;
+	padding      : 40px 0;
 	text-align   : right;
-	border-top  : 2px solid #eee;
+	border-top   : 2px solid #eee;
 	border-bottom: 1px solid #eee;
-	margin-bottom: 30px;
-	font-family: Tahoma;
-	font-size: 20px;
+	font-family  : Tahoma;
+	font-size    : 20px;
 }
 
 section.contain .middle .banner {
@@ -700,9 +699,6 @@ section.contain-gallery{
 }
 
 section.contain-gallery .middle{
-	
+	padding-top: 20px;
 }
 
-section.contain-gallery .middle .title{
-	
-}

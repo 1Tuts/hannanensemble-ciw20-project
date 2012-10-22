@@ -53,7 +53,7 @@
 		<!-- ---------------- Middle ------------------- -->
 		<section class="contain">
 			<div class="middle">
-				<div class="title"></div>
+				<div class="title" id="tit"></div>
 				<div class="banner">
 					<?php
 
