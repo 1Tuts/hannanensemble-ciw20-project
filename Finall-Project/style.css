@@ -120,6 +120,10 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
+.content-container {
+	background-image:url('images/bg-1.png');
+	background-repeat: repeat;
+}
 section.contain {
 
 }
@@ -239,7 +243,6 @@ section.contain .middle .recentwork {
 	margin: 0 auto;
 	width: 950px;
 	min-height: 256px;
-	margin-bottom: 50px;
 }
 
 section.contain .middle .recentwork .first,
@@ -327,11 +330,13 @@ section.contain .middle .recentwork p{
 	margin-right: 17px;
 }
 
-/*------------------------------ Footer -------------------------------*/ 
+/*------------------------------ Footer -------------------------------*/
+div.footer-container {
+	background-color: #444;
+} 
 footer.foot {
-	left:0;
-	right:0;
-	background-color:#444444;
+	margin:0 auto;
+	width:950px;
 }
 
 footer.foot p{
