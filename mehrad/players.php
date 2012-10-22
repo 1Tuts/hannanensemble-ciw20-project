@@ -58,27 +58,27 @@
 			<div class="players">
 				<ul>
 					<li>
-						<img id="ebrahim" src="images/tehranipour.jpg" alt="" class="face" />
+						<img id="ebrahim" src="images/facesbw/tehranipour.jpg" alt="" class="face" />
 					</li>
 					<li>
-						<img id="benyamin" src="images/benyamin.jpg" alt="" class="face" />
+						<img id="benyamin" src="images/facesbw/benyamin.jpg" alt="" class="face" />
 					</li>
 					<li>
-						<img id="saeed" src="images/saeed.jpg" alt="" class="face" />
+						<img id="saeed" src="images/facesbw/saeed.jpg" alt="" class="face" />
 					</li>
 					<li>
-						<img id="hooman" src="images/hooman.jpg" alt="" class="face" />
+						<img id="hooman" src="images/facesbw/hooman.jpg" alt="" class="face" />
 					</li>
 					<li id="last">
-						<img id="mohammad" src="images/tehranipour.jpg" alt="" class="face" />
+						<img id="mohammad" src="images/facesbw/tehranipour.jpg" alt="" class="face" />
 					</li>
 				</ul>
                 <div class="player-description">
-                    <p><span class="arrow"></span></p>
-                    <p><span class="arrow"></span></p>
-                    <p><span class="arrow"></span></p>
-                    <p><span class="arrow"></span></p>
-                    <p><span class="arrow"></span></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <p></p>
                 </div>
 			</div>
         </div>

@@ -706,21 +706,21 @@ div.players ul li {
 	width             : 150px;
 	height            : 150px;
 	margin-left       : 10px;
-	opacity           : 0.4;
 	display           : block;
+	
 }
 
 div.players ul li:hover {
-	opacity: 1;
 }
 
 div.players ul li:last-child {
 	float        : none;
-	margin-right : 640px;
+	margin-right : 650px;
 }
 
 div.players ul li img.face {	
-	border-radius     : 3px;
+	border-radius     : 2px;
+	border: 2px solid #666;
 }
 
 div.players ul li img.face:hover {
@@ -728,8 +728,7 @@ div.players ul li img.face:hover {
 }
 
 div.players div.player-description {
-	width  : 850px;
-	margin : 0 auto;
+	
 }
 div.players div.player-description p {
 	display          : none;
