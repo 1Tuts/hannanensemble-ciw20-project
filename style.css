@@ -1,6 +1,6 @@
-section, div {
+/*section, div {
 	outline : 1px dashed red;
-}
+}*/
 
 
 .clear{
@@ -13,14 +13,6 @@ section, div {
 	border     : 0 none !important;
 	float      : none !important;
 }
-
-body{
-			min-height: 1840px;
-			background-image: url('./images/gallery-backpic.jpg');
-			background-repeat: no-repeat;
-			background-position: top center;
-}
-		
 /*------------------------------ Header -------------------------------*/
 .grayline {
 	min-height : 0px;
@@ -116,10 +108,10 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
-/*.content-container {
+.content-container {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
-}*/
+}
 
 section.contain {
 
@@ -139,6 +131,7 @@ section.contain .middle{
 	border-bottom: 1px solid #eee;
 	font-family  : Tahoma;
 	font-size    : 20px;
+	margin-bottom: 30px;
 }
 
 section.contain .middle .banner {
