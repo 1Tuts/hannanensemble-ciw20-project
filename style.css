@@ -14,6 +14,13 @@
 	float      : none !important;
 }
 
+body{
+			min-height: 1840px;
+			background-image: url('./images/gallery-backpic.jpg');
+			background-repeat: no-repeat;
+			background-position: top center;
+}
+		
 /*------------------------------ Header -------------------------------*/
 .grayline {
 	min-height : 0px;
@@ -109,10 +116,11 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
-.content-container {
+/*.content-container {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
-}
+}*/
+
 section.contain {
 
 }
@@ -499,7 +507,7 @@ footer.foot .contain .footer .designteam{
 	line-height: 30px;
 }
 
-footer.foot .darkline {/*Darkline in bottom*/
+div.footer-container .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
 	min-height:0px;
@@ -686,6 +694,15 @@ section.about .pics .hananpic {
 	background-repeat: no-repeat;
 }
 
-/*------------------------------ Player Page -------------------------------*/
+/*------------------------------ Gallery Page -------------------------------*/
+section.contain-gallery{
+	min-height: 1362px;
+}
 
+section.contain-gallery .middle{
+	
+}
 
+section.contain-gallery .middle .title{
+	
+}
