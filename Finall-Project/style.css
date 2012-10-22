@@ -594,37 +594,16 @@ div.contact-info h4 {
 	color: #666;
 }
 
-div.contact-info div.map {
+div.contact-info .text {
 	height: 300px;
 	margin-bottom: 15px;
 }
 
-div.contact-info p {
+div.contact-info .text p {
 	line-height: 20px;
 	margin-bottom: 20px;
 }
 
-div.contact-info span {
-	font-size: 14px;
-	min-height: 60px;
-	padding-right: 45px;
-	line-height: 25px;
-	background-position: center right;
-	background-repeat: no-repeat;
-	display: block;
-	border : 2px dashed #ddd;
-}
-
-div.contact-info span.address {
-	background-image: url('images/address-icon1.png');
-	float: right;
-	width: 170px;
-}
-
-div.contact-info span.tell {
-	background-image: url('images/address-icon2.png');
-	margin-right: 230px;
-}
 
 /*------------------------------ About Page -------------------------------*/ 
 section.about{
