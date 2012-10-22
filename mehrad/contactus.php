@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 <link type="text/css" rel="stylesheet" href="reset.css" />
 <link type="text/css" rel="stylesheet" href="1styles.css" />
-<link type="text/css" rel="stylesheet" href="style.css" />
+<link type="text/css" rel="stylesheet" href="style1.css" />
 <script type="text/javascript" src="zepto.js"></script>
 <script type="text/javascript" src="scripts.js"></script>
 </head>
