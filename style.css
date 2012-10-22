@@ -706,4 +706,25 @@ section.contain-gallery .middle{
 section.contain-gallery .middle .text{
 	margin-top: 18px;
 	min-height: 50px;
+	margin-bottom: 30px;
+}
+
+section.contain-gallery .middle .gallery{
+	min-height: 1180px;
+}
+
+section.contain-gallery .middle .gallery .gallery1,
+section.contain-gallery .middle .gallery .gallery2,
+section.contain-gallery .middle .gallery .gallery3,
+section.contain-gallery .middle .gallery .gallery4{
+	min-height: 280px;
+	padding-top: 5px;
+}
+
+section.contain-gallery .middle .gallery .first,
+section.contain-gallery .middle .gallery .second,
+section.contain-gallery .middle .gallery .third{
+	float: left;
+	width: 316px;
+	min-height: 275px;
 }

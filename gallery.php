@@ -55,6 +55,32 @@
 		<div class="middle">
 			<div class="title" id="tit"></div>
 			<div class="text"></div>
+			<div class="gallery">
+				<div class="gallery1">
+					<div class="first"></div>
+					<div class="second"></div>
+					<div class="third"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="gallery2">
+					<div class="first"></div>
+					<div class="second"></div>
+					<div class="third"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="gallery3">
+					<div class="first"></div>
+					<div class="second"></div>
+					<div class="third"></div>
+					<div class="clear"></div>
+				</div>
+				<div class="gallery4">
+					<div class="first"></div>
+					<div class="second"></div>
+					<div class="third"></div>
+					<div class="clear"></div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- ---------------- Footer ------------------- -->
