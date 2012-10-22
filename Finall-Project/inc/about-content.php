@@ -23,11 +23,12 @@
                                     foreach ($meta['img'] as $img_id) {
                                         $img_small= wp_get_attachment_image($img_id,'thumbnail');
                                         $img_larg= wp_get_attachment_image_src($img_id,'large');
-                                        echo "<img src='$img_larg[0]' width='250' />";
+                                        echo "<a href='$img_larg[0]'>$img_small</a>";
                                     }
                                     echo "</div>";
                                 }
                             ?>
+                        <div class="clear"></div>
                         </div>
 
                         <div class="clear"></div>

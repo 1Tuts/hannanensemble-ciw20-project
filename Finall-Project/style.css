@@ -653,7 +653,11 @@ section.about .aboutus .text{
 }
 
 section.about .aboutus .pic{
-	
+	float: left;
+}
+
+section.about .aboutus .pic .about-img a{
+	margin-left: 15px;
 }
 /*------------------------------ Player Page -------------------------------*/
 section.player div{
