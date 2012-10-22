@@ -13,7 +13,7 @@
 
 				<div class="contact-ways">
 					<div class="send-message">
-						<h4>ارسال پیام</h4>
+						<h2>ارسال پیام</h2>
 						<form action="sendmail.php" id="contact" method="post">
 							<input type="text" class="text" name="name" id="name" placeholder="نام" />
 							<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
@@ -23,7 +23,7 @@
 					</div>
 
 					<div class="contact-info">
-						<h4>اطلاعات تماس</h4>
+						<h2>اطلاعات تماس</h2>
 						<div class="text">
 							<p>
 								<?php the_content(); ?>
