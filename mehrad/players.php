@@ -74,11 +74,11 @@
 					</li>
 				</ul>
                 <div class="player-description">
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                    <p><span class="arrow"></span></p>
+                    <p><span class="arrow"></span></p>
+                    <p><span class="arrow"></span></p>
+                    <p><span class="arrow"></span></p>
+                    <p><span class="arrow"></span></p>
                 </div>
 			</div>
         </div>

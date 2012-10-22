@@ -697,27 +697,29 @@ div.middle div.players {
 
 div.players ul {
 	margin:0 auto;
-	width: 850px;
+	width: 800px;
+	margin-bottom: 12px;
 }
 
 div.players ul li {
-	float        : right;
-	width        : 150px;
-	height       : 150px;
-	margin-left  : 10px;
+	float             : right;
+	width             : 150px;
+	height            : 150px;
+	margin-left       : 10px;
 	opacity           : 0.4;
-	-webkit-transition: all 260ms;
-	display      : block;
-}
-
-div.players ul li#last {
-	float        : none;
-	margin-right : 650px;
-}
-
-div.players ul li img.face {
 	display           : block;
-	
+}
+
+div.players ul li:hover {
+	opacity: 1;
+}
+
+div.players ul li:last-child {
+	float        : none;
+	margin-right : 640px;
+}
+
+div.players ul li img.face {	
 	border-radius     : 3px;
 }
 
@@ -734,5 +736,5 @@ div.players div.player-description p {
 	color            : #444;
 	font-size        : 18px;
 	min-height       : 0;
-	background-color : #bbb;
+	background-color : #f8f8f8;
 }
