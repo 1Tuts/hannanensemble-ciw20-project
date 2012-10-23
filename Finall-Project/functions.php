@@ -5,8 +5,8 @@
 		'name' => 'Recent',
 		'id' => 'best',
 		'description' => 'bests of tanbour',
-		'before_widget' => '<div class="boxess">',
-		'after_widget' => "</div>",
-		'before_title' => '',
-		'after_title' => ""
+		'before_widget' => "<div class='first'>",
+		'after_widget' => "</div>",	
+		'before_title' => '<h3>',
+		'after_title' => "</h3>"
 	));
