@@ -2,7 +2,7 @@
 	add_theme_support('menus');
 
 	register_sidebar(array(
-		'name' => 'Bests',
+		'name' => 'Recent',
 		'id' => 'best',
 		'description' => 'bests of tanbour',
 		'before_widget' => '<div class="boxess">',
