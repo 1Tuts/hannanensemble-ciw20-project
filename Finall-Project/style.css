@@ -736,7 +736,7 @@ section.player .contain .saeed p, section.player .contain .mohamad p{
 }
 /*------------------------------ Gallery Page -------------------------------*/
 section.contain-gallery{
-	min-height: 1362px;
+	
 }
 
 section.contain-gallery .middle{
@@ -751,21 +751,20 @@ section.contain-gallery .middle .text{
 }
 
 section.contain-gallery .middle .gallery{
-	min-height: 1180px;
+	padding-bottom: 20px;
 }
 
-section.contain-gallery .middle .gallery .gallery1,
-section.contain-gallery .middle .gallery .gallery2,
-section.contain-gallery .middle .gallery .gallery3,
-section.contain-gallery .middle .gallery .gallery4{
-	min-height: 280px;
-	padding-top: 5px;
-}
-
-section.contain-gallery .middle .gallery .first,
-section.contain-gallery .middle .gallery .second,
-section.contain-gallery .middle .gallery .third{
+section.contain-gallery .middle .gallery .gallery-img{
 	float: left;
-	width: 316px;
-	min-height: 275px;
+	margin-left: 10px;
+}
+
+section.contain-gallery .middle .gallery .gallery-img img{
+	width: 305px;
+	height: 250px;
+
+}
+
+section.contain-gallery .middle .gallery .gallery-img p{
+	
 }
