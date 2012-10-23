@@ -515,10 +515,9 @@ footer.foot .contain .footer .designteam{
 	line-height: 30px;
 }
 
-div.foot .darkline {/*Darkline in bottom*/
+div.footer-container .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
-	min-height:0px;
 	outline:7px solid #333333;			
 }
 

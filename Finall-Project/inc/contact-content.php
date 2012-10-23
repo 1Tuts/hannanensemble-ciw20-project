@@ -7,7 +7,7 @@
 					$meta= get_post_custom();
 			?>
 
-				<div class="title">
+				<div class="title" id="tit">
 					<h2><?php the_title(); ?><h2>
 				</div>
 
