@@ -515,7 +515,7 @@ footer.foot .contain .footer .designteam{
 	line-height: 30px;
 }
 
-footer.foot .darkline {/*Darkline in bottom*/
+div.foot .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
 	min-height:0px;
@@ -736,4 +736,39 @@ section.player .contain .saeed p, section.player .contain .mohamad p{
 	margin-right: 	190px;
 	margin-top: 	30px;
 	line-height: 	20px;
+}
+/*------------------------------ Gallery Page -------------------------------*/
+section.contain-gallery{
+	min-height: 1362px;
+}
+
+section.contain-gallery .middle{
+	width: 950px;
+	margin: 0 auto;
+}
+
+section.contain-gallery .middle .text{
+	margin-top: 18px;
+	min-height: 50px;
+	margin-bottom: 30px;
+}
+
+section.contain-gallery .middle .gallery{
+	min-height: 1180px;
+}
+
+section.contain-gallery .middle .gallery .gallery1,
+section.contain-gallery .middle .gallery .gallery2,
+section.contain-gallery .middle .gallery .gallery3,
+section.contain-gallery .middle .gallery .gallery4{
+	min-height: 280px;
+	padding-top: 5px;
+}
+
+section.contain-gallery .middle .gallery .first,
+section.contain-gallery .middle .gallery .second,
+section.contain-gallery .middle .gallery .third{
+	float: left;
+	width: 316px;
+	min-height: 275px;
 }
