@@ -39,7 +39,6 @@ section.header {
 	width          : 950px;
 	padding-bottom : 25px;
 	padding-top    : 25px;
-	border-bottom  : 2px solid #eee;
 }
 
 header.normal section.header .logo {
@@ -138,6 +137,7 @@ section.contain .middle .title {
 	width        : 950px;
 	padding      : 27px 0;
 	text-align   : right;
+	border-top  : 2px solid #eee;
 	border-bottom: 1px solid #eee;
 	margin-bottom: 30px;
 	font-family: Tahoma;
