@@ -1,6 +1,6 @@
 	<section class="contain">
 		<div class="middle">
-			<div class="title" id="tit"></div>
+			<div class="title"></div>
 			<div class="banner">
 				<?php
 					$images_path = bloginfo('template_url')."/images/slide";
@@ -18,29 +18,7 @@
 					}
 				?>         
 			</div>
-			<div class="boxess">
-				<div class="first">
-					<h3>نوازندگــان</h3>
-					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
-					<p>معرفی نوازنده گان تنبور نوازان حنان</p>
-				</div>
-				<div class="second">
-					<h3>اخبــار</h3>
-					<img src="<?php bloginfo('template_url'); ?>/images/akhbar.png">
-					<p>اخبار کنسرتها و جشنواره های موسیقی</p>
-				</div>
-				<div class="third">
-					<h3>نمایه هــا</h3>
-					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
-					<p>نمایش نمایه های حنـــان</p>
-				</div>
-				<div class="forth">
-					<h3>برنامه ها</h3>
-					<img src="<?php bloginfo('template_url'); ?>/images/navazande.png">
-					<p>نوازهای اجرا شده ی حنـــان</p>
-				</div>
-				<div class="clear"></div>
-			</div>
+			<?php get_template_part('inc/widget-recent'); ?>
 			<div class="recentwork">
 				<div class="first">
 					<img src="<?php bloginfo('template_url'); ?>/images/tanboor.jpg" />
