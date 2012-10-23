@@ -53,7 +53,7 @@
 		<!-- ---------------- Middle ------------------- -->
 		<section class="contain">
 			<div class="middle">
-				<div class="title"></div>
+				<div class="title" id="tit"></div>
 				<div class="banner">
 					<?php
 
@@ -179,8 +179,8 @@
 					<div class="clear"></div>
 				</div>
 			</section>
-			<div class="darkline"></div>
 		</footer>
+		<div class="darkline"></div>
 	</div>
 </body>
 </html>

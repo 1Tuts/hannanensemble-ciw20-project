@@ -1,7 +1,7 @@
 /*section, div {
-	outline : 1px solid red;
-}
-*/
+	outline : 1px dashed red;
+}*/
+
 
 .clear{
 	clear      : both;
@@ -13,7 +13,6 @@
 	border     : 0 none !important;
 	float      : none !important;
 }
-
 /*------------------------------ Header -------------------------------*/
 .grayline {
 	min-height : 0px;
@@ -27,9 +26,8 @@ header.normal {
 section.header {
 	margin         : 0 auto;
 	width          : 950px;
-	padding-bottom : 25px;
+	padding-bottom : 40px;
 	padding-top    : 25px;
-	border-bottom  : 2px solid #eee;
 }
 
 header.normal section.header .logo {
@@ -114,6 +112,7 @@ nav menu li a.active {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
 }
+
 section.contain {
 
 }
@@ -123,15 +122,16 @@ section.contain .middle{
 	width      : 950px;
 }
 
-section.contain .middle .title {
+#tit {
 	margin       : 0 auto;
 	width        : 950px;
-	padding      : 27px 0;
+	padding      : 40px 0;
 	text-align   : right;
+	border-top   : 2px solid #eee;
 	border-bottom: 1px solid #eee;
+	font-family  : Tahoma;
+	font-size    : 20px;
 	margin-bottom: 30px;
-	font-family: Tahoma;
-	font-size: 20px;
 }
 
 section.contain .middle .banner {
@@ -499,7 +499,7 @@ footer.foot .contain .footer .designteam{
 	line-height: 30px;
 }
 
-footer.foot .darkline {/*Darkline in bottom*/
+div.footer-container .darkline {/*Darkline in bottom*/
 	left:0;
 	right:0;
 	min-height:0px;
@@ -686,6 +686,38 @@ section.about .pics .hananpic {
 	background-repeat: no-repeat;
 }
 
-/*------------------------------ Player Page -------------------------------*/
+/*------------------------------ Gallery Page -------------------------------*/
+section.contain-gallery{
+	min-height: 1362px;
+}
 
+section.contain-gallery .middle{
+	width: 950px;
+	margin: 0 auto;
+}
 
+section.contain-gallery .middle .text{
+	margin-top: 18px;
+	min-height: 50px;
+	margin-bottom: 30px;
+}
+
+section.contain-gallery .middle .gallery{
+	min-height: 1180px;
+}
+
+section.contain-gallery .middle .gallery .gallery1,
+section.contain-gallery .middle .gallery .gallery2,
+section.contain-gallery .middle .gallery .gallery3,
+section.contain-gallery .middle .gallery .gallery4{
+	min-height: 280px;
+	padding-top: 5px;
+}
+
+section.contain-gallery .middle .gallery .first,
+section.contain-gallery .middle .gallery .second,
+section.contain-gallery .middle .gallery .third{
+	float: left;
+	width: 316px;
+	min-height: 275px;
+}
