@@ -183,9 +183,7 @@ section.contain .middle .boxess{
 	padding-top: 35px;
 }
 
-section.contain .middle .boxess .first,
-section.contain .middle .boxess .second,
-section.contain .middle .boxess .third{
+section.contain .middle .boxess > div{
 	float      : left;
 	width      : 237px;
 	min-height : 180px;
@@ -195,41 +193,29 @@ section.contain .middle .boxess .third{
 
 /* last box*/
 
-section.contain .middle .boxess .forth {
+section.contain .middle .boxess > div:last-child{
 	margin-left : 715px;
 	min-height  : 178px;
 	text-align: center;
 	padding: 1px;
 }
 
-section.contain .middle .boxess .first h3,
-section.contain .middle .boxess .second h3,
-section.contain .middle .boxess .third h3,
-section.contain .middle .boxess .forth h3{
+section.contain .middle .boxess div h3{
 	margin-top: 20px;
 	font-weight: bold;
 	color: #707070;
 }
 
-section.contain .middle .boxess .first img,
-section.contain .middle .boxess .second img,
-section.contain .middle .boxess .third img,
-section.contain .middle .boxess .forth img{
+section.contain .middle .boxess div div.textwidget img{
 	margin-top: 15px;
 }
 
-section.contain .middle .boxess .first p,
-section.contain .middle .boxess .second p,
-section.contain .middle .boxess .third p,
-section.contain .middle .boxess .forth p{
+section.contain .middle .boxess div div.textwidget p{
 	margin-top: 15px;
 	font-size: 	12px;	
 }
 
-section.contain .middle .boxess .first:hover,
-section.contain .middle .boxess .second:hover,
-section.contain .middle .boxess .third:hover,
-section.contain .middle .boxess .forth:hover{
+section.contain .middle .boxess > div:hover{
 	background-color: #F96E5B;
 	color: #FFF;
 	-webkit-transition:all 450ms;
