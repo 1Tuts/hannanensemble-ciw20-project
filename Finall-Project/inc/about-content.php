@@ -1,6 +1,5 @@
-    <section class="about">
-            <div class="aboutus">
-
+    <section class="contain">
+        <div class="middle">
                 <?php
                     if (have_posts()){
                         the_post();
@@ -37,6 +36,5 @@
                 <?php
                     }
                 ?>
-
-            </div>
+                </div>
     </section>
