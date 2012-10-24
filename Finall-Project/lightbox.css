@@ -38,6 +38,10 @@
   width: 250px;
   height: 250px;
   margin: 0 auto;
+  background-image: url('./images/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 32px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -53,10 +57,6 @@
 
 .lb-container {
   padding: 10px;
-  background-image: url('./images/loading.gif');
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 32px;
 }
 
 .lb-loader {
