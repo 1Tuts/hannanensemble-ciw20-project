@@ -56,28 +56,24 @@
 				برای آشنایی بیشتر با ما تماس بگیرید
 			</div>
 			<div class="players">
-				<ul>
-					<li>
-						<img onclick="" id="ebrahim" src="images/facesbw/tehranipour.jpg" alt="" class="face" />
-					</li>
-					<li>
-						<img onclick="" id="benyamin" src="images/facesbw/benyamin.jpg" alt="" class="face" />
-					</li>
-					<li>
-						<img onclick="" id="saeed" src="images/facesbw/saeed.jpg" alt="" class="face" />
-					</li>
-					<li>
-						<img onclick="" id="hooman" src="images/facesbw/hooman.jpg" alt="" class="face" />
-					</li>
-					<li id="last">
-						<img onclick="" id="mohammad" src="images/facesbw/tehranipour.jpg" alt="" class="face" />
-					</li>
-				</ul>
-                <div class="player-description">
+				<div class="">
+                    <img src="images/tehranipour.jpg" alt="">
                     <p></p>
+                </div>
+                <div class="">
+                    <img src="images/benyamin.jpg" alt="">
                     <p></p>
+                </div>
+                <div class="">
+                    <img src="images/homan.jpg" alt="">
                     <p></p>
+                </div>
+                <div class="">
+                    <img src="images/saeed.jpg" alt="">
                     <p></p>
+                </div>
+                <div class="">
+                    <img src="images/tehranipour.jpg" alt="">
                     <p></p>
                 </div>
 			</div>
