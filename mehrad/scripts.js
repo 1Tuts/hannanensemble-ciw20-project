@@ -105,8 +105,8 @@ window.onscroll=function(){
 	});
 	//-------------------------- players -------------------------
 
-	var faces       = $('div.players ul li'),
-		faceBio = $('div.players div.player-description > p');
+	var faces       = $('div.players div'),
+		faceBio = $('div.players div p');
 
 		faces.each(function(){
 
@@ -135,8 +135,7 @@ window.onscroll=function(){
 
 				$(that).animate({
 
-					'box-shadow' : 'none',
-					opacity:0.4
+					'box-shadow' : 'none'
 
 				},300);
 

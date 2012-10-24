@@ -695,12 +695,6 @@ div.middle div.players {
 	min-height: 500px;
 }
 
-div.players ul {
-	margin:0 auto;
-	width: 800px;
-	margin-bottom: 12px;
-}
-
 div.players div {
 	float             : right;
 	width             : 150px;
@@ -711,7 +705,7 @@ div.players div {
 }
 
 
-div.players ul li:last-child {
+div.players div:last-child {
 	float        : none;
 	margin-right : 650px;
 }
@@ -728,5 +722,7 @@ div.players div p {
 	color            : #444;
 	font-size        : 18px;
 	min-height       : 0;
-	background-color : #f8f8f8;
+	background-color : #c8c8f8;
+	width: 100%;
+	white-space:nowrap;
 }
