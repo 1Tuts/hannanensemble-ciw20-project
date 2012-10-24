@@ -112,7 +112,8 @@ window.onscroll=function(){
 
 		var that = this;
 
-		$(this).click(function(){
+		$(this).mouseover(function(){
+			if($(that).css('width')=='250px'){
 
 			$(that).animate({
 
@@ -125,7 +126,11 @@ window.onscroll=function(){
 
 					opacity:1
 
-				},300)}).click(function(){
+				},300)})
+		}
+
+		$(this).mouseout(function(){
+			if ($(that).css('width')=='950px') {
 
 				$(that).animate({
 
@@ -136,10 +141,10 @@ window.onscroll=function(){
 
 				faceBio.eq($(that).index()).animate({
 					opacity:0
-				},100);
+				},100);	
+				};
 
-			})
-			
+			});	
 		});
 	});
 
