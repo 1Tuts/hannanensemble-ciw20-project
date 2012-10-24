@@ -8,7 +8,7 @@
                 ?>
                     <article>
                         <div class="title" id="tit">
-                        <h2><?php the_title(); ?></h2>
+                            <h2><?php the_title(); ?></h2>
                         </div>
 
                         <div class="text">
@@ -37,10 +37,9 @@
                                         
                                         echo "<div class='about-pic'>";
 
-                                            $img_med= wp_get_attachment_image($pic->ID , 'medium');
-                                            $img_larg= wp_get_attachment_image_src($pic->ID , 'large');
+                                            $img_larg= wp_get_attachment_image($pic->ID , 'large');
 
-                                            echo "<a rel='lightbox[group1]' hreft=\"$img_larg[0]\" title=\"$pic->post_content\">$img_med</a>";
+                                            echo "$img_larg";
 
                                         echo "</div>";
 
