@@ -123,6 +123,9 @@ nav menu li a.active {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
 }
+section.contain {
+
+}
 
 section.contain .middle{
 	margin     : 0 auto;
