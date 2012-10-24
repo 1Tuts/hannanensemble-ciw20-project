@@ -31,12 +31,12 @@
 
 									echo "<div class='gallery-img'>";
 
-									$img_med= wp_get_attachment_image($img->ID,'medium');
-									$img_larg= wp_get_attachment_image_src($img->ID,'large');
-									
-									echo "<a rel='lightbox[group1]' href=\"$img_larg[0]\">$img_med</a>";
+										$img_med= wp_get_attachment_image($img->ID,'medium');
+										$img_larg= wp_get_attachment_image_src($img->ID,'large');
+										
+										echo "<a rel='lightbox[group1]' href=\"$img_larg[0]\" title=\"$img->post_content\"> $img_med </a>";
 
-									echo "<p> $img->post_content </p>";
+										echo "<p> $img->post_content </p>";
 									
 									echo "</div>";
 								}
@@ -46,7 +46,7 @@
 
 							}
 							else 
-								echo "<p class='no-image'>نمونه کاری یافت نشد</p>";
+								echo "<p class='no-image'>تصویری یافت نشد</p>";
 							
 						?>
 					
