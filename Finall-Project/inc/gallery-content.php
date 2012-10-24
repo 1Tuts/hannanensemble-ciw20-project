@@ -34,7 +34,7 @@
 									$img_med= wp_get_attachment_image($img->ID,'medium');
 									$img_larg= wp_get_attachment_image_src($img->ID,'large');
 									
-									echo "<a href=\"$img_larg[0]\">$img_med</a>";
+									echo "<a rel='lightbox[group1]' href=\"$img_larg[0]\">$img_med</a>";
 
 									echo "<p> $img->post_content </p>";
 									
