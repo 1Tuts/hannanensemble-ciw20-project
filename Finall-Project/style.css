@@ -185,10 +185,13 @@ section.contain .middle .boxess{
 
 section.contain .middle .boxess > div{
 	float      : left;
-	width      : 237px;
+	width      : 234px;
 	min-height : 180px;
 	border-right: 1px dashed #eee;
 	text-align: center;
+	background-image: url('images/navazande.png');
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 /* last box*/
