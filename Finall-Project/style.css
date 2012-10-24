@@ -744,7 +744,7 @@ section.contain-gallery .middle .gallery{
 }
 
 section.contain-gallery .middle .gallery .gallery-img{
-	float: left;
+	float: right;
 	margin-left: 10px;
 }
 
@@ -755,5 +755,5 @@ section.contain-gallery .middle .gallery .gallery-img img{
 }
 
 section.contain-gallery .middle .gallery .gallery-img p{
-	
+	padding-bottom: 30px;
 }
