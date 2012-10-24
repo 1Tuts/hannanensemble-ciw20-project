@@ -695,46 +695,31 @@ div.middle div.players {
 	min-height: 500px;
 }
 
-div.players ul {
-	margin:0 auto;
-	width: 800px;
-	margin-bottom: 12px;
+div.players div {
+	width      : 250px;
+	height     : 250px;
+	margin:0 auto 20px;
+	display    : block;
+	background-color : #f8f8f8;
+	padding:20px;
+
 }
 
-div.players ul li {
-	float             : right;
-	width             : 150px;
-	height            : 150px;
-	margin-left       : 10px;
-	display           : block;
-	
-}
-
-div.players ul li:hover {
-	
-}
-
-div.players ul li:last-child {
-	float        : none;
-	margin-right : 650px;
-}
-
-div.players ul li img.face {	
+div.players div img {	
 	border-radius     : 2px;
 	border: 2px solid #666;
+	display: block;
+	float: left;
 }
 
-div.players ul li img.face:hover {
-	opacity : 1;
-}
 
-div.players div.player-description {
-	
-}
-div.players div.player-description p {
-	display          : none;
+div.players div p {
+	opacity: 0;
 	color            : #444;
 	font-size        : 18px;
 	min-height       : 0;
-	background-color : #f8f8f8;
+	margin-left: 265px;
+	font-family: Tahoma;
 }
+
+
