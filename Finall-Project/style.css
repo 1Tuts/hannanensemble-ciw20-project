@@ -597,41 +597,29 @@ div.contact-info .text p {
 
 
 /*------------------------------ About Page -------------------------------*/ 
-section.about{
+section.contain{
 
 }
 
-section.about .aboutus{
+section.contain .middle{
 	width: 950px;
 	margin: 0 auto
 }
 
-section.about .aboutus .title{
-	margin       : 0 auto;
-	width        : 950px;
-	padding      : 27px 0;
-	text-align   : right;
-	border-bottom: 1px solid #eee;
-	margin-bottom: 30px;
-	font-family: Tahoma;
-	font-size: 20px;
-}
-
-
-section.about .aboutus .text{
+section.contain .middle .text{
 	margin-bottom: 55px;
 }
 
-section.about .aboutus .pic{
+section.contain .middle .pic{
 	padding-bottom: 20px;
 }
 
-section.about .aboutus .pic .about-pic{
-	float: right;
+section.contain .middle .pic .about-pic{
+	float: left;
 	margin-left: 10px;
 }
 
-section.about .aboutus .pic .about-pic img{
+section.contain .middle .pic .about-pic img{
 
 }
 
@@ -765,5 +753,5 @@ section.contain-gallery .middle .gallery .gallery-img p{
 }
 
 p.no-image{
-	
+
 }
