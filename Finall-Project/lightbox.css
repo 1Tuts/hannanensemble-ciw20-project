@@ -53,6 +53,10 @@
 
 .lb-container {
   padding: 10px;
+  background-image: url('./images/loading.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 32px;
 }
 
 .lb-loader {
@@ -161,6 +165,9 @@
   float: right;
   padding-bottom: 0.7em;
   outline: none;
+  background-image: url('./images/close.png');
+  background-repeat: no-repeat;
+  height: 27px;
 }
 
 .lb-data .lb-close:hover {
