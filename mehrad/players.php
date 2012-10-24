@@ -57,7 +57,7 @@
 			</div>
 			<div class="players">
 				<div class="">
-                    <img src="images/tehranipour.jpg" alt="">
+                    <img src="images/tehranipour.jpg" width="250" height="250" alt="">
                     <p>
                         
                         نوازنده تنبور
@@ -68,7 +68,7 @@
                     </p>
                 </div>
                 <div class="">
-                    <img src="images/benyamin.jpg" alt="">
+                    <img src="images/benyamin.jpg" width="250" height="250" alt="">
                     <p>
                         
                         نوازنده تنبور
@@ -79,7 +79,7 @@
                     </p>
                 </div>
                 <div class="">
-                    <img src="images/hooman.jpg" alt="">
+                    <img src="images/hooman.jpg" width="250" height="250" alt="">
                     <p>
                         
                         نوازنده تنبور
@@ -90,7 +90,7 @@
                     </p>
                 </div>
                 <div class="">
-                    <img src="images/saeed.jpg" alt="">
+                    <img src="images/saeed.jpg" width="250" height="250" alt="">
                     <p>
                     نوازنده تنبور
                     متولد کرمان وی از نه سالگی با شروع نوازندگی نی لبک با دنیای موسیقی آشنا شد و
@@ -100,7 +100,7 @@
                     </p>
                 </div>
                 <div class="">
-                    <img src="images/tehranipour.jpg" alt="">
+                    <img src="images/tehranipour.jpg" width="250" height="250" alt="">
                     <p>
                         نوازنده تنبور
                         متولد کرمان وی از نه سالگی با شروع نوازندگی نی لبک با دنیای موسیقی آشنا شد و

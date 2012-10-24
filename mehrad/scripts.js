@@ -106,47 +106,35 @@ window.onscroll=function(){
 	//-------------------------- players -------------------------
 
 	var faces       = $('div.players div'),
-		faceBio = $('div.players div p');
+		faceBio = $('div.players div > p');
 
 		faces.each(function(){
 
 		var that = this;
 
-		$(this).click(function(){
+		$(this).mouseover(function(){
 
-			if(faceBio.eq($(that).index()).css('display') == 'none'){
+			$(that).animate({
 
-				$(that).animate({
+				width:950,
+				'border':'1px dashed #444'
 
-					'box-shadow' : '0 0 10px #111',
+			},600,'linear',function(){
+
+				faceBio.animate({
+
 					opacity:1
 
-				},100);
-
-				
-				faceBio.eq($(that).index()).animate({
-					display : 'block'
-
-				},0,'linear',function(){
-					faceBio.eq($(that).index()).animate({ height : 300 },170)
-				});
-			}
-			else{
+				},300)}).mouseout(function(){
 
 				$(that).animate({
 
-					'box-shadow' : 'none'
+					width:250,
+					'border':'0 none'
 
-				},300);
+				},400);
 
-				faceBio.eq($(that).index()).animate({
-
-					height : 0
-
-				},170,'linear',function(){
-					faceBio.eq($(that).index()).css({ display : 'none' })
-				});
-			}
+			})
 			
 		});
 	});

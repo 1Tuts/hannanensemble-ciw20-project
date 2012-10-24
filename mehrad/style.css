@@ -696,33 +696,30 @@ div.middle div.players {
 }
 
 div.players div {
-	float             : right;
-	width             : 150px;
-	height            : 150px;
-	margin-left       : 10px;
-	display           : block;
-	
-}
+	width      : 250px;
+	height     : 250px;
+	margin:0 auto 20px;
+	display    : block;
+	background-color : #f8f8f8;
+	padding:20px;
 
-
-div.players div:last-child {
-	float        : none;
-	margin-right : 650px;
 }
 
 div.players div img {	
 	border-radius     : 2px;
 	border: 2px solid #666;
 	display: block;
+	float: left;
 }
 
 
 div.players div p {
-	display          : none;
+	opacity: 0;
 	color            : #444;
 	font-size        : 18px;
 	min-height       : 0;
-	background-color : #c8c8f8;
-	width: 100%;
-	white-space:nowrap;
+	margin-left: 265px;
+	font-family: Tahoma;
 }
+
+
