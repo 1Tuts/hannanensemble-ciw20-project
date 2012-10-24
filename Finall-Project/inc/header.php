@@ -53,4 +53,3 @@
 				<div class="clear"></div>
 			</section>
 		</header>
-	</div>
