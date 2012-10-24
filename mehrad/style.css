@@ -701,7 +701,7 @@ div.players ul {
 	margin-bottom: 12px;
 }
 
-div.players ul li {
+div.players div {
 	float             : right;
 	width             : 150px;
 	height            : 150px;
@@ -710,28 +710,20 @@ div.players ul li {
 	
 }
 
-div.players ul li:hover {
-	
-}
 
 div.players ul li:last-child {
 	float        : none;
 	margin-right : 650px;
 }
 
-div.players ul li img.face {	
+div.players div img {	
 	border-radius     : 2px;
 	border: 2px solid #666;
+	display: block;
 }
 
-div.players ul li img.face:hover {
-	opacity : 1;
-}
 
-div.players div.player-description {
-	
-}
-div.players div.player-description p {
+div.players div p {
 	display          : none;
 	color            : #444;
 	font-size        : 18px;
