@@ -106,13 +106,13 @@ window.onscroll=function(){
 	//-------------------------- players -------------------------
 
 	var faces       = $('div.players div'),
-		faceBio = $('div.players div > p');
+		faceBio = $('div.players div p');
 
 		faces.each(function(){
 
 		var that = this;
 
-		$(this).mouseover(function(){
+		$(this).click(function(){
 
 			$(that).animate({
 
@@ -121,11 +121,11 @@ window.onscroll=function(){
 
 			},600,'linear',function(){
 
-				faceBio.animate({
+				faceBio.eq($(that).index()).animate({
 
 					opacity:1
 
-				},300)}).mouseout(function(){
+				},300)}).click(function(){
 
 				$(that).animate({
 
@@ -133,6 +133,10 @@ window.onscroll=function(){
 					'border':'0 none'
 
 				},400);
+
+				faceBio.eq($(that).index()).animate({
+					opacity:0
+				},100);
 
 			})
 			
