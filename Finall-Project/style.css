@@ -623,12 +623,18 @@ section.about .aboutus .text{
 }
 
 section.about .aboutus .pic{
-	float: left;
+	padding-bottom: 20px;
 }
 
-section.about .aboutus .pic .about-img a{
-	margin-left: 15px;
+section.about .aboutus .pic .about-pic{
+	float: right;
+	margin-left: 10px;
 }
+
+section.about .aboutus .pic .about-pic img{
+
+}
+
 /*------------------------------ Player Page -------------------------------*/
 section.player div{
 	outline: 0px solid red;
@@ -756,4 +762,8 @@ section.contain-gallery .middle .gallery .gallery-img img{
 
 section.contain-gallery .middle .gallery .gallery-img p{
 	padding-bottom: 30px;
+}
+
+p.no-image{
+	
 }

@@ -1,10 +1,10 @@
     <section class="contain">
         <div class="middle">
                 <?php
+
                     if (have_posts()){
                         the_post();
-                        $meta= get_post_custom();
-                    
+
                 ?>
                     <article>
                         <div class="title" id="tit">
@@ -16,18 +16,42 @@
                         </div>  
 
                         <div class="pic">
+                           
                             <?php
-                                if (count($meta['img']>0)){
-                                    echo "<div class='about-img'>";
-                                    foreach ($meta['img'] as $img_id) {
-                                        $img_small= wp_get_attachment_image($img_id,'thumbnail');
-                                        $img_larg= wp_get_attachment_image_src($img_id,'large');
-                                        echo "<a href='$img_larg[0]'>$img_small</a>";
+                                
+                                $about_pics= array(
+                                    'numberposts' => '-1',
+                                    'orderby '=> 'menu_order',  
+                                    'order'=> 'ASC',  
+                                    'post_mime_type' => 'image', 
+                                    'post_parent' => $post->ID, 
+                                    'post_status' => null, 
+                                    'post_type' => 'attachment'
+                                );
+
+                                $pics= get_children($about_pics);
+
+                                if ($pics){
+
+                                    foreach ($pics as $pic) {
+                                        
+                                        echo "<div class='about-pic'>";
+
+                                            $img_med= wp_get_attachment_image($pic->ID , 'medium');
+                                            $img_larg= wp_get_attachment_image_src($pic->ID , 'large');
+
+                                            echo "<a rel='lightbox[group1]' hreft=\"$img_larg[0]\" title=\"$pic->post_content\">$img_med</a>";
+
+                                        echo "</div>";
+
                                     }
-                                    echo "</div>";
-                                }
+
+
+                                }else echo "<p class='no-image'>تصویری یافت نشد</p>";
+                        
                             ?>
-                        <div class="clear"></div>
+
+                            <div class="clear"></div>
                         </div>
 
                         <div class="clear"></div>
