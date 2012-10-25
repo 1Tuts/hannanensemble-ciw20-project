@@ -100,6 +100,43 @@ window.onscroll=function(){
 
 		return !err;
 	});
+
+	//-------------------------- players -------------------------
+
+	var faces       = $('div.players div'),
+		faceBio = $('div.players div p');
+
+		faces.each(function(){
+
+		var that = this;
+
+		$(this).mouseover(function(){
+
+			//setTimeout(function(){
+				$(that).animate({
+
+					width : 910,
+
+					'box-shadow' : 'inset 0 0 10px #444'
+
+				},350);
+				//},150);
+			
+		});
+
+		$(this).mouseout(function(){
+			$(that).animate({
+
+				width:200,
+				'box-shadow':'none'
+
+			},300);
+
+				
+			
+		});	
+		
+	});
 });
 
 
