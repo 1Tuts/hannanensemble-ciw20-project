@@ -696,8 +696,8 @@ div.middle div.players {
 }
 
 div.players div {
-	width           : 250px;
-	height          : 250px;
+	width           : 200px;
+	height          : 200px;
 	margin          :0 auto 20px;
 	display         : block;
 	background-color: #f8f8f8;
@@ -710,6 +710,12 @@ div.players div img {
 	border       : 1px solid #888;
 	display      : block;
 	float        : left;
+	opacity: 0.4;
+}
+
+div.players div:hover img {
+	opacity: 1;
+	-webkit-transition: all 400ms;
 }
 
 div.players div p {
@@ -723,5 +729,6 @@ div.players div p {
 
 div.players div:hover p {
 	opacity: 1;
-	-webkit-transition-delay: 600ms;
+	-webkit-transition:all 200ms;
+	-webkit-transition-delay: 400ms;
 }

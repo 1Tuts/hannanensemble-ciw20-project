@@ -114,23 +114,25 @@ window.onscroll=function(){
 
 		$(this).mouseover(function(){
 
+			//setTimeout(function(){
+				$(that).animate({
 
-			$(that).animate({
+					width : 910,
 
-				width : 950,
+					'box-shadow' : 'inset 0 0 10px #444'
 
-				'border' : '1px dashed #444'
-
-			},600);
+				},350);
+				//},150);
+			
 		});
 
 		$(this).mouseout(function(){
 			$(that).animate({
 
-				width:250,
-				'border':'0 none'
+				width:200,
+				'box-shadow':'none'
 
-			},400);
+			},300);
 
 				
 			
