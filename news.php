@@ -53,10 +53,10 @@
 				<div class="clear"></div>
 			</section>
 		</header>
-		<section class="contain">
+		<section class="contain-news">
 			<div class="middle">
 				<div class="title" id='tit'></div>
-				
+				<div class="news"></div>
 			</div>
 		</section>
 		<div class="footer-container">

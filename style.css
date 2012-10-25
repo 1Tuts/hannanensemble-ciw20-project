@@ -1,7 +1,13 @@
-/*section, div {
+section, div {
 	outline : 1px dashed red;
-}*/
+}
 
+body{
+	background-image: url('./images/Blog4.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+	min-height: 1767px;
+}
 
 .clear{
 	clear      : both;
@@ -108,10 +114,10 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
-.content-container {
+/*.content-container {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
-}
+}*/
 
 section.contain {
 
@@ -721,3 +727,17 @@ section.contain-gallery .middle .gallery .third{
 	width: 316px;
 	min-height: 275px;
 }
+
+/*------------------------------ News Page -------------------------------*/
+section.contain-news{
+
+}
+
+section.contain-news .middle{
+	
+}
+
+section.contain-news .news{
+	min-height: 1564px;
+}
+
