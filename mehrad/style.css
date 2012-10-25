@@ -720,3 +720,8 @@ div.players div p {
 	margin-left: 265px;
 	font-family: Tahoma;
 }
+
+div.players div:hover p {
+	opacity: 1;
+	-webkit-transition-delay: 600ms;
+}

@@ -113,39 +113,29 @@ window.onscroll=function(){
 		var that = this;
 
 		$(this).mouseover(function(){
-			if($(that).css('width')=='250px'){
+
 
 			$(that).animate({
 
-				width:950,
-				'border':'1px dashed #444'
+				width : 950,
 
-			},600,'linear',function(){
+				'border' : '1px dashed #444'
 
-				faceBio.eq($(that).index()).animate({
-
-					opacity:1
-
-				},300)})
-		}
+			},600);
+		});
 
 		$(this).mouseout(function(){
-			if ($(that).css('width')=='950px') {
+			$(that).animate({
 
-				$(that).animate({
+				width:250,
+				'border':'0 none'
 
-					width:250,
-					'border':'0 none'
+			},400);
 
-				},400);
-
-				faceBio.eq($(that).index()).animate({
-					opacity:0
-				},100);	
-				};
-
-			});	
-		});
+				
+			
+		});	
+		
 	});
 
 });
