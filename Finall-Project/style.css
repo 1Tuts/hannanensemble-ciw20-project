@@ -755,3 +755,49 @@ section.contain-gallery .middle .gallery .gallery-img p{
 p.no-image{
 
 }
+
+/************************ PLAYERS PAGE ***************************/
+
+div.middle div.players {
+	width: 950px;
+	margin: 0 auto;
+	min-height: 500px;
+}
+
+div.players div {
+	width           : 200px;
+	height          : 200px;
+	margin          : 0 auto 20px;
+	display         : block;
+	background-color: #f8f8f8;
+	padding         : 20px;
+
+}
+
+div.players div img {	
+	border-radius: 2px;
+	border       : 1px solid #888;
+	display      : block;
+	float        : left;
+	opacity      : 0.4;
+}
+
+div.players div:hover img {
+	opacity : 1;
+	-webkit-transition : all 400ms;
+}
+
+div.players div p {
+	opacity     : 0;
+	color       : #444;
+	font-size   : 18px;
+	min-height  : 0;
+	margin-left : 265px;
+	font-family : Tahoma;
+}
+
+div.players div:hover p {
+	opacity                  : 1;
+	-webkit-transition       : all 200ms;
+	-webkit-transition-delay : 400ms;
+}
