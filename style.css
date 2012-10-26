@@ -227,7 +227,7 @@ section.contain .middle .boxess .forth:hover{
 	-o-transition:all 450ms;
 }
 
-/* RECENT WORK */
+/* bozorgan */
 section.contain .middle .recentwork {
 	margin: 0 auto;
 	width: 950px;
@@ -237,6 +237,7 @@ section.contain .middle .recentwork {
 section.contain .middle .recentwork img{
 	width: 236px;
 	height: 177px;
+	cursor: pointer;
 }
 
 section.contain .middle .recentwork .first,
@@ -250,58 +251,11 @@ section.contain .middle .recentwork .third{
 	
 }
 
-section.contain .middle .recentwork .first .back,
-section.contain .middle .recentwork .second .back,
-section.contain .middle .recentwork .third .back{
-	width     :	236px;
-	min-height: 224px;
-	position  : absolute;
-	top       : 0;
-	bottom    : 0;
-	display   : none;
-
-}
-
-section.contain .middle .recentwork .first .back:hover,
-section.contain .middle .recentwork .second .back:hover,
-section.contain .middle .recentwork .third .back:hover{
-	background-color: 	#F96E5B;	
-	z-index: 120;
-}
-
-section.contain .middle .recentwork .first:hover .back,
-section.contain .middle .recentwork .first .back:hover,
-section.contain .middle .recentwork .second:hover .back,
-section.contain .middle .recentwork .second .back:hover,
-section.contain .middle .recentwork .third:hover .back,
-section.contain .middle .recentwork .third .back:hover{
-	display: block;
-	background-color: #F96E5B;	
-	z-index: 120;
-	cursor: pointer;
-}
-
-section.contain .middle .recentwork .forth{/* last box*/
+/* last box in bozorgan*/
+section.contain .middle .recentwork .forth{
 	margin-left: 715px;
 	min-height: 210px;	
 	position: relative;
-}
-
-section.contain .middle .recentwork .forth .back{
-	width: 236px;
-	min-height: 224px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	display: none;
-}
-
-section.contain .middle .recentwork .forth:hover .back,
-section.contain .middle .recentwork .forth .back:hover{
-	display: block;
-	background-color: #F96E5B;	
-	z-index: 120;
-	cursor: pointer;
 }
 
 section.contain .middle .recentwork h4{
@@ -322,6 +276,7 @@ section.contain .middle .recentwork h6{
 section.contain .middle .recentwork p{
 	margin-top: 10px;
 	margin-right: 17px;
+	cursor: pointer;
 }
 
 /*------------------------------ Footer -------------------------------*/ 
