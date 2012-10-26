@@ -1,13 +1,6 @@
-section, div {
+/*section, div {
 	outline : 1px dashed red;
-}
-
-body{
-	background-image: url('./images/Blog4.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
-	min-height: 1066px;
-}
+}*/
 
 .clear{
 	clear      : both;
@@ -114,10 +107,10 @@ nav menu li a.active {
 }
 
 /*------------------------------ Middle -------------------------------*/
-/*.content-container {
+.content-container {
 	background-image:url('images/bg-1.png');
 	background-repeat: repeat;
-}*/
+}
 
 section.contain {
 
