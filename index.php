@@ -3,12 +3,11 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Untitled Document</title>
-	<link type="text/css" rel="stylesheet" href="reset.css" />
-	<link type="text/css" rel="stylesheet" href="1styles.css" />
-	<link type="text/css" rel="stylesheet" href="style.css" />
-	<script type="text/javascript" src="js/zepto.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-	<script type="text/javascript" src="js/slide.js"></script>
+	<link type="text/css" rel="stylesheet" href="./1styles.css" />
+	<link type="text/css" rel="stylesheet" href="./style.css" />
+	<script type="text/javascript" src="./js/zepto.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+	<script type="text/javascript" src="./js/slide.js"></script>
 	<!--[if lt IE 9]>
 		<script src="js/html5shiv.js"></script>
 	<![endif]-->
@@ -100,20 +99,28 @@
 				</div>
 				<div class="recentwork">
 					<div class="first">
-						<img src="images/alinejad.jpg" />
-						<p>استاد سید خلیل عالی نژاد</p>
+						<a href="./alinejad.php">
+							<img src="images/alinejad.jpg" />
+							<p>استاد سید خلیل عالی نژاد</p>
+						</a>
 					</div>
 					<div class="second">
-						<img src="images/hayati.jpg" />
-						<p>استاد امیر حیاتی</p>
+						<a href="./hayati.php">
+							<img src="images/hayati.jpg" />
+							<p>استاد امیر حیاتی</p>
+						</a>
 					</div>
 					<div class="third">
-						<img src="images/yarveysi.jpg" />
-						<p>استاد طاهر یارویسی</p>
+						<a href="./yarveysi.php">
+							<img src="images/yarveysi.jpg" />
+							<p>استاد طاهر یارویسی</p>
+						</a>
 					</div>
 					<div class="forth">
-						<img src="images/ebrahimi.jpg" />
-						<p>استاد سید امرالله شاه ابراهیمی</p>
+						<a href="./ebrahimi.php">
+							<img src="images/ebrahimi.jpg" />
+							<p>استاد سید امرالله شاه ابراهیمی</p>
+						</a>
 					</div>
 					<div class="clear"></div>
 				</div>
