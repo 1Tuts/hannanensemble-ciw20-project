@@ -1,4 +1,9 @@
 <?php
+
+	/*
+		Template Name: News
+	*/
+
 	get_template_part('./inc/header');
 
 	get_template_part('./inc/news-content');
