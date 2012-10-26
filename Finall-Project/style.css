@@ -801,3 +801,45 @@ div.players div:hover p {
 	-webkit-transition       : all 200ms;
 	-webkit-transition-delay : 400ms;
 }
+/*------------------------------ News Page -------------------------------*/
+section.contain-news{
+
+}
+
+section.contain-news .middle{
+	width: 950px;
+	margin: 0 auto;
+}
+
+section.contain-news .news{
+	min-height: 460px;
+}
+
+section.contain-news .news .pic{
+	min-height: 280px;
+}
+
+section.contain-news .news .date-text{
+	min-height: 170px;
+	padding-top: 10px;
+}
+
+section.contain-news .news .date-text .date{
+	width: 75px;
+	min-height: 150px;
+	float: left;
+}
+
+section.contain-news .news .date-text .title-text{
+	min-height: 170px
+}
+
+section.contain-news .news .date-text .title-text .title{
+	width: 850px;
+	min-height: 50px;
+}
+
+section.contain-news .news .date-text .title-text .text{
+	width: 850px;
+	min-height: 110px;
+}
