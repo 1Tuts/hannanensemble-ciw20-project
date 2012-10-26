@@ -234,6 +234,11 @@ section.contain .middle .recentwork {
 	min-height: 256px;
 }
 
+section.contain .middle .recentwork img{
+	width: 236px;
+	height: 177px;
+}
+
 section.contain .middle .recentwork .first,
 section.contain .middle .recentwork .second,
 section.contain .middle .recentwork .third{

@@ -100,32 +100,32 @@
 				</div>
 				<div class="recentwork">
 					<div class="first">
-						<img src="images/tanboor.jpg" />
-						<p>درباره ی تنبـــور</p>
+						<img src="images/alinejad.jpg" />
+						<p>استاد سید خلیل عالی نژاد</p>
 						<div class="back">
 							<h4>درباره ی تنبـــور</h4>
 							<h6>در این قسمت به گردآوری مقالات و نظرات اساتید و پیشکسوتان و هر آنچه در مورد تنبــور گفته شده میپردازیم .</h6>	
 						</div>
 					</div>
 					<div class="second">
-						<img src="images/album.jpg" />
-						<p>آلبوم های تنبـــور</p>
+						<img src="images/hayati.jpg" />
+						<p>استاد امیر حیاتی</p>
 						<div class="back">
 							<h4>آلبوم های تنبـــور</h4>
 							<h6>هدف این قسمت یادآوری آثار ماندگار تنبــور و معرفی آلبوم های جدید تنبــور میباشد .</h6>
 						</div>
 					</div>
 					<div class="third">
-						<img src="images/books.jpg" />
-						<p>کتابهای تنبــــور</p>
+						<img src="images/yarveysi.jpg" />
+						<p>استاد طاهر یارویسی</p>
 						<div class="back">
 							<h4>کتابهای تنبــــور</h4>
 							<h6>در این قسمت کتب و جزواتی را که درباره تنبور به چاپ رسیده باشد را به نمایش میگزاریم .</h6>
 						</div>
 					</div>
 					<div class="forth">
-						<img src="images/bozorgan.jpg" />
-						<p>بزرگان تنبـــور</p>
+						<img src="images/ebrahimi.jpg" />
+						<p>استاد سید امرالله شاه ابراهیمی</p>
 						<div class="back">
 							<h4>بزرگان تنبـــور</h4>
 							<h6>هنردوستــان عزیز در این قسمت شما میتوانید با نوازندگان نامدار تنبـــور آشنا شوید و سرگذشت<br /> و آثار آنان را مطالعه نمائید .</h6>
