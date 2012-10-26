@@ -58,4 +58,5 @@ function news_init(){
 	);
 
 	register_post_type('News' , $args);
+	
 }
