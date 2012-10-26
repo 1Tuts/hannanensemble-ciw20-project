@@ -46,7 +46,7 @@
                                     }
 
 
-                                }else echo "<p class='no-image'>تصویری یافت نشد</p>";
+                                }
                         
                             ?>
 
