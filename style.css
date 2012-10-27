@@ -1,6 +1,6 @@
-/*section, div {
+section, div {
 	outline : 1px dashed red;
-}*/
+}
 
 .clear{
 	clear      : both;
@@ -695,32 +695,50 @@ section.contain-news .news{
 	min-height: 460px;
 }
 
-section.contain-news .news .pic{
-	min-height: 280px;
+section.contain-news .news .date-pic{
+	margin-bottom: 20px;
 }
 
-section.contain-news .news .date-text{
-	min-height: 170px;
-	padding-top: 10px;
+section.contain-news .news .date-pic .pic{
+	
 }
 
-section.contain-news .news .date-text .date{
-	width: 75px;
-	min-height: 150px;
+section.contain-news .news .date-pic .pic img{
+	width: 725px;
+	height: 280px;
+}
+
+section.contain-news .news .date-pic .date{
+	float: left;
+	min-height: 80px;
+	margin-top: 200px;
+}
+
+section.contain-news .news .date-pic .date .month,
+section.contain-news .news .date-pic .date .day,
+section.contain-news .news .date-pic .date .year{
+	width: 50px;
+	height: 80px;
 	float: left;
 }
 
-section.contain-news .news .date-text .title-text{
-	min-height: 170px
+section.contain-news .news .title-text{
+	
 }
 
-section.contain-news .news .date-text .title-text .title{
-	width: 850px;
+section.contain-news .news .title-text .title{
 	min-height: 50px;
+	margin-bottom: 10px;
 }
 
-section.contain-news .news .date-text .title-text .text{
-	width: 850px;
-	min-height: 110px;
+section.contain-news .news .title-text .title h2{
+	
 }
 
+section.contain-news .news .title-text .text{
+	min-height: 150px
+}
+
+section.contain-news .news .title-text .text p{
+	
+}
