@@ -20,7 +20,7 @@ function contact_us(){
 
 //=========================== News Catalog =======================
 
-add_theme_support('post_tumbnails');
+add_theme_support('post-thumbnails');
 
 add_action('init','news_init');
 
@@ -28,14 +28,14 @@ function news_init(){
 	$labels = array(
 		'name' => _x('اخبار','post type general name'),
 		'singular_name' => _x('خبر','post type singular name'),
-		'add new' => _x('add new' , 'News'),
-		'add_new_item' => ('اضافه نمودن خبر'),
-		'edit_item' => ('اصلاح خبر'),
-		'new_item' => ('خبر جدبد'),
-		'view_item' => ('مشاهده خبر'),
-		'search_items' => ('جستجوی خبر'),
-		'not_found' => ('هیچ خبری یافت نشد'),
-		'not_found_in_trash' => ('هیچ خبری در زباله دان یافت نشد'),
+		'add_new' => _x('اضافه نمودن خبر' , 'News'),
+		'add_new_item' => __('اضافه نمودن خبر'),
+		'edit_item' => __('اصلاح خبر'),
+		'new_item' => __('خبر جدبد'),
+		'view_item' => __('مشاهده خبر'),
+		'search_items' => __('جستجوی خبر'),
+		'not_found' => __('هیچ خبری یافت نشد'),
+		'not_found_in_trash' => __('هیچ خبری در زباله دان یافت نشد'),
 		'parent_item_colon' => '',
 		'menu_name' => 'اخبار'
 	);
@@ -51,12 +51,11 @@ function news_init(){
 		'capability_type' => 'post',
 		'has_archive' => true,
 		'hierarchical' => false,
-		'menu_position' => 2,
+		'menu_position' => 5,
 		'menu_icon' => get_bloginfo('template_url') . '/images/newsicon.png',
 		'supports' => array('title','editor','thumbnail','excerpt','comments'),
 		'taxonomies' => array('category', 'post_tag')
 	);
 
-	register_post_type('News' , $args);
-	
+	register_post_type('news' , $args);
 }
