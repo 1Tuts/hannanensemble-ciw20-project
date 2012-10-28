@@ -80,7 +80,7 @@ function all_news(){
 		$content = get_the_content();
 		$date    = get_the_date();
 		$news_pic= array(
-							'numberposts' => '-1',
+							'numberposts' => 1,
 	                        'orderby '=> 'menu_order',  
 	                        'order'=> 'ASC',  
 	                        'post_mime_type' => 'image', 
