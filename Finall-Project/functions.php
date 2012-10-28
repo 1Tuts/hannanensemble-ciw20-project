@@ -78,11 +78,12 @@ function all_news(){
 		$title   = get_the_title();
 		$url     = get_permalink();
 		$content = get_the_content();
+		$date    = get_the_date();
 
 		$html .= "<div class='news'>
 					<div class='date-pic'>
 						<div class='date'>
-							<?php the_date(); ?>
+							$date
 						</div>
 						<div class='pic'>
 							<?php
@@ -109,8 +110,8 @@ function all_news(){
 						<div class='clear'></div>
 					</div>
 					<div class='title-text'>
-						<div class='title'><a href='$url'><h2><?php the_title(); ?></h2></a></div>
-						<div class='text'><p><?php the_content(); ?></p></div>
+						<div class='title'><a href='$url'><h2>$title</h2></a></div>
+						<div class='text'><p>$content</p></div>
 					</div>	
 				 </div>";
 	}
