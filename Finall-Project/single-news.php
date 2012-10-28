@@ -4,9 +4,8 @@
 			<div class="title" id='tit'></div>
 			
 				<?php
-				$news = new WP_Query(array('post_type' => 'news'));
-					while ($news->have_posts()) {
-						$news->the_post();
+					while (have_posts()) {
+						the_post();
 				?>
 				<div class="news">
 					<div class="date-pic">
