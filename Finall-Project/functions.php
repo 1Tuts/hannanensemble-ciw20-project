@@ -66,14 +66,14 @@ add_shortcode('news', 'all_news');
 function all_news(){
 
 	
-	$products = new WP_Query(array(
+	$news = new WP_Query(array(
 		'post_type' => 'news'
 	));
 
 	$html = '<h3 class="all-news">News</h3>';
 
-	while($products->have_posts()){
-		$products->the_post();
+	while($news->have_posts()){
+		$news->the_post();
 
 		$title   = get_the_title();
 		$url     = get_permalink();
