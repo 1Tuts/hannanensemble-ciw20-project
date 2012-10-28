@@ -226,99 +226,6 @@ section.contain .middle .boxess > div:hover{
 	-moz-transition:all 450ms;
 	-o-transition:all 450ms;
 }
-
-/* RECENT WORK */
-section.contain .middle .recentwork {
-	margin: 0 auto;
-	width: 950px;
-	min-height: 256px;
-}
-
-section.contain .middle .recentwork .first,
-section.contain .middle .recentwork .second,
-section.contain .middle .recentwork .third{
-	float: left;
-	width: 236px;
-	min-height: 210px;
-	border-right: 2px solid #FFF;
-	position: relative;
-	
-}
-
-section.contain .middle .recentwork .first .back,
-section.contain .middle .recentwork .second .back,
-section.contain .middle .recentwork .third .back{
-	width     :	236px;
-	min-height: 224px;
-	position  : absolute;
-	top       : 0;
-	bottom    : 0;
-	display   : none;
-
-}
-
-section.contain .middle .recentwork .first .back:hover,
-section.contain .middle .recentwork .second .back:hover,
-section.contain .middle .recentwork .third .back:hover{
-	background-color: 	#F96E5B;	
-	z-index: 120;
-}
-
-section.contain .middle .recentwork .first:hover .back,
-section.contain .middle .recentwork .first .back:hover,
-section.contain .middle .recentwork .second:hover .back,
-section.contain .middle .recentwork .second .back:hover,
-section.contain .middle .recentwork .third:hover .back,
-section.contain .middle .recentwork .third .back:hover{
-	display: block;
-	background-color: #F96E5B;	
-	z-index: 120;
-	cursor: pointer;
-}
-
-section.contain .middle .recentwork .forth{/* last box*/
-	margin-left: 715px;
-	min-height: 210px;	
-	position: relative;
-}
-
-section.contain .middle .recentwork .forth .back{
-	width: 236px;
-	min-height: 224px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	display: none;
-}
-
-section.contain .middle .recentwork .forth:hover .back,
-section.contain .middle .recentwork .forth .back:hover{
-	display: block;
-	background-color: #F96E5B;	
-	z-index: 120;
-	cursor: pointer;
-}
-
-section.contain .middle .recentwork h4{
-	margin-top  : 15px;
-	margin-right: 10px;
-	color       : #FFF;
-	font-weight : bolder;
-}
-
-section.contain .middle .recentwork h6{
-	margin-top: 35px;
-	margin-right: 10px;
-	color: #FFF;
-	font-size: 14px;
-	line-height: 25px;
-}
-
-section.contain .middle .recentwork p{
-	margin-top: 10px;
-	margin-right: 17px;
-}
-
 /*------------------------------ Footer -------------------------------*/
 div.footer-container {
 	background-color: #444;
@@ -812,7 +719,7 @@ section.contain-news .middle{
 }
 
 section.contain-news .news{
-	min-height: 460px;
+	
 }
 
 section.contain-news .news .date-pic{
@@ -824,8 +731,7 @@ section.contain-news .news .date-pic .pic{
 }
 
 section.contain-news .news .date-pic .pic img{
-	width: 725px;
-	height: 280px;
+	
 }
 
 section.contain-news .news .date-pic .date{
@@ -856,6 +762,10 @@ section.contain-news .news .title-text .title h2{
 
 section.contain-news .news .title-text .text{
 	min-height: 150px
+}
+
+section.contain-news .news .title-text .text .news:first-child{
+	display: none;
 }
 
 section.contain-news .news .title-text .text p{
