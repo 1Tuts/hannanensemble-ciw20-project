@@ -72,8 +72,8 @@ function all_news(){
 		'post_type' => 'news'
 	));
 
-	$html = "";
-	
+	$html = '<h3 class="all-news">اخبار</h3>';
+
 	while($news->have_posts()){
 		$news->the_post();
 
@@ -81,7 +81,23 @@ function all_news(){
 		$url     = get_permalink();
 		$content = get_the_content();
 		$date    = get_the_date();
-		$pict    = get_the_post_thumbnail();
+		$news_pic= array(
+							'numberposts' => 1,
+	                        'orderby '=> 'menu_order',  
+	                        'order'=> 'ASC',  
+	                        'post_mime_type' => 'image', 
+	                        'post_parent' => $post->ID, 
+	                        'post_status' => null, 
+	                        'post_type' => 'attachment'
+						);
+
+					$pics= get_children($news_pic);
+
+					if ($pics){
+						foreach ($pics as $pic) {
+							$image= wp_get_attachment_image($pic->ID , $size = 'large');
+						}
+					}
 
 		$html .= "<div class='news'>
 					<div class='date-pic'>
@@ -89,7 +105,7 @@ function all_news(){
 							$date
 						</div>
 						<div class='pic'>
-							$pict
+							$image
 						</div>
 						<div class='clear'></div>
 					</div>
