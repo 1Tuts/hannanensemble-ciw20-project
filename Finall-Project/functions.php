@@ -1,6 +1,8 @@
 <?php
 	add_theme_support('menus');
 
+	register_nav_menu('mainmenu', "Main Menu");
+
 	register_sidebar(array(
 		'name' => 'Recent',
 		'id' => 'best',
