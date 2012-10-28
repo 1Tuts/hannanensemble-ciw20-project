@@ -85,11 +85,14 @@ nav menu {
 
 nav menu li {
 	float : right;
+	background-image: url('images/sprite.png');
+	background-repeat: no-repeat;
+	background-position: right -153px;
 }
 
 nav menu li a {
 	display         : block;
-	padding         : 17px 15px 17px 0;	
+	padding         : 17px 15px 17px 15px;	
 	text-decoration : none;
 	text-transform  : uppercase;
 	color           : #666;
@@ -98,20 +101,9 @@ nav menu li a {
 	-webkit-transition : all 200ms;
 }
 
-nav menu li a span {
-	color         : #aaa;
-	padding-right : 15px;
-	font-size     : 11px;
-	font-weight   : 200;
-}
-
 nav menu li a:hover {
 	background-color : #444;
 	color            : white;
-}
-
-nav menu li a:hover span {
-	color : #444;
 }
 
 nav menu li a.active {
@@ -120,8 +112,8 @@ nav menu li a.active {
 
 /*------------------------------ Middle -------------------------------*/
 .content-container {
-	background-image:url('images/bg-1.png');
-	background-repeat: repeat;
+	background-image  :url('images/bg-1.png');
+	background-repeat : repeat;
 }
 section.contain {
 

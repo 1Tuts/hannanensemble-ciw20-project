@@ -20,11 +20,11 @@
 			<section class="header">
 				<nav>
 					<menu>
-						<li><a href="./">صفحه اصلی<span>|</span></a></li>
-						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-						<li><a href="#">اعضا<span>|</span></a></li>
-						<li><a href="#">اخبار<span>|</span></a></li>
-						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+						<li><a href="./">صفحه اصلی</a></li>
+						<li><a href="./aboutus.php">درباره گروه</a></li>
+						<li><a href="#">اعضا</a></li>
+						<li><a href="#">اخبار</a></li>
+						<li><a href="./contactus.php">تماس با م</a></li>
 						<li class="clear"></li>
 					</menu>
 				</nav>
@@ -37,11 +37,11 @@
 			<section class="header">
 				<nav>
 					<menu>
-						<li><a href="./">صفحه اصلی<span>|</span></a></li>
-						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-						<li><a href="#">اعضا<span>|</span></a></li>
-						<li><a href="#">اخبار<span>|</span></a></li>
-						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+						<li><a href="./">صفحه اصلی</a></li>
+						<li><a href="./aboutus.php">درباره گروه</a></li>
+						<li><a href="#">اعضا</a></li>
+						<li><a href="#">اخبار</a></li>
+						<li><a href="./contactus.php">تماس با ما</a></li>
 						<li class="clear"></li>
 					</menu>
 				</nav>
