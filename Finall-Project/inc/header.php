@@ -23,7 +23,6 @@
 		<header class="normal">
 			<section class="header">
 				<nav>
-					<menu>
 						<?php
 							wp_nav_menu(array(
 								'theme_location'  => 'mainmenu',
@@ -34,11 +33,10 @@
 								'after'           => '',
 								'link_before'     => '',
 								'link_after'      => '',
-								'items_wrap'      => '<menu>%3$s</menu>'
+								'items_wrap'      => '<menu>%3$s<li class="clear"></li></menu>'
 							));
 						?>
-						<li class="clear"></li>
-					</menu>
+						
 				</nav>
 				<div class="logo"></div>
 				<div class="clear"></div>
@@ -48,14 +46,19 @@
 			<div class="grayline"></div>	
 			<section class="header">
 				<nav>
-					<menu>
-						<li><a href="./">صفحه اصلی<span>|</span></a></li>
-						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-						<li><a href="#">اعضا<span>|</span></a></li>
-						<li><a href="#">اخبار<span>|</span></a></li>
-						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
-						<li class="clear"></li>
-					</menu>
+					<?php
+							wp_nav_menu(array(
+								'theme_location'  => 'mainmenu',
+								'container'       => false, 
+								'container_class' => '', 
+								'menu_class'      => '', 
+								'before'          => '',
+								'after'           => '',
+								'link_before'     => '',
+								'link_after'      => '',
+								'items_wrap'      => '<menu>%3$s<li class="clear"></li></menu>'
+							));
+						?>
 				</nav>
 				<div class="logo"></div>
 				<div class="clear"></div>
