@@ -24,11 +24,19 @@
 			<section class="header">
 				<nav>
 					<menu>
-						<li><a href="./">صفحه اصلی<span>|</span></a></li>
-						<li><a href="./aboutus.php">درباره گروه<span>|</span></a></li>
-						<li><a href="#">اعضا<span>|</span></a></li>
-						<li><a href="#">اخبار<span>|</span></a></li>
-						<li><a href="./contactus.php">تماس با ما<span></span></a></li>
+						<?php
+							wp_nav_menu(array(
+								'theme_location'  => 'mainmenu',
+								'container'       => false, 
+								'container_class' => '', 
+								'menu_class'      => '', 
+								'before'          => '',
+								'after'           => '',
+								'link_before'     => '',
+								'link_after'      => '',
+								'items_wrap'      => '<menu>%3$s</menu>'
+							));
+						?>
 						<li class="clear"></li>
 					</menu>
 				</nav>
