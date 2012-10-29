@@ -37,7 +37,7 @@
 			<div class="boxess">
 				<?php
 							wp_nav_menu(array(
-								'theme_location'  => 'mainmenu',
+								'theme_location'  => 'recentmenu',
 								'container'       => false, 
 								'container_class' => '', 
 								'menu_class'      => '', 
