@@ -3,15 +3,8 @@
 
 	register_nav_menu('mainmenu', "Main Menu");
 
-	register_sidebar(array(
-		'name' => 'Recent',
-		'id' => 'best',
-		'description' => 'recent stuffs',
-		'before_widget' => "<div>",
-		'after_widget' => "</div>",	
-		'before_title' => '<h3>',
-		'after_title' => "</h3>"
-	));
+	register_nav_menu('recentmenu', "Recent Works");
+
 //=========================== CONTACT SHORT CODE =======================
 
 add_shortcode('contactus','contact_us');
@@ -83,21 +76,21 @@ function all_news(){
 		$date    = get_the_date();
 		$pict    = get_the_post_thumbnail();
 
-		$html .= "<div class='news'>
-					<div class='date-pic'>
-						<div class='date'>
-							$date
+		$html 	.= "<div class='news'>
+						<div class='date-pic'>
+							<div class='date'>
+								$date
+							</div>
+							<div class='pic'>
+								$pict
+							</div>
+							<div class='clear'></div>
 						</div>
-						<div class='pic'>
-							$pict
-						</div>
-						<div class='clear'></div>
-					</div>
-					<div class='title-text'>
-						<div class='title'><a href='$url'><h2>$title</h2></a></div>
-						<div class='text'><p>$content</p></div>
-					</div>	
-				 </div>";
+						<div class='title-text'>
+							<div class='title'><a href='$url'><h2>$title</h2></a></div>
+							<div class='text'><p>$content</p></div>
+						</div>  
+					</div>";
 	}
 
 
