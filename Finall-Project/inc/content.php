@@ -34,6 +34,22 @@
 				}
 			?>
 
-			<?php get_template_part('inc/widget-recent'); ?>
+			<div class="boxess">
+				<?php
+							wp_nav_menu(array(
+								'theme_location'  => 'mainmenu',
+								'container'       => false, 
+								'container_class' => '', 
+								'menu_class'      => '', 
+								'before'          => '',
+								'after'           => '',
+								'link_before'     => '',
+								'link_after'      => '',
+								'items_wrap'      => '<ul>%3$s<li class="clear"></li></ul>'
+							));
+						?>
+
+				<div class='clear'></div>
+			</div>
 		</div>
 	</section>
