@@ -5,8 +5,12 @@
 			<div class="bigfooter">
 				<div class="first">
 					<h3>درباره ما</h3>
-					   <p><a href="contactus.html">شما هنردوستان میتوانید با ارسال فرم در صفحه تماس با ما با تنبورنوازان در ارتباط باشید.</a></p><br />
-					   <p>لینکهای ارتباطی تنبورنوازان در شبکه های اجتماعی</p>
+					   <a href="./index-about.php">
+					   		<p>
+					   			گروه تنبور نوازان حنان فعالیت خود را به صورت جدی و رسمب در سال 1386 آغاز کرد...
+					   		</p>
+					   </a><br />
+					   <p>لینکهای ارتباطی با گروه تنبورنوازان در شبکه های اجتماعی</p>
 					   <br /><br />
 					   <ul>
 						   <li class="fb" id="trans"><a href="http://www.facebook.com/TanboornavazaneHanan" target="_blank"></a></li>
@@ -16,8 +20,10 @@
 					   </ul>
 				</div>
 				<div class="second">
-					<h3>آخرین پست ها</h3>
-					<p><a>دیدار با استاد طاهر یارویسی</a></p>
+					<h3>لینک های مفید</h3>
+					<a href="http://tanboor.ir/musicians.html" target="_blank"><p>بزرگان هنر تنبور نوازی</p></a>
+					<a href="http://tanboor.ir/books.html" target="_blank"><p>کتاب های مرتبط به ساز تنبور</p></a>
+					<a href="http://tanboor.ir/about_tanboor.html" target="_blank"><p>درباره ساز تنبور</p></a>
 				</div>
 				<div class="third">
 					<h3>آخرین اخبار</h3>
@@ -25,10 +31,12 @@
 					<p><a>کنسرت بزرگ از غرب تا شرق در مشهد</a></p>
 				</div>
 				<div class="forth">
-					<h3>عضویت در خبرنامه</h3>
-					<p>لطفا ایمیل خود را وارد کنید</p>
-					<input type="input">
-					<input class="button" type="submit" value="ارسال">
+					<h3>عضویت در گروه</h3>
+					<p>لطفا ایمیل خود را جهت ارساب خبرهای جدید از گروه وارد نمایید</p>
+					<form action="sendmail.php" method="post" id="footer-email">
+						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+						<input type="submit" value="ارسال" class="button" id="submit" name="submit" />
+					</form>
 				</div>
 				<div class="clear"></div>
 			</div>
