@@ -1,3 +1,7 @@
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-ui.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/lightbox.js"></script>
+
 	<section class="contain-gallery">
 		<div class="middle">
 			<div class="title" id="tit">گالری</div>
