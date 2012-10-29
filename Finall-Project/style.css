@@ -42,9 +42,9 @@ section.header {
 }
 
 header.normal section.header .logo {
-	width        : 145px;
-	min-height   : 45px;
-	margin-right : 804px;
+	width            : 145px;
+	min-height       : 45px;
+	margin-right     : 804px;
 	background-image : url('images/logo.png');
 }
 
@@ -64,17 +64,17 @@ header.action {
 	background-color : rgba(240,240,240,.9);
 	box-shadow       : 0 0 20px #666;
 	width            : 100%;
-	z-index: 30;
+	z-index          : 30;
 }
 
 header.action section.header {
-	padding: 0;
+	padding : 0;
 }
 
 header.action .logo {
-	width        : 113px;
-	min-height   : 35px;
-	margin-right : 810px;
+	width            : 113px;
+	min-height       : 35px;
+	margin-right     : 810px;
 	background-image : url('images/logo-min.png');
 }
 
@@ -91,14 +91,18 @@ nav menu li {
 }
 
 nav menu li a {
-	display         : block;
-	padding         : 17px 15px 17px 15px;	
-	text-decoration : none;
-	text-transform  : uppercase;
-	color           : #666;
-	font-size       : 13px;
-	font-weight     : 400;
-	-webkit-transition : all 200ms;
+	display           : block;
+	padding           : 17px 15px 17px 15px;	
+	text-decoration   : none;
+	text-transform    : uppercase;
+	color             : #666;
+	font-size         : 13px;
+	font-weight       : 400;
+	transition        : all 200ms;
+	-webkit-transition: all 200ms;
+	-moz-transition   : all 200ms;
+	-ms-transition    : all 200ms;
+	-o-transition     : all 200ms;
 }
 
 nav menu li a:hover {
@@ -112,7 +116,7 @@ nav menu li a.active {
 
 /*------------------------------ Middle -------------------------------*/
 .content-container {
-	background-image  :url('images/bg-1.png');
+	background-image  : url('images/bg-1.png');
 	background-repeat : repeat;
 }
 section.contain {
@@ -137,19 +141,19 @@ section.contain .middle{
 }
 
 section.contain .middle .banner {
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 365px;
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 365px;
 	margin-bottom: 30px;
 }
 /*------------------------------ Slider -------------------------------*/
 div.middle .banner {
-	position : relative;
-	margin     : 0 auto;
-	width      : 950px;
-	min-height : 365px;
+	position     : relative;
+	margin       : 0 auto;
+	width        : 950px;
+	min-height   : 365px;
 	margin-bottom: 30px;
-	z-index: 0;
+	z-index      : 0;
 }
 
 div.middle .banner > div {
@@ -166,57 +170,49 @@ div.middle .banner > div {
 /* box haye zier slide */
 
 section.contain .middle .boxess{
-	margin       : 0 auto;
-	width        : 950px;
-	min-height   : 210px;
-	border-top   : 1px solid #eee;
-	border-bottom: 2px solid #eee;
-	margin-bottom: 40px;
-	padding-top: 35px;
+	margin        : 0 auto;
+	width         : 950px;
+	min-height    : 210px;
+	border-top    : 1px solid #eee;
+	border-bottom : 2px solid #eee;
+	margin-bottom : 40px;
+	padding-top   : 35px;
 }
 
-section.contain .middle .boxess > div{
-	float      : left;
-	width      : 234px;
-	min-height : 180px;
-	border-right: 1px dashed #eee;
-	text-align: center;
-	background-image: url('images/navazande.png');
-	background-position: center center;
-	background-repeat: no-repeat;
+section.contain .middle .boxess > ul li{
+	float               : left;
+	width               : 234px;
+	min-height          : 180px;
+	border-right        : 1px dashed #eee;
+	text-align          : center;
+	background-image    : url('images/navazande.png');
+	background-position : center center;
+	background-repeat   : no-repeat;
 }
 
 /* last box*/
 
-section.contain .middle .boxess > div:last-child{
+section.contain .middle .boxess > ul li:last-child{
 	margin-left : 715px;
 	min-height  : 178px;
-	text-align: center;
-	padding: 1px;
+	text-align  : center;
+	padding     : 1px;
 }
 
-section.contain .middle .boxess div h3{
-	margin-top: 20px;
-	font-weight: bold;
-	color: #707070;
+section.contain .middle .boxess ul li a{
+	margin-top     : 20px;
+	font-weight    : bold;
+	color          : #707070;
+	text-decoration: none;
 }
 
-section.contain .middle .boxess div div.textwidget img{
-	margin-top: 15px;
-}
-
-section.contain .middle .boxess div div.textwidget p{
-	margin-top: 15px;
-	font-size: 	12px;	
-}
-
-section.contain .middle .boxess > div:hover{
-	background-color: #F96E5B;
-	color: #FFF;
+section.contain .middle .boxess > ul li:hover {
+	background-color  : #F96E5B;
+	color             : #FFF;
 	-webkit-transition:all 450ms;
-	-ms-transition:all 450ms;
-	-moz-transition:all 450ms;
-	-o-transition:all 450ms;
+	-ms-transition    :all 450ms;
+	-moz-transition   :all 450ms;
+	-o-transition     :all 450ms;
 }
 /*------------------------------ Footer -------------------------------*/
 div.footer-container {
@@ -233,8 +229,8 @@ footer.foot p{
 }
 
 footer.foot a{
-	color: #cccccc;
-	cursor: pointer;
+	color          : #cccccc;
+	cursor         : pointer;
 	text-decoration: none;
 }
 
@@ -248,14 +244,14 @@ footer.foot h3{
 }
 
 footer.foot .contain {
-	margin:0 auto;
-	width:950px;
+	margin    :0 auto;
+	width     :950px;
 	margin-top:20px;
 }
 
 footer.foot .contain .bigfooter {/* div 4 box */
 	margin:0 auto;
-	width:950px;;
+	width:950px;
 	min-height:300px;
 }
 
@@ -344,7 +340,7 @@ footer.foot .contain .bigfooter ul li a{
 }
 
 footer.foot .contain .bigfooter .fb{
-	background-image:url(images/facebook.png);		
+	background-image:url('images/facebook.png');		
 }
 
 footer.foot .contain .bigfooter .fb:hover{
@@ -352,7 +348,7 @@ footer.foot .contain .bigfooter .fb:hover{
 }
 
 footer.foot .contain .bigfooter .twitter{
-	background-image:url(images/twitter.png);
+	background-image:url('images/twitter.png');
 }
 
 footer.foot .contain .bigfooter .twitter:hover{
@@ -360,7 +356,7 @@ footer.foot .contain .bigfooter .twitter:hover{
 }
 
 footer.foot .contain .bigfooter .flickr{
-	background-image:url(images/flickr.png);	
+	background-image:url('images/flickr.png');	
 }
 
 footer.foot .contain .bigfooter .flickr:hover{
@@ -368,7 +364,7 @@ footer.foot .contain .bigfooter .flickr:hover{
 }
 
 footer.foot .contain .bigfooter .rss{
-	background-image:url(images/rss.png);	
+	background-image:url('images/rss.png');	
 }
 
 footer.foot .contain .bigfooter .rss:hover{
@@ -377,29 +373,29 @@ footer.foot .contain .bigfooter .rss:hover{
 /* End Transition Icons */
 
 footer.foot .contain .footer {/* Copyright */
-	margin:0 auto;
-	width:949px; /* 1px for pading*/
-	min-height:65px;
-	padding:1px;
-	background-color:#333333;
-	text-align: left;
-	direction: ltr;
+	margin           : 0 auto;
+	width            : 949px; /* 1px for pading*/
+	min-height       : 65px;
+	padding          : 1px;
+	background-color : #333333;
+	text-align       : left;
+	direction        : ltr;
 }
 footer.foot .contain .footer .copyright{
-	margin-top:20px;
-	margin-left:25px;
-	float:left;
-	width:260px; 
-	line-height: 30px;
+	margin-top  : 20px;
+	margin-left : 25px;
+	float       : left;
+	width       : 260px; 
+	line-height : 30px;
 }
 footer.foot .contain .footer .copyright .rights, .designteam .Design{
-	font-size: 12px;
+	font-size : 12px;
 }
 footer.foot .contain .footer .designteam{
-	margin-left:580px;
-	margin-top:20px;
-	width:370px;
-	line-height: 30px;
+	margin-left :580px;
+	margin-top  :20px;
+	width       :370px;
+	line-height : 30px;
 }
 
 div.footer-container .darkline {/*Darkline in bottom*/
@@ -477,11 +473,6 @@ div.contact-info {
 	color: #707070;
 }
 
-div.contact-info iframe{
-	margin-top: 42px;
-	border: 1px solid #888;
-}
-
 div.contact-info h4 {
 	font-size: 20px;
 	margin-bottom:15px;
@@ -526,6 +517,100 @@ section.contain .middle .pic .about-pic img{
 
 }
 
+/*------------------------------ Player Page -------------------------------*/
+section.player div{
+	outline: 0px solid red;
+}
+section.player{
+	width  : 		950px;
+	margin : 		0 auto;
+	margin-top: 	13px;
+}
+section.player .contain{
+	width  : 		950px;
+	margin : 		0 auto;
+	min-height: 	800px;
+}
+section.player .contain .tehrani{
+	width: 			260px;
+	margin: 		0 auto;
+	text-align: 	center;
+	min-height: 	300px;
+}
+section.player .contain .tehrani img{
+	margin-top: 	30px;
+	-webkit-transition:	all 300ms;	
+	-moz-transition:	all 300ms;
+	-ms-transition:		all 300ms;
+	-o-transition:		all 300ms; 
+	}
+section.player .contain .tehrani img:hover{
+	opacity: 0.9;
+}
+.imgstyle{
+	border-radius: 	8px;
+	box-shadow: 	0px 5px 5px 2px #888888;	
+}
+.txtname{
+	font-size: 		22px;
+	width: 			250px;
+}
+.txtsaz{
+	font-size: 		17px;
+}
+section.player .contain .tehrani h2,section.player .contain .tehrani h3{
+	margin-top: 	10px;
+}
+section.player .contain .tehrani h3 a{
+	font-size: 		17px;
+	margin-top: 	10px;
+	text-decoration:none;
+	color: 			#000;
+	margin-top: 	20px;
+	font-weight: 	bold;
+	-webkit-transition:all 250ms;	
+	-moz-transition:all 250ms;
+	-ms-transition:all 250ms;
+	-o-transition:all 250ms; 
+}
+section.player .contain .tehrani h3 a:hover{
+	color: 			#f96e5b;
+}
+section.player .contain .benyamin, section.player .contain .saeed, section.player .contain .hooman, section.player .contain .mohamad{
+	width: 			950px;
+	padding: 		1px;
+	min-height: 	200px;
+}
+section.player .contain .benyamin img, section.player .contain .hooman img{
+	float: 			left;
+}
+section.player .contain .benyamin h2, section.player .contain .hooman h2{
+	margin-top: 	30px;
+	margin-right: 	650px;
+}
+section.player .contain .benyamin h3, section.player .contain .hooman h3{
+	margin-right: 	665px;
+}
+section.player .contain .benyamin p, section.player .contain .hooman p{
+	margin-right: 	500px;
+	margin-top: 	120px;
+	line-height: 	20px;
+}
+section.player .contain .saeed img, section.player .contain .mohamad img{
+	float: 			right;
+}
+section.player .contain .saeed h2, section.player .contain .mohamad h2{
+	margin-top: 	30px;
+	margin-right: 	200px;
+}
+section.player .contain .saeed h3, section.player .contain .mohamad h3{
+	margin-right: 	215px;
+}
+section.player .contain .saeed p, section.player .contain .mohamad p{
+	margin-right: 	190px;
+	margin-top: 	30px;
+	line-height: 	20px;
+}
 /*------------------------------ Gallery Page -------------------------------*/
 section.contain-gallery{
 	
