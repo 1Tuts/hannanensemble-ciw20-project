@@ -7,12 +7,6 @@ Description: The 2012 theme for hannan ensemble
 Version: 1
 License: GNU General Public License v2 or later
 -------------------------------------------------------------- */
-
-/*section, div {
-	outline : 1px solid red;
-}
-*/
-
 .clear{
 	clear      : both;
 	overflow   : hidden;
@@ -75,7 +69,6 @@ header.action .logo {
 	width            : 113px;
 	min-height       : 35px;
 	margin-right     : 810px;
-	background-image : url('images/logo-min.png');
 }
 
 /*------------------------------ Normal Menu -------------------------------*/
@@ -210,21 +203,22 @@ section.contain .middle .boxess > ul li:hover {
 	background-color  : #F96E5B;
 	color             : #FFF;
 	-webkit-transition:all 450ms;
+	transition        :all 450ms;
 	-ms-transition    :all 450ms;
 	-moz-transition   :all 450ms;
 	-o-transition     :all 450ms;
 }
 /*------------------------------ Footer -------------------------------*/
 div.footer-container {
-	background-color: #444;
+	background-color : #444;
 } 
 footer.foot {
 	margin:0 auto;
-	width:950px;
+	width :950px;
 }
 
 footer.foot p{
-	color: #999999;
+	color    : #999999;
 	font-size:14px;
 }
 
@@ -235,11 +229,11 @@ footer.foot a{
 }
 
 footer.foot a:hover{
-	color: #f96e5b;
+	color : #f96e5b;
 }
 
 footer.foot h3{
-	color: #FFF;
+	color : #FFF;
 
 }
 
@@ -250,16 +244,16 @@ footer.foot .contain {
 }
 
 footer.foot .contain .bigfooter {/* div 4 box */
-	margin:0 auto;
-	width:950px;
+	margin    :0 auto;
+	width     :950px;
 	min-height:300px;
 }
 
 footer.foot .contain .bigfooter .first,
 footer.foot .contain .bigfooter .second,
 footer.foot .contain .bigfooter .third{
-	float:left;
-	width:237px;
+	float     :left;
+	width     :237px;
 	min-height:290px;
 	text-align:right;
 }
@@ -267,76 +261,78 @@ footer.foot .contain .bigfooter .third{
 footer.foot .contain .bigfooter .first h3,
 footer.foot .contain .bigfooter .second h3,
 footer.foot .contain .bigfooter .third h3{
-	margin-top:37px;
+	margin-top  :37px;
 	margin-right:25px;
 }
 
 footer.foot .contain .bigfooter .forth { /* last box*/
 	margin-left:713px;
-	min-height:288px;
-	text-align:right;	
-	padding:1px;
+	min-height :288px;
+	text-align :right;	
+	padding    :1px;
 }
 
 footer.foot .contain .bigfooter .forth h3 {
-	margin-top:37px;
+	margin-top  :37px;
 	margin-right:25px;
 }
 
 footer.foot .contain .bigfooter .forth input,
 footer.foot .contain .bigfooter .forth button {
-	margin-top:20px;
+	margin-top  :20px;
 	margin-right:25px;	
 }
 footer.foot .contain .bigfooter .forth .button {
-	background-color: #F96E5B;	
-	color: #FFF;
-	border: 0 none;
-	width: 130px;
-	height: 25px;
-	border-radius: 10px;
+	background-color  : #F96E5B;	
+	color             : #FFF;
+	border            : 0 none;
+	width             : 130px;
+	height            : 25px;
+	border-radius     : 10px;
 	-webkit-transition:all 250ms;
-	-ms-transition:all 250ms;
-	-moz-transition:all 250ms;
-	-o-transition:all 250ms;
+	transition        :all 250ms;
+	-ms-transition    :all 250ms;
+	-moz-transition   :all 250ms;
+	-o-transition     :all 250ms;
 }
 footer.foot .contain .bigfooter .forth .button:hover {
-	background-color: #000;	
+	background-color : #000;	
 }
 
 footer.foot .contain .bigfooter p{
-	margin-top:23px;
+	margin-top  :23px;
 	margin-right:25px;
 }
 
 footer.foot .contain .bigfooter ul{
 	list-style-type:none;
-	margin-left:5px;
+	margin-left    :5px;
 }
 
 footer.foot .contain .bigfooter ul li{
-	float:left;
+	float           :left;
 	background-color:#333333;
-	border-right:3px solid #444444;
-	min-height:40px;
-	width:40px;
+	border-right    :3px solid #444444;
+	min-height      :40px;
+	width           :40px;
 }
 
 footer.foot .contain .bigfooter ul li:hover{
-	background-position:0 -40px;	
+	background-position :0 -40px;	
 }
 
 footer.foot .contain .bigfooter ul li a{
-	padding:18px 16px;
-	display:block;
+	padding :18px 16px;
+	display :block;
 }
 
 /* Transition Part */
 #trans{
 	-webkit-transition:all 400ms;	
-	-moz-transition:all 400ms;
-	-ms-transition:all 400ms;
-	-o-transition:all 400ms;
+	-moz-transition   :all 400ms;
+	-ms-transition    :all 400ms;
+	-o-transition     :all 400ms;
+	transition        :all 400ms;
 }
 
 footer.foot .contain .bigfooter .fb{
@@ -344,31 +340,31 @@ footer.foot .contain .bigfooter .fb{
 }
 
 footer.foot .contain .bigfooter .fb:hover{
-	background-color:#3B5998;
+	background-color : #3B5998;
 }
 
 footer.foot .contain .bigfooter .twitter{
-	background-image:url('images/twitter.png');
+	background-image : url('images/twitter.png');
 }
 
 footer.foot .contain .bigfooter .twitter:hover{
-	background-color:#48C4D2;
+	background-color : #48C4D2;
 }
 
 footer.foot .contain .bigfooter .flickr{
-	background-image:url('images/flickr.png');	
+	background-image : url('images/flickr.png');	
 }
 
 footer.foot .contain .bigfooter .flickr:hover{
-	background-color:#F1628B;
+	background-color : #F1628B;
 }
 
 footer.foot .contain .bigfooter .rss{
-	background-image:url('images/rss.png');	
+	background-image : url('images/rss.png');	
 }
 
 footer.foot .contain .bigfooter .rss:hover{
-	background-color:#FE9900;
+	background-color : #FE9900;
 }
 /* End Transition Icons */
 
@@ -399,16 +395,16 @@ footer.foot .contain .footer .designteam{
 }
 
 div.footer-container .darkline {/*Darkline in bottom*/
-	outline:7px solid #333333;			
+	outline : 7px solid #333333;			
 }
 
 /*------------------------------ Contact Page -------------------------------*/
 .ok {
-	outline: 1px solid #9f9;
+	outline : 1px solid #9f9;
 }
 
 .err {
-	outline: 1px solid #f99;
+	outline : 1px solid #f99;
 }
 
 div.middle .send-message {
@@ -417,14 +413,14 @@ div.middle .send-message {
 }
 
 div.send-message h2 {
-	font-size: 17px;
+	font-size    : 17px;
 	margin-bottom:15px;
-	color: #666;
+	color        : #666;
 }
 
 div.send-message form#contact {
-	padding : 25px 25px 20px 0;
-	width   : 435px;
+	padding         : 25px 25px 20px 0;
+	width           : 435px;
 	background-color: #f8f8f8;
 }
 
@@ -433,29 +429,37 @@ div.send-message form#contact input.text {
 }
 
 div.send-message form#contact input.button {
-	width      : 150px;
-	height     : 30px;
-	color      : #d0d0d0;
-	text-align : center;	
-	background-color : #444 ;
-	border-radius: 20px;
+	width             : 150px;
+	height            : 30px;
+	color             : #d0d0d0;
+	text-align        : center;	
+	background-color  : #444 ;
+	border-radius     : 20px;
+	transition        : all 300ms;
 	-webkit-transition: all 300ms;
+	-moz-transition   : all 300ms;
+	-ms-transition    : all 300ms;
+	-o-transition     : all 300ms;
 }
 
 div.send-message form#contact input.button:hover {
-	background-color : #F96E5B;
-	color: #f0f0f0;
+	background-color: #F96E5B;
+	color           : #f0f0f0;
 }
 
 div.send-message form#contact input.text,div.send-message form#contact textarea {
-	display       : block;
-	border        : 1px solid #ddd;
-	padding       : 8px 5px;
-	font-size     : 12px;
-	margin-bottom : 15px;
-	font-weight   : bold;
-	color         : #aaa;
-	-webkit-border-radius : 3px;
+	display              : block;
+	border               : 1px solid #ddd;
+	padding              : 8px 5px;
+	font-size            : 12px;
+	margin-bottom        : 15px;
+	font-weight          : bold;
+	color                : #aaa;
+	border-radius        : 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius   : 3px;
+	-ms-border-radius    : 3px;
+	-o-border-radius     : 3px;
 }
 
 div.send-message form#contact input:focus::-webkit-input-placeholder{
@@ -470,22 +474,22 @@ div.send-message form#contact textarea:focus::-webkit-input-placeholder{
 
 div.contact-info {
 	margin-right: 490px;
-	color: #707070;
+	color       : #707070;
 }
 
 div.contact-info h4 {
-	font-size: 20px;
+	font-size    : 20px;
 	margin-bottom:15px;
-	color: #666;
+	color        : #666;
 }
 
 div.contact-info .text {
-	height: 300px;
+	height       : 300px;
 	margin-bottom: 15px;
 }
 
 div.contact-info .text p {
-	line-height: 20px;
+	line-height  : 20px;
 	margin-bottom: 20px;
 }
 
@@ -496,21 +500,21 @@ section.contain{
 }
 
 section.contain .middle{
-	width: 950px;
+	width : 950px;
 	margin: 0 auto
 }
 
 section.contain .middle .text{
-	margin-bottom: 55px;
+	margin-bottom : 55px;
 }
 
 section.contain .middle .pic{
-	padding-bottom: 20px;
+	padding-bottom : 20px;
 }
 
 section.contain .middle .pic .about-pic{
-	float: left;
-	margin-left: 10px;
+	float       : left;
+	margin-left : 10px;
 }
 
 section.contain .middle .pic .about-pic img{
@@ -523,33 +527,32 @@ section.contain-gallery{
 }
 
 section.contain-gallery .middle{
-	width: 950px;
-	margin: 0 auto;
+	width  : 950px;
+	margin : 0 auto;
 }
 
 section.contain-gallery .middle .text{
-	margin-top: 18px;
-	min-height: 50px;
-	margin-bottom: 30px;
+	margin-top    : 18px;
+	min-height    : 50px;
+	margin-bottom : 30px;
 }
 
 section.contain-gallery .middle .gallery{
-	padding-bottom: 20px;
+	padding-bottom : 20px;
 }
 
 section.contain-gallery .middle .gallery .gallery-img{
-	float: right;
+	float      : right;
 	margin-left: 10px;
 }
 
 section.contain-gallery .middle .gallery .gallery-img img{
-	width: 305px;
+	width : 305px;
 	height: 250px;
-
 }
 
 section.contain-gallery .middle .gallery .gallery-img p{
-	padding-bottom: 30px;
+	padding-bottom : 30px;
 }
 
 p.no-image{
@@ -559,9 +562,9 @@ p.no-image{
 /************************ PLAYERS PAGE ***************************/
 
 div.middle div.players {
-	width: 950px;
-	margin: 0 auto;
-	min-height: 500px;
+	width      : 950px;
+	margin     : 0 auto;
+	min-height : 500px;
 }
 
 div.players div {
@@ -575,31 +578,59 @@ div.players div {
 }
 
 div.players div img {	
-	border-radius: 2px;
-	border       : 1px solid #888;
-	display      : block;
-	float        : left;
-	opacity      : 0.4;
+	border-radius  : 2px;
+	border         : 1px solid #888;
+	display        : block;
+	float          : left;
+	opacity        : 0.4;
+	-webkit-opacity: 0.4;
+	-moz-opacity   : 0.4;
+	-ms-opacity    : 0.4;
+	-o-opacity     : 0.4;
 }
 
 div.players div:hover img {
-	opacity : 1;
-	-webkit-transition : all 400ms;
+	opacity           : 1;
+	-webkit-opacity   : 1;
+	-moz-opacity      : 1;
+	-ms-opacity       : 1;
+	-o-opacity        : 1;
+	transition        : all 400ms;
+	-webkit-transition: all 400ms;
+	-moz-transition   : all 400ms;
+	-ms-transition    : all 400ms;
+	-o-transition     : all 400ms;
 }
 
 div.players div p {
-	opacity     : 0;
-	color       : #444;
-	font-size   : 18px;
-	min-height  : 0;
-	margin-left : 265px;
-	font-family : Tahoma;
+	opacity        : 0;
+	-webkit-opacity: 0;
+	-moz-opacity   : 0;
+	-ms-opacity    : 0;
+	-o-opacity     : 0;
+	color          : #444;
+	font-size      : 18px;
+	min-height     : 0;
+	margin-left    : 265px;
+	font-family    : Tahoma;
 }
 
 div.players div:hover p {
-	opacity                  : 1;
-	-webkit-transition       : all 200ms;
-	-webkit-transition-delay : 400ms;
+	opacity                 : 1;
+	-webkit-opacity         : 1;
+	-moz-opacity            : 1;
+	-ms-opacity             : 1;
+	-o-opacity              : 1;
+	transition              : all 200ms;
+	-moz-transition         : all 200ms;
+	-ms-transition          : all 200ms;
+	-webkit-transition      : all 200ms;
+	-o-transition           : all 200ms;
+	transition-delay        : 400ms;
+	-webkit-transition-delay: 400ms;
+	-moz-transition-delay   : 400ms;
+	-ms-transition-delay    : 400ms;
+	-o-transition-delay     : 400ms;
 }
 /*------------------------------ News Page -------------------------------*/
 section.contain-news{
@@ -607,7 +638,7 @@ section.contain-news{
 }
 
 section.contain-news .middle{
-	width: 950px;
+	width : 950px;
 	margin: 0 auto;
 }
 
@@ -616,7 +647,7 @@ section.contain-news .news{
 }
 
 section.contain-news .news .date-pic{
-	margin-bottom: 20px;
+	margin-bottom : 20px;
 }
 
 section.contain-news .news .date-pic .pic{
@@ -628,16 +659,16 @@ section.contain-news .news .date-pic .pic img{
 }
 
 section.contain-news .news .date-pic .date{
-	float: left;
+	float     : left;
 	min-height: 80px;
 }
 
 section.contain-news .news .date-pic .date .month,
 section.contain-news .news .date-pic .date .day,
 section.contain-news .news .date-pic .date .year{
-	width: 50px;
-	height: 80px;
-	float: left;
+	width  : 50px;
+	height : 80px;
+	float  : left;
 }
 
 section.contain-news .news .title-text{
@@ -645,7 +676,7 @@ section.contain-news .news .title-text{
 }
 
 section.contain-news .news .title-text .title{
-	min-height: 50px;
+	min-height   : 50px;
 	margin-bottom: 10px;
 }
 
@@ -654,11 +685,11 @@ section.contain-news .news .title-text .title h2{
 }
 
 section.contain-news .news .title-text .text{
-	min-height: 150px
+	min-height : 150px
 }
 
 section.contain-news .news .title-text .text .news:first-child{
-	display: none;
+	display : none;
 }
 
 section.contain-news .news .title-text .text p{
