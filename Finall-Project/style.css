@@ -7,6 +7,17 @@ Description: The 2012 theme for hannan ensemble
 Version: 1
 License: GNU General Public License v2 or later
 -------------------------------------------------------------- */
+/*--------------------------- Font ---------------------------*/
+@font-face {
+    font-family: 'bmitra';
+    src: url('fonts/BMitra.eot');
+    src: url('fonts/BMitra.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BMitra.woff') format('woff'),
+         url('fonts/BMitra.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--------------------------------------------------------*/
 .clear{
 	clear      : both;
 	overflow   : hidden;
