@@ -10,13 +10,14 @@ License: GNU General Public License v2 or later
 /*--------------------------- Font ---------------------------*/
 @font-face {
     font-family: 'bmitra';
-    src: url('fonts/BMitra.eot');
-    src: url('fonts/BMitra.eot?#iefix') format('embedded-opentype'),
-         url('fonts/BMitra.woff') format('woff'),
-         url('fonts/BMitra.ttf') format('truetype');
+    src: url('./fonts/BMitra.eot');
+    src: url('./fonts/BMitra.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/BMitra.woff') format('woff'),
+         url('./fonts/BMitra.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
 /*--------------------------------------------------------*/
 .clear{
 	clear      : both;
@@ -89,7 +90,7 @@ nav menu {
 
 nav menu li {
 	float               : right;
-	background-image    : url('images/sprite.png');
+	
 	background-repeat   : no-repeat;
 	background-position : right -153px;
 }
@@ -100,7 +101,8 @@ nav menu li a {
 	text-decoration   : none;
 	text-transform    : uppercase;
 	color             : #666;
-	font-size         : 13px;
+	font-family	  : 'bmitra';
+	font-size         : 18px;
 	font-weight       : 400;
 	transition        : all 200ms;
 	-webkit-transition: all 200ms;
@@ -114,7 +116,7 @@ nav menu li a:hover {
 	color            : white;
 }
 
-nav menu li a.active {
+nav menu li.current_page_item a{
 	background-color :  #F96E5B;
 }
 
@@ -122,9 +124,6 @@ nav menu li a.active {
 .content-container {
 	background-image  : url('images/bg-1.png');
 	background-repeat : repeat;
-}
-section.contain {
-
 }
 
 section.contain .middle{
@@ -135,12 +134,12 @@ section.contain .middle{
 #tit {
 	margin       : 0 auto;
 	width        : 950px;
-	padding      : 40px 0;
+	padding      : 20px 0;
 	text-align   : right;
 	border-top   : 2px solid #eee;
 	border-bottom: 1px solid #eee;
-	font-family  : Tahoma;
-	font-size    : 20px;
+	font-family  : 'bmitra';
+	font-size    : 30px;
 	margin-bottom: 30px;
 }
 
@@ -179,7 +178,6 @@ section.contain .middle .boxess{
 	min-height    : 210px;
 	border-top    : 1px solid #eee;
 	border-bottom : 2px solid #eee;
-	margin-bottom : 40px;
 	padding-top   : 35px;
 }
 
@@ -187,7 +185,7 @@ section.contain .middle .boxess > ul li{
 	float               : left;
 	width               : 234px;
 	min-height          : 180px;
-	border-right        : 1px dashed #eee;
+	border-left         : 1px dashed #ddd;
 	text-align          : center;
 	background-image    : url('images/navazande.png');
 	background-position : center center;
@@ -195,34 +193,31 @@ section.contain .middle .boxess > ul li{
 }
 
 /* last box*/
+section.contain .middle .boxess > ul li:first-child{
+	border-left: 0 none;
+}
 
 section.contain .middle .boxess > ul li:last-child{
 	margin-left : 715px;
 	min-height  : 178px;
 	text-align  : center;
-	padding     : 1px;
+	padding     : 1px;	
 }
 
 section.contain .middle .boxess ul li a{
 	margin-top     : 20px;
-	font-weight    : bold;
+	font-family    : 'bmitra';
+	font-size      : 22px;
 	color          : #707070;
 	text-decoration: none;
 }
 
-section.contain .middle .boxess > ul li:hover {
-	background-color  : #F96E5B;
-	color             : #FFF;
-	-webkit-transition:all 450ms;
-	transition        :all 450ms;
-	-ms-transition    :all 450ms;
-	-moz-transition   :all 450ms;
-	-o-transition     :all 450ms;
-}
+
 /*------------------------------ Footer -------------------------------*/
 div.footer-container {
 	background-color : #444;
 } 
+
 footer.foot {
 	margin:0 auto;
 	width :950px;
@@ -230,31 +225,35 @@ footer.foot {
 
 footer.foot p{
 	color    : #999999;
-	font-size:14px;
+	font-family    : 'bmitra';
+	font-size      : 18px;
 }
 
 footer.foot a{
 	color          : #cccccc;
 	cursor         : pointer;
 	text-decoration: none;
+	font-family    : 'bmitra';
+	font-size      : 18px;
+	font-weight: bold;
 }
 
-footer.foot a:hover{
-	color : #f96e5b;
+footer.foot a:hover p{
+	color: #F96E5B;
 }
 
 footer.foot h3{
 	color : #FFF;
-
+	font-family    : 'bmitra';
+	font-size : 20px;
 }
 
 footer.foot .contain {
 	margin    :0 auto;
 	width     :950px;
-	margin-top:20px;
 }
 
-footer.foot .contain .bigfooter {/* div 4 box */
+footer.foot .contain .bigfooter {
 	margin    :0 auto;
 	width     :950px;
 	min-height:300px;
@@ -306,6 +305,7 @@ footer.foot .contain .bigfooter .forth .button {
 	-moz-transition   :all 250ms;
 	-o-transition     :all 250ms;
 }
+
 footer.foot .contain .bigfooter .forth .button:hover {
 	background-color : #000;	
 }
@@ -377,9 +377,9 @@ footer.foot .contain .bigfooter .rss{
 footer.foot .contain .bigfooter .rss:hover{
 	background-color : #FE9900;
 }
-/* End Transition Icons */
 
-footer.foot .contain .footer {/* Copyright */
+/* End Transition Icons */
+footer.foot .contain .footer {
 	margin           : 0 auto;
 	width            : 949px; /* 1px for pading*/
 	min-height       : 65px;
@@ -388,24 +388,16 @@ footer.foot .contain .footer {/* Copyright */
 	text-align       : left;
 	direction        : ltr;
 }
-footer.foot .contain .footer .copyright{
-	margin-top  : 20px;
-	margin-left : 25px;
-	float       : left;
-	width       : 260px; 
-	line-height : 30px;
-}
-footer.foot .contain .footer .copyright .rights, .designteam .Design{
-	font-size : 12px;
-}
-footer.foot .contain .footer .designteam{
-	margin-left :580px;
-	margin-top  :20px;
-	width       :370px;
-	line-height : 30px;
+
+footer.foot .contain .footer .copyright p{
+	font-family: 'bmitra';
+	font-size : 15px;
+	text-align:center;
+	margin-top: 30px;
 }
 
-div.footer-container .darkline {/*Darkline in bottom*/
+/*Darkline in bottom*/
+div.footer-container .darkline {
 	outline : 7px solid #333333;			
 }
 
@@ -423,8 +415,13 @@ div.middle .send-message {
 	width : 460px;
 }
 
-div.send-message h2 {
-	font-size    : 17px;
+section.contain .middle .text iframe{
+	margin-top: 17px;
+}
+
+div.contact-ways h2 {
+	font-family  : 'bmitra';
+	font-size    : 22px;
 	margin-bottom:15px;
 	color        : #666;
 }
@@ -516,7 +513,13 @@ section.contain .middle{
 }
 
 section.contain .middle .text{
-	margin-bottom : 55px;
+	margin-bottom: 30px;
+}
+
+section.contain .middle .text p{
+	font-family: 'bmitra';
+	font-size: 23px;
+	line-height: 2;
 }
 
 section.contain .middle .pic{
@@ -526,6 +529,7 @@ section.contain .middle .pic{
 section.contain .middle .pic .about-pic{
 	float       : left;
 	margin-left : 10px;
+	margin-bottom
 }
 
 section.contain .middle .pic .about-pic img{
@@ -542,28 +546,26 @@ section.contain-gallery .middle{
 	margin : 0 auto;
 }
 
-section.contain-gallery .middle .text{
-	margin-top    : 18px;
-	min-height    : 50px;
-	margin-bottom : 30px;
-}
-
 section.contain-gallery .middle .gallery{
 	padding-bottom : 20px;
+	padding-right: 10px;
 }
 
 section.contain-gallery .middle .gallery .gallery-img{
 	float      : right;
-	margin-left: 10px;
+	margin-left: 35px;
+	height: 365px;
 }
 
 section.contain-gallery .middle .gallery .gallery-img img{
-	width : 305px;
-	height: 250px;
+	
 }
 
 section.contain-gallery .middle .gallery .gallery-img p{
 	padding-bottom : 30px;
+	font-family: 'bmitra';
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 p.no-image{
@@ -585,7 +587,6 @@ div.players div {
 	display         : block;
 	background-color: #f8f8f8;
 	padding         : 20px;
-
 }
 
 div.players div img {	
@@ -620,10 +621,9 @@ div.players div p {
 	-ms-opacity    : 0;
 	-o-opacity     : 0;
 	color          : #444;
-	font-size      : 18px;
 	min-height     : 0;
-	margin-left    : 265px;
-	font-family    : Tahoma;
+	font-family    : 'bmitra';
+	font-size      : 18px;
 }
 
 div.players div:hover p {
@@ -682,6 +682,22 @@ section.contain-news .news .date-pic .date .year{
 	float  : left;
 }
 
+
+div.news .title  a{
+	text-decoration: none;
+}
+
+div.news .title  a:hover p{
+	color: #F96E5B;
+}
+
+div.news .title  p{
+	font-family: 'bmitra';
+	font-size: 18px;
+	color: #222;
+	
+}
+
 section.contain-news .news .title-text{
 	
 }
@@ -692,7 +708,8 @@ section.contain-news .news .title-text .title{
 }
 
 section.contain-news .news .title-text .title h2{
-	
+	font-family: 'bmitra';
+	font-size: 22px;
 }
 
 section.contain-news .news .title-text .text{
@@ -704,5 +721,6 @@ section.contain-news .news .title-text .text .news:first-child{
 }
 
 section.contain-news .news .title-text .text p{
-	
+	font-family: 'bmitra';
+	font-size: 20px;
 }

@@ -1,8 +1,8 @@
-<?php get_template_part('inc/header'); ?>
+<?php 	get_template_part('inc/header'); ?>
 
 	<section class="contain-news">
 		<div class="middle">
-			<div class="title" id='tit'>اخبار</div>
+			<div id='tit'>اخبار</div>
 			
 				<?php
 					while (have_posts()) {
@@ -31,4 +31,4 @@
 		</div>
 	</section>
 	
-<?php get_template_part('inc/footer'); ?>
+<?php 	get_template_part('inc/footer'); ?>

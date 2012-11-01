@@ -65,7 +65,7 @@ function all_news(){
 		'post_type' => 'news'
 	));
 
-	$html = '';
+	$html = "";
 
 	while($news->have_posts()){
 		$news->the_post();
@@ -87,7 +87,7 @@ function all_news(){
 							<div class='clear'></div>
 						</div>
 						<div class='title-text'>
-							<div class='title'><a href='$url'><h2>$title</h2></a></div>
+							<div class='title'><a href=\"$url\"><p>$title</p></a></div>
 							<div class='text'><p>$content</p></div>
 						</div>  
 					</div>";

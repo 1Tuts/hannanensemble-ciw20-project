@@ -5,7 +5,7 @@
 			<div class="bigfooter">
 				<div class="first">
 					<h3>درباره ما</h3>
-					   <a href="#">
+					   <a href="http://www.hananensemble.com/درباره-ما">
 					   		<p>
 					   			گروه تنبور نوازان حنان فعالیت خود را به صورت جدی و رسمی در سال 1386 آغاز کرد...
 					   		</p>
@@ -30,7 +30,7 @@
 					<p>
 						گروه حنان جهت گسترش فعالیت، از نظرات کلیه اساتید، کارشناسان و علاقمندان ساز تنبور استفاده می نماید. در صورتیکه مقاله، تصویر یا هر گونه اطلاعات دیگری در مورد تنبور در اختیار دارید، لطفا نسخه ای از آن را برای سایت تنبور ایمیل بفرمائید تا به نام خودتان در معرض استفاده علاقمندان قرار بگیرد.
 					</p>
-					<a href="#"><p>ارتباط با گروه</p></a>
+					<a href="http://www.hananensemble.com/تماس-با-ما"><p>ارتباط با گروه</p></a>
 				</div>
 				<div class="forth">
 					<h3>عضویت در گروه</h3>
@@ -44,10 +44,7 @@
 			</div>
 			<div class="footer">
 				<div class="copyright">
-					<p class="rights">Copyright © 2012 By HananEnsemble.</p>
-				</div>
-				<div class="designteam">
-					<p class="Design">Follow Designing Team "DibaDev" On <span><a>Twitter, <a/></span> <span><a>Facebook,</a></span> <span><a href="https://github.com/DibaDev">Github </a></span></p>
+					<p class="rights">.کپی رایت 1391. کلیه حقوق این سایت متعلق به گروه تنبور نوازان حنان می باشد</p>
 				</div>
 				<div class="clear"></div>
 			</div>

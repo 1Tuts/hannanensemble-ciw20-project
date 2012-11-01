@@ -4,7 +4,7 @@
 
 	<section class="contain-gallery">
 		<div class="middle">
-			<div class="title" id="tit">گالری</div>
+			<div id="tit">گالری</div>
 			
 			<?php
 				if (have_posts()){
@@ -12,7 +12,7 @@
 			?>
 
 				
-				<div class="text"><?php the_title(); ?></div>
+				
 				<div class="gallery">
 				
 						<?php

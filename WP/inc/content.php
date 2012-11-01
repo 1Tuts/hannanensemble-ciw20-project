@@ -4,7 +4,9 @@
 				if (have_posts()){
 					the_post();
 			?>
-				<div id='tit'><?php the_title(); ?></div>
+				<div style="text-align: center;" id='tit'>
+                                   حنان جهت گسترش فعالیت ، از نظرات کلیه اساتید ، کارشناسان و علاقمندان ساز تنبور استفاده می نماید 
+                                </div>
 				<div class="banner">
 					<?php
 						$slide_attach= array(

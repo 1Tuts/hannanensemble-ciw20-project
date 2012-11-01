@@ -5,7 +5,7 @@
 					the_post();
 			?>
 
-			<div class="title" id='tit'><?php the_title(); ?></div>
+			<div id='tit'><?php the_title(); ?></div>
 			<div class="players">
 
 			<?php
@@ -28,19 +28,18 @@
 
 						echo "<div>";
 
-							$img_face = wp_get_attachment_image($img->ID,'full');
+							$img_face = wp_get_attachment_image($img->ID,'thumbnail');
 							
-							echo "$img_face";
+							echo $img_face;
 
 							echo "<p> $img->post_content </p>";
-						
-						echo "</div>";
+
+                   				    		
+						echo "</div>";			
+
 					}
-		
+					echo "<div class='clear'></div>";
 				}
-				else 
-					echo "<p class='no-image'>تصویری یافت نشد</p>";
-				
 			?>
 		
 			</div>
