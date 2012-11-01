@@ -38,7 +38,6 @@
 						echo "</div>";			
 
 					}
-					echo "<div class='clear'></div>";
 				}
 			?>
 		
