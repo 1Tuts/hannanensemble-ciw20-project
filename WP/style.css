@@ -338,7 +338,7 @@ footer.foot .contain .bigfooter ul li a{
 }
 
 /* Transition Part */
-#trans{
+footer.foot .trans{
 	-webkit-transition:all 400ms;	
 	-moz-transition   :all 400ms;
 	-ms-transition    :all 400ms;
