@@ -127,7 +127,7 @@ function validateEmail(str){
 			$(this).mouseout(function(){
 				$(that).animate({
 	
-					width:200,
+					width:150,
 					'box-shadow':'none'
 	
 				},300);

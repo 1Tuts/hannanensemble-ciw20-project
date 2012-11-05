@@ -338,6 +338,7 @@ footer.foot .contain .bigfooter ul li a{
 }
 
 /* Transition Part */
+
 footer.foot .trans{
 	-webkit-transition:all 400ms;	
 	-moz-transition   :all 400ms;
@@ -581,8 +582,8 @@ div.middle div.players {
 }
 
 div.players div {
-	width           : 200px;
-	height          : 200px;
+	width           : 150px;
+	height          : 150px;
 	margin          : 0 auto 20px;
 	display         : block;
 	background-color: #f8f8f8;
@@ -624,6 +625,7 @@ div.players div p {
 	min-height     : 0;
 	font-family    : 'bmitra';
 	font-size      : 18px;
+	margin-left:165px
 }
 
 div.players div:hover p {

@@ -1,4 +1,4 @@
-	<section class="contain">
+
 		<div class="middle">
 			<?php
 				if (have_posts()){
@@ -48,4 +48,3 @@
 				}
 			?>
 		</div>
-	</section>
