@@ -46,9 +46,9 @@ lightbox = new Lightbox options
 
   LightboxOptions = (function() {
 
-    function LightboxOptions() {
-      // this.fileLoadingImage = './images/loading.gif';
-      // this.fileCloseImage = './images/close.png';
+    function LightboxOptions() { 
+      this.fileLoadingImage = '/images/loading.gif';
+      this.fileCloseImage = '/images/close.png';
       this.resizeDuration = 700;
       this.fadeDuration = 500;
       this.labelImage = "عکس";
@@ -104,9 +104,7 @@ lightbox = new Lightbox options
         "class": 'lb-loader'
       }).append($('<a/>', {
         "class": 'lb-cancel'
-      }).append($('<img/>', {
-        src: this.options.fileLoadingImage
-      }))))), $('<div/>', {
+      })))), $('<div/>', {
         "class": 'lb-dataContainer'
       }).append($('<div/>', {
         "class": 'lb-data'
@@ -120,9 +118,7 @@ lightbox = new Lightbox options
         "class": 'lb-closeContainer'
       }).append($('<a/>', {
         "class": 'lb-close'
-      }).append($('<img/>', {
-        src: this.options.fileCloseImage
-      }))))))).appendTo($('body'));
+      })))))).appendTo($('body'));
       $('#lightboxOverlay').hide().on('click', function(e) {
         _this.end();
         return false;
